@@ -1,0 +1,46 @@
+line 18 column 3 - Warning: <rdf:li> attribute with missing trailing quote mark
+line 27 column 227 - Warning: replacing invalid character code 130
+line 27 column 237 - Warning: discarding invalid character code 129
+line 27 column 237 - Warning: replacing invalid character code 159
+line 27 column 239 - Warning: discarding invalid character code 144
+line 27 column 245 - Warning: replacing invalid character code 131
+line 27 column 255 - Warning: unescaped & which should be written as &amp;
+line 27 column 259 - Warning: replacing invalid character code 131
+line 27 column 271 - Warning: replacing invalid character code 131
+line 27 column 293 - Warning: replacing invalid character code 155
+line 27 column 297 - Warning: replacing invalid character code 128
+line 27 column 301 - Warning: discarding invalid character code 129
+line 27 column 301 - Warning: replacing invalid character code 139
+line 27 column 305 - Warning: replacing invalid character code 130
+line 27 column 309 - Warning: replacing invalid character code 133
+line 27 column 314 - Warning: replacing invalid character code 159
+line 27 column 316 - Warning: replacing invalid character code 128
+line 27 column 317 - Warning: replacing invalid character code 130
+line 27 column 317 - Error: missing quote mark for attribute value
+line 27 column 1 - Warning: <rdf:li> attribute with missing trailing quote mark
+line 33 column 1 - Error: unexpected </item> in <rdf:li>
+line 37 column 339 - Warning: replacing invalid character code 128
+line 37 column 340 - Warning: replacing invalid character code 156
+line 37 column 352 - Warning: replacing invalid character code 128
+line 37 column 353 - Warning: discarding invalid character code 157
+line 37 column 357 - Warning: replacing invalid character code 128
+line 37 column 358 - Warning: replacing invalid character code 153
+line 97 column 286 - Warning: replacing invalid character code 156
+line 97 column 293 - Warning: replacing invalid character code 154
+line 97 column 301 - Warning: replacing invalid character code 154
+line 97 column 303 - Warning: replacing invalid character code 128
+line 97 column 312 - Warning: replacing invalid character code 156
+line 97 column 314 - Warning: replacing invalid character code 156
+line 97 column 328 - Warning: replacing invalid character code 131
+line 97 column 329 - Warning: replacing invalid character code 156
+line 97 column 332 - Warning: replacing invalid character code 137
+line 97 column 337 - Warning: replacing invalid character code 156
+line 97 column 344 - Warning: replacing invalid character code 150
+line 97 column 348 - Warning: replacing invalid character code 137
+line 97 column 352 - Warning: replacing invalid character code 154
+line 97 column 353 - Warning: replacing invalid character code 132
+line 102 column 252 - Warning: replacing invalid character code 159
+line 102 column 256 - Warning: replacing invalid character code 154
+line 102 column 272 - Warning: replacing invalid character code 139
+line 102 column 294 - Warning: replacing invalid character code 139
+line 102 column 315 - Warning: replacing invalid character code 139

@@ -1,0 +1,59 @@
+                    .ChannelTitle
+                    {
+                         font-size:  x-large;
+                         font-weight:  bold;
+                         width:  700px;
+#                         text-align:  center;
+                    }
+                    .ArticleEntry0
+                    {
+                         background-color:  #FFFFFF;
+                         width:  700px;
+                    }
+                    .ArticleEntry1
+                    {
+                         background-color:  #EFEFEF;
+                         width:  700px;
+                    }
+                    .ArticleTitle
+                    {
+#                         color:  #FFFFFF;
+                         font-size:  large;
+#                         font-weight:  bold;
+                         padding-left:  5px;
+                         padding-top:  5px;
+                         padding-bottom:  5px;
+                    }
+                    .ArticleHeader
+                    {
+                         background-color:  #3399FF;
+                         color:  #FFFFFF;
+                         font-size:  7pt;
+                         padding-left:  5px;
+                         padding-top:  2px;
+                         padding-bottom:  2px;
+                    }
+                    .ArticleHeader A:visited
+                    {
+                         color:  #FFFFFF;
+                         text-decoration:  none;
+                    }
+                    .ArticleHeader A:link
+                    {
+                         color:  #FFFFFF;
+                         text-decoration:  none;
+                    }
+                    .ArticleHeader A:hover
+                    {
+                         color:  #FFFF00;
+                         text-decoration:  underline;
+                    }
+                    .ArticleDescription
+                    {
+                         color:  #000000;
+                         font-size:  small;
+                         padding-left:  5px;
+                         padding-top:  5px;
+                         padding-bottom:  5px;
+                         padding-right:  5px;
+                    }

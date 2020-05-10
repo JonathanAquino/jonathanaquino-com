@@ -1,0 +1,14 @@
+body {
+  font: small Arial, Verdana, Helvetica, sans-serif;
+}
+.descriptious-extended-descriptions {
+  display: block;
+  font-style: normal;
+}
+.descriptious-tags {
+  font-style: normal;
+}
+.descriptious-delicious-url {
+  font-style: normal;
+  font-size: x-small;
+}

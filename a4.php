@@ -1,0 +1,2 @@
+<div size="728.90.lofimulti" bgcolor="#CC0000" pid="4144157" location="42.3589,-71.0578" class="groupon-widget"></div>
+<script src="http://groupon-ning.s3.amazonaws.com/ning_groupon3.js" type="text/javascript"></script>

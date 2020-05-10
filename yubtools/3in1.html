@@ -1,0 +1,148 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Three-In-One Yubnub Bookmarklet</title>
+<style type="text/css" media="screen">
+.big { font-size:150%  }
+h1 {text-align:center;}
+h3 {
+margin-top: 2em; padding:3px;background:#99ccff;/* #F7F6F6;  background:#C2D7EE; */} /*
+h3.code {
+	text-align:right;
+	margin:1em 0 0 0;
+	padding:3px;
+	border:1px solid;
+	border-bottom-width:0;
+}*/
+pre {color:white;background:black;border:1px green;
+	padding:1em;margin:0 0 1em 0;	overflow:auto;}
+span.b {font-weight: bold;color:#90ee90; /* lightgreen. wp web colors*/ }
+b.green {color:#90ee90; } li {margin-bottom: 1em}
+</style>
+<script type="text/javascript" charset="utf-8">
+function $(s){return document.getElementById(s)}
+
+
+</script>
+</head>
+<!-- spacing. margin. 
+-->
+<body>
+Note:  This is page was used to archive the original page while it was down.  Please see the original <a href="http://jy.xenweb.net/yubnub-bookmarklet.html">Three-In-One Bookmarklet here.</a><br>
+
+<h1>Three-In-One Yubnub Bookmarklet</h1>
+
+<h3>First, let's generate bookmarklet.</h3>
+<form action="" name="fm">
+Choose web command line service:<br>
+<input type="radio" name="service" value="http://yubnub.org/parser/parse?command= Yubnub" value2="Yubnub" checked>Yubnub&nbsp;
+<input type="radio" name="service" value="http://search.yahoo.com/search?&p= Yahoo" value2="Yahoo">Yahoo Open Shortcuts&nbsp;
+<input type="radio" name="service" value="http://yeahway.com/parser/run.php?query= Yeah-Way" value2="Yeah Way">Yeah Way&nbsp;
+
+<input type="radio" name="service" value="other" onclick="$('oth').style.display='inline'">Other...
+<span style="display:none" id="oth"><br><input type="text" value="Name" name="nm"><input type="text" value="Path" name="pth"><br>
+(example: name = Google, path = http://www.google.com/search?hl=en&amp;q= ) </span>
+
+<br><br>
+
+Choose how to open result:<br>
+<input type="radio" name="n" value="0" checked>current window/tab&nbsp;
+<input type="radio" name="n" value="1">new window/tab&nbsp;
+<input type="radio" name="n" value="2">(Opera-only) background window/tab 
+
+<br><br>
+
+<input type="button" onclick="generateBookmarkletB(this.form)" value="Generate Bookmarklet">
+
+<br><br>
+
+<div class="big" id="out"></div>
+</form>
+
+<h3>How to use</h3>
+<p>To make explanation simple, let's assume you chose <a href="http://yubnub.org/">Yubnub</a> when you generated the bookmarklet.</p>
+<p>There are three ways you can use this bookmarklet. (hence the name <b>three in one</b>)</p>
+
+<ol>
+<li><b>Highlighted Text</b><br><br>Highlight/select some text on a webpage. Then click the bookmarklet. 
+A dialog box will pop up. Enter the Yubnub command to be used. It will perform the Yubnub command on the highlighted text.
+For example, if the highlighted text is <b>dolsot bibimbap</b> and if the Yubnub command you entered is <b>gim</b>, 
+which is the Yubnub command for <a href="http://images.google.com/">Google Image Search</a>,  it will open the Google Image result page for dolsot bibimbap.
+(the bookmarklet removes leading and trailing spaces of the highlighted text) 
+For another example, if you highlight some text and enter <b>send abc@abcde.com</b>, 
+it will email the highlighted text to abc@abcde.com.
+ </li>
+
+<li><b>Text You Type</b><br><br>Don't hightlight text and click the bookmarklet. A dialog box will pop up. Enter the Yubnub command and your keyword together.
+For example, if you type <b>gim dolsot bibimbap</b>, it will open Google Image result for dolsot bibimbap.
+You might want to use this bookmarklet instead of the searchbar in your browser because the searchbar and (also the Yubnub homepage)
+has <a href="http://groups.google.com/group/YubNub/browse_thread/thread/a203578f62165b48/e143d98a075ceece">encoding problem</a> with non-English (esp. East Asian) language.
+
+</li>
+
+<li><b>Current Page</b><br><br>Click the bookmarklet. A dialog box will pop up. Now press Enter. New dialog  box appears. Enter the Yubnub command to be used. It will perform the Yubnub command on (the url of) the current page.
+For example, if the Yubnub command you entered is <b>tiny</b>,
+which is the Yubnub command for <a href="http://tinyurl.com/">TinyURL</a> service, it will tinyurl the current page.</li>
+</ol>
+
+
+
+
+
+<h3>Bookmarklet code</h3>
+
+<pre><code>// n = 0  current window, n = 1  new window, n = 2 background window. 
+var n = <span class="b">1</span>, f=<span class="b">'http://yubnub.org/parser/parse?command='</span>,
+  w = window, d = document, gS = 'getSelection', r, u,s;
+
+// let s = (the highlighted text).
+s = ('' + (w[gS] ? w[gS]() : d[gS] ? d[gS]() : d.selection.createRange().text)).replace(/(^\s+|\s+$)/g,'');
+
+do{
+  if(r = prompt((s?'&gt;&gt; '+s+'\ncommand:':'query:'), '')){
+    u = f + encodeURIComponent(s?r+' '+s:r).replace(new RegExp('%'+'20','g'),'+');
+    if(n) w.open(u); else location=u; 
+    if(n==2) w.focus();
+  } else  
+  s = location.href;
+}while(r=='');
+
+// embed the code within javascript:(function(){ ... })()
+</code></pre>
+
+<h3>About</h3>
+<p>The bookmarklet code and ideas are combined from <a href="http://yubnub.blogspot.com/2005/11/yubnub-bookmarklet-by-brian-armknecht.html">Brian Armkneckt's and Hopf's bookmarklets</a> and also from Stephen Paul Weber's <a href="http://yubnub.org/kernel/man?args=urlet">urlet</a> command.</p>
+
+<hr>
+<a href="/">JY Home</a> | <a href="/feedback/">feedback</a>
+
+
+
+
+
+
+
+
+<script type="text/javascript" charset="utf-8">
+var hcode = '<a href="javascript:(function(){var n=_THE_N_,f=\'_THE_PATH_\',w=window,d=document,gS=\'getSelection\',r,u,s;s=(\'\'+(w[gS]?w[gS]():d[gS]?d[gS]():d.selection.createRange().text)).replace(/(^\\s+|\\s+$)/g,\'\');do{if(r=prompt((s?\'>> \'+s+\'\\ncommand:\':\'query:\'),\'\')){u=f+encodeURIComponent(s?r+\' \'+s:r).replace(new RegExp(\'%25\'+\'20\',\'g\'),\'+\');if(n)w.open(u);else location=u;if(n==2)w.focus();}else s=location.href;}while(r==\'\');})()">_THE_NAME_</a>';
+function generateBookmarkletB(f){
+	var the_n = selectedOf(f.n).value;
+	var o = selectedOf(f.service);
+	var li = o.value.split(' ');
+	asdf = o;///
+	var the_path = li[0];
+	var the_name =  li[1];
+	if(the_path=='other'){
+		the_path = f.pth.value; the_name = f.nm.value;
+	}
+	$('out').innerHTML = hcode.replace('_THE_N_',the_n).replace('_THE_PATH_',the_path).replace('_THE_NAME_',the_name) + ' - Drag the left link to your bookmark bar.';
+}
+function selectedOf(radioGroup){
+	for(var i=0; i<radioGroup.length; i++)
+		if(radioGroup[i].checked)
+			return radioGroup[i];
+}
+</script>
+</body>
+
+</html>

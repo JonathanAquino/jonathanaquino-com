@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>YubNub - YubNub.org</title>
+  <link href="/stylesheets/yubnub.css" media="screen" rel="Stylesheet" type="text/css" />
+  <script type="text/javascript">
+    function focus(){document.input_box.command.focus();}
+  </script>
+</head>
+<body onload="focus()">
+<center>
+<img alt="Yubnub" src="/images/yubnub.png" />
+
+<div style="margin-top:30px;margin-bottom:30px">
+  <form action="/parser/parse" method="get" name="input_box">
+  <input type="text" name="command" size="55" value=""/>
+  <input type="submit" value="Enter" />
+</form>
+</div>
+<table>
+  <tr><td>Some examples of what you can do with YubNub:</td></tr>
+  <tr><td>
+    <table style="border-top:thin solid #60A63A;border-bottom:thin solid #60A63A;">
+
+      <tr>
+        <td>
+          <a href="/parser/parse?command=gim+porsche+911">gim porsche 911</a>
+        </td>
+        <td class="hint">
+          Do a Google Image search for Porsche 911's.
+        </td>
+        <td>
+          <a href="/parser/parse?command=create">create</a>
+
+        </td>
+        <td class="hint">
+          Create a new command<span style="vertical-align: super; font-size: x-small; color: red;">Cool!</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="/parser/parse?command=random+100">random 100</a>
+
+        </td>
+        <td class="hint">
+          Pick a random number between 1 and 100.
+        </td>
+        <td>
+          <a href="/parser/parse?command=ls">ls</a>
+        </td>
+        <td class="hint">
+          List all available commands.
+        </td>
+
+      </tr>
+      <tr>
+        <td>
+          <a href="/parser/parse?command=man+random">man random</a>
+        </td>
+        <td class="hint">
+          Display help for the "random" command.
+        </td>
+        <td colspan="2">
+
+          <a href="/parser/parse?command=xe+-amount+100+-from+USD+-to+EUR">xe -amount 100 -from USD -to EUR</a>
+        </td>
+      </tr>
+    </table>
+  </td></tr>
+  <tr><td style="padding-top:20px">Popular Searches</td></tr>
+  <tr><td>
+    <table class="hint" width="100%" style="border-top:thin solid #60A63A;border-bottom:thin solid #60A63A;">
+
+      <tr><td>Google</td><td>g</td><td>Google News</td><td>gnews</td><td>Yahoo!</td><td>y</td></tr>
+      <tr><td>Wikipedia</td><td>wp</td><td>Technorati</td><td>tec</td><td>Amazon</td><td>am</td></tr>
+      <tr><td>CNN</td><td>cnn</td><td>Weather for zip code</td><td>weather</td><td>eBay</td><td>ebay</td></tr>
+
+      <tr><td>AllMusic.com</td><td>allmusic</td><td>del.icio.us tag</td><td>deli</td><td>Flickr</td><td>flk</td></tr>
+      <tr><td>ESPN</td><td>espn</td><td>Yahoo! Stock Quote</td><td>stock</td><td>Dictionary (Answers.com)</td><td>a</td></tr>     
+    </table>
+
+  </td></tr>
+  <tr><td><center><a class="hint" href="/documentation/jeremys_picks">More commands...</a></center></td></tr>  
+  <tr><td><center><a class="hint" href="/parser/parse?command=ge">Yet more commands...</a></center></td></tr>  
+</table>
+</center>
+<center>
+<div class="footer">
+  <a href="http://jonaquino.blogspot.com/2005/06/yubnub-my-entry-for-rails-day-24-hour.html">What Is This Thing?</a> |
+  <a href="/parser/parse?command=ls">List All Commands (ls)</a>
+
+  <a href="http://yubnub.org/commands.xml"><img src="/images/xml_button.gif" alt="Subscribe to RSS feed"></a> |
+  <a href="/parser/parse?command=create">Create a New Command</a> |
+  <a href="/documentation/describe_installation">Installing YubNub</a> |
+  <a href="/documentation/describe_advanced_syntax">Advanced Syntax</a>
+  <br />
+  <a href="/kernel/most_used_commands">Most-Used Commands</a> |
+  <a href="/parser/parse?command=ge">Golden Eggs (Notable Commands)</a>
+
+  <a href="http://yubnub.org/golden_eggs.xml"><img src="/images/xml_button.gif" alt="Subscribe to RSS feed"/></a>  |
+  <a href="/documentation/jeremys_picks">Jeremy's Picks</a>
+  <br />
+  <a href="http://groups.google.com/group/YubNub">Community (Google Group)</a> |
+  <a href="http://www.editthis.info/yubnub/">Wiki</a> |
+  <a href="http://yubnub.blogspot.com/">YubNub Blog</a> |
+  <a href="/parser/parse?command=tec+yubnub">Press (Technorati)</a> |
+  <a href="/documentation/display_acknowledgements">Acknowledgements</a> |
+  <a href="mailto:jonathan.aquino@gmail.com">Typos? Spam? Contact Jon</a>
+
+</div>
+</center>
+</body>
+</html>

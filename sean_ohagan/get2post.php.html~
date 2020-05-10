@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!-- Created by htmlize-1.16 in font mode. -->
+<html>
+  <head>
+    <title>get2post.php</title>
+  </head>
+  <body text="#000000" bgcolor="#ffffff">
+    <pre>
+<font color="#5f9ea0">&lt;?php</font>
+<font color="#ff0000">if</font> (<font color="#000000">isset(</font>$<font color="#5f9ea0">_GET</font>["<font color="#008b00">ynenc</font>"])) {
+  <font color="#000000">header(</font>'<font color="#008b00">Content-Type: text/html; charset=</font>'.$<font color="#5f9ea0">_GET</font>["<font color="#008b00">ynenc</font>"]);
+  <font color="#000000">unset(</font>$<font color="#5f9ea0">_GET</font>["<font color="#008b00">ynenc</font>"]);
+}
+<font color="#ff0000">echo</font> "<font color="#008b00">&lt;html&gt;\n</font>";
+<font color="#ff0000">echo</font> "<font color="#008b00">&lt;head&gt;\n</font>";
+<font color="#ff0000">echo</font> "<font color="#008b00">&lt;script language=javascript&gt;&lt;!--\n</font>";
+<font color="#ff0000">echo</font> "<font color="#008b00">function postit() {\n</font>";
+<font color="#ff0000">echo</font> "<font color="#008b00">  theform.submit();\n</font>";
+<font color="#ff0000">echo</font> "<font color="#008b00">}\n</font>";
+<font color="#ff0000">echo</font> "<font color="#008b00">//--&gt;\n</font>";
+<font color="#ff0000">echo</font> "<font color="#008b00">&lt;/script&gt;\n</font>";
+<font color="#ff0000">echo</font> "<font color="#008b00">&lt;/head&gt;\n</font>";
+
+<font color="#ff0000">if</font> (!<font color="#000000">isset(</font>$<font color="#5f9ea0">_GET</font>["<font color="#008b00">yndesturl</font>"]))
+  <font color="#ff0000">echo</font> "<font color="#008b00">&lt;body&gt;No URL found!\n</font>";
+<font color="#ff0000">else</font> <font color="#ff0000">if</font> ($<font color="#5f9ea0">_GET</font>["<font color="#008b00">yndesturl</font>"] == "")
+  <font color="#ff0000">echo</font> "<font color="#008b00">&lt;body&gt;The URL is empty!\n</font>";
+<font color="#ff0000">else</font> {
+  $<font color="#8b008b">dest</font> = $<font color="#5f9ea0">_GET</font>["<font color="#008b00">yndesturl</font>"];
+  <font color="#000000">unset(</font>$<font color="#5f9ea0">_GET</font>["<font color="#008b00">yndesturl</font>"]);
+  <font color="#ff0000">echo</font> "<font color="#008b00">&lt;body onLoad=\"postit();\"&gt;\n</font>";
+  <font color="#ff0000">echo</font> "<font color="#008b00">&lt;form method=post action=\"$dest\" id=theform name=theform&gt;\n</font>";
+  <font color="#ff0000">foreach</font> ($<font color="#5f9ea0">_GET</font> <font color="#ff0000">as</font> $<font color="#8b008b">var_name</font> =&gt; $<font color="#8b008b">var_value</font>) {
+    <font color="#ff0000">echo</font> "<font color="#008b00">&lt;input type=hidden name=\"$var_name\" value=\"$var_value\"&gt;\n</font>";
+  }
+  <font color="#ff0000">echo</font> "<font color="#008b00">&lt;/form&gt;\n</font>";
+}
+<font color="#ff0000">echo</font> "<font color="#008b00">&lt;/body&gt;\n</font>";
+<font color="#ff0000">echo</font> "<font color="#008b00">&lt;/html&gt;\n</font>";
+<font color="#5f9ea0">?&gt;</font>
+</pre>
+  </body>
+</html>

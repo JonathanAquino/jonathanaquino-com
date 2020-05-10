@@ -1,0 +1,120 @@
+<html>
+<head>
+  <title>Random Keith Ferrazzi Quote</title>
+  <link rel="stylesheet" type="text/css" href="/mystyle.css" />
+  <script language="javascript">
+    var i = 0;
+    var quotes = new Array();
+<%
+  q = Array.new
+  q << "When you help others, they often help you. success in any field, especially in business, is about working with people"
+  q << "Real networking is about finding ways to make other people more successful. it is about working hard to give more than you get"
+  q << "You've got to be more than willing to accept generosity. often, you've got to go out and ask for it"
+  q << "Instead of thinking \\\"How can you help me?\\\" think \\\"How can I help you?\\\""
+  q << "A goal is a dream with a deadline. think of your goals and write them down. your goals must be in writing. your goals must be specific, challenging and demanding, as well as believable. set goals that require risk and uncertainty"
+  q << "Start finding future clients before you have anything to sell them. get to know these people as friends, not potential customers"
+  q << "There is genius, even kindness, in being bold. people with a low tolerance for risk, whose behavior is guided by fear, have a low propensity for success. besides, the worst anyone can say is no"
+  q << "The choice isn't between success and failure; it's between choosing risk and striving for greatness, or risking nothing and being certain of mediocrity. The recipe for achievement is a medley of self-assuredness, dogged persistence, and audacity"
+  q << "Being liked can be the most potent, constructive force for getting business done"
+  q << "\\\"Preparation is - if not the key to genius - then at least the key to sounding like a genius\\\" - Winston Churchill"
+  q << "All people naturally care, generally above and beyond anything else, about what it is they do. if you are informed enough to step comfortably into their world and talk knowledgeably, their appreciation will be tangible. as William James wrote \\\"the deepest principle in human nature is the craving to be appreciated\\\""
+  q << "Before you meet someone, find a point of common ground that is deeper and richer than what can be discovered in a serendipitous encounter. use resources like Google to do this"
+  q << "Frequently, people won't get back to you when you send them emails. you have to put your ego aside and persist in calling or writing. setting up meeting takes time. it is up to you to take the initiative. sometimes you may have to be aggressive. try calling at an unusual time, like 8:00AM or 6:30PM, when someone who is busy is more likely to pick up their own phone"
+  q << "When cold calling someone, creating and maintaining a sense of optimism and gentle pressure around the appointment is all part of the dance "
+  q << "Try to make gatekeepers like secretaries your allies. never, ever get on his/her bad side. always respect the gatekeeper's power. treat them with the dignity they deserve. if you do, doors will open for you to even the most powerful decision makers. later, thank gatekeepers later by phone, flowers or a note to make sure you will be treated kindly the next time you want access"
+  q << "An email, letter, fax, or postcard often has a better chance [than an phone call] of landing directly in the hands of the person you're trying to reach"
+  q << "Invisibility is a fate far worse than failure. therefore you should always be reaching out to others. never, ever disappear"
+  q << "Behind any successful person stands a long string of failures. but toughness and tenacity can overcome these setbacks"
+  q << "Shared interests are the basic building blocks of any relationship. make a list of things you're most passionate about. use your passions as a guide to which activities and events you should be seeking out to create relationships"
+  q << "Follow up first. the follow-ups that people remember best are the ones they receive first. give yourself 12 to 24 hours after you meet someone to follow up. cite something in particular you talked about in the course of the conversation, which can serve as a mental reminder of who you are"
+  q << "Don't remind people of what they can do for you, but focus on what you might be able to do for them. even if it is just clipping relevant articles and sending them to people in your network who might be interested"
+  q << "Always express gratitude\\\""
+  q << "Never forget to follow up with those who have acted as the go-between for you and someone else"
+  q << "Conferences are good for mainly one thing: they provide a forum to meet the kind of like-minded people who can help you fulfill your mission and goals. on the other hand, real, actionable insight mostly come from experience, books and other people"
+  q << "Helping the organizer is a great way to meet people at conferences. contact the organizer in advance and tell them you are willing to devote a chunk of your resources - be it time, creativity or connections - to make the event a smash hit"
+  q << "Ask questions at conferences. a really well-formed and insightful question is a mini-opportunity to get seen by the entire audience. be sure to introduce yourself, tell people what company you work for, and then ask a question that leaves the audience buzzing"
+  q << "When meeting someone for the first time, focus on them. ask questions revolved around what the other person is thinking, what is troubling them"
+  q << "Try to connect with super-connectors. a disproportionate amount of super-connectors are headhunters, lobbyists, fundraisers, politicians, journalists, restaurateurs, and public relations specialists. these people can improve your network dramatically"
+  q << "In one study, 56% of people surveyed found their jobs through personal connections. of those personal connections that reaped dividends for those surveyed, few were good friends. in fact, often the most important people in our network are those who are acquaintances. this is what researchers call the 'strength of weak ties\\\""
+  q << "Acquaintances represent a source of social power - the more acquaintances you have, the more powerful you are"
+  q << "Are there worlds you want more access to?  If so, see if you can find a central figure within that world to act as your own one-person host committee"
+  q << "Small talk - the kind that happens between two people who don't know each other - is the most important talk we do. those who can confidently make conversation with anyone in any situation tend to be more successful. the goal of small talk: start a conversation, keep it going, create a bond, and make the other person like you. small talk needs to end on an invitation to continue the relationship"
+  q << "When it comes to making an impression, differentiation is the name of the game. you differentiate yourself by being yourself. also, vulnerability can be a great way to differentiate yourself"
+  q << "The best icebreaker is often a few words from the heart"
+  q << "You have about 10 seconds before a person decides, subconsciously, whether they like you or not. it is not a time to play hard-to-get, keep a distance, or play mysterious. we should take the initiative in creating the impression we want to give. smile and be the first to say hello, which demonstrates confidence and immediately shows your interest in the other person"
+  q << "Successful communication depends on the degree to which we can align ourselves and our style to match those we interact with. deliver your message in a tone and style that fit the other person best"
+  q << "When all else fails in small talk, say: \\\"You're wonderful - tell me more\\\""
+  q << "In your initial conversations with someone, try to find out what motivates them. most people are motivated by health, wealth, and children. health, wealth, and children affect us in ways other acts of kindness do not. when you help someone through a health issue, positively impact someone's personal wealth, or take a sincere interest in their children, you engender life-bonding loyalty"
+  q << "Connecting is a philosophy of life - its guiding principle is that every person you meet is an opportunity to help and be helped. no one gets ahead in this world without a lot of help"
+  q << "The only way to get people to do anything is to recognize their importance and thereby make them feel important. every person's deepest lifelong desire is to be significant and to be recognized"
+  q << "Learn to become indispensable. start thinking about how you're going to make everyone around you successful. think of it as a game - when someone mentions a problem, try to think of solutions. don't wait to be asked, just do it"
+  q << "Real power comes from being indispensable. indispensability comes from being a switchboard, parceling out as much information, contacts, and goodwill to as many people - in as many different worlds - as possible. try to make a point of knowing as many people from as many different professions and social groups as possible. people who have contacts in separate groups have a competitive advantage because we live in a system of bureaucracies"
+  q << "\\\"You can be more successful in two months by becoming really interested in other people's success than you can in two years trying to get other people interested in your own success\\\" - Dale Carnegie"
+  q << "80 percent of building and maintaining relationships is just staying in touch"
+  q << "People you're contacting to create a new relationship need to see or hear your name in at least three modes of communication before there is substantive recognition"
+  q << "A shared meal in your own home is a powerful way to comfort, nurture, and connect people. try to use such events to meet new people using an anchor tenant. an anchor tenant will allow you to reach out beyond your circle and pull in people who wouldn't otherwise attend"
+  q << "Be interesting. people tend to hire people they like. but also remember that people hire those they think can make them and their companies better. so be aware of what you have to say that others might benefit from you"
+  q << "In every job and at every stage in my career, I have had some expertise, some content that differentiated me from others and made me unique, made me more valuable in my relationships with others and the company I worked for. what will set you apart from everybody else is the relentless you bring to learning and presenting and selling your content"
+  q << "Creativity in business is often nothing more than making connections that everyone else has almost thought of. you don't need to reinvent the wheel, just attach it to a new wagon"
+  q << "The one thing that no one has figured out how to outsource is the creation of ideas. a unique point of view is one of the only ways to ensure that today, tomorrow and a year from now you'll have a job"
+  q << "There is no better way to learn something and become an expert at it that to have to teach it"
+  q << "Identify the people in your industries who always seem to be out in front, and use all the relationship skills you've acquired to connect with them. take them to lunch. read their newsletters"
+  q << "To this day, I face rejection on a regular basis. passion keeps going through the rough times. there will be continual changes and challenges requiring you to be persistent and committed"
+  q << "Develop a niche. think of several areas where your company underperforms and choose to focus on the one area that is least attended to"
+  q << "Powerful content communicated in a compelling story can energize your network and help you achieve your mission. for example, in telling a gripping story, the Dalai Lama understands that the message must be both simple and universal. figure out how to spin your story in a fashion that is a) simple to understand and b) everybody can relate to. what truly moves us as human beings and prompts us into action is emotion"
+  q << "Few talents are more important to managerial success than knowing how to tell a good story"
+  q << "Focus on your personal brand. I went out of my way to take on project no one wanted and initiated projects no one had thought of doing. I sent recommendations to the CEO. he never responded, but I never stopped sending those emails"
+  q << "To become a brand, you've got to become relentlessly focused on what you do that adds value. try to initiate projects on your own and in your spare time"
+  q << "\\\"Everyone sees what you appear to be. few really know what you are\\\" - Machiavelli "
+  q << "Increased visibility might be important for your career, and for extending our network of colleagues and friends. people who are known beyond the walls of their own cubicle have a greater value"
+  q << "Try to create buzz around your interests. think about how reporters can help you create buzz. the majority of journalists' stories are from people who have sought journalists out, not the other way around"
+  q << "Start making calls to the reporters who cover your industry. have lunch with them. spend time reading their articles, figuring out what they cover, and what kinds of stories their publications like to run"
+  q << "Learn to be brief. pick the most interesting points about your story and make them fast, make them colorful, and make them catchy"
+  q << "Consider writing articles for publications. articles provide a terrific environment for meeting anyone anywhere. the odds will never be stacked so clearly in your favor. consider sharing credit and offering a byline to the person who becomes most helpful.. Welcome their co-authorship. by article's end, whether it's been published or not, you've managed to learn a great deal and to meet a group of important people who potentially might be important to your future"
+  q << "Reach out to the sort of important people that can make a difference in your life and the lives of others. seeking the influence of powerful people in our lives in not crass or misguided - it can be enormously helpful. the more accomplished the people we associate with, the greater our inspirations become"
+  q << "Trust is the essential element of mixing with powerful and famous people - trust that you'll be discreet, trust that you have no ulterior motives behind your approach"
+  q << "Big company CEOs realize that to make things happen - whether it's public policy or a big deal with a public company - you need others"
+  q << "There is no substitute for personal initiative"
+  q << "Ben Franklin believed every person should be part of a social group, if not three. he believed a group of like-minded, achievement-oriented individuals could dramatically leverage each other's success to do things otherwise impossible"
+  q << "The most important lesson of all: Never give in to hubris"
+  q << "Commitments aren't commitments unless everyone involved knows what is on the table with absolute clarity"
+  q << "Potential mentors tacitly notice your respect for them and are flattered by the attention you give them. there's no better way to signal your interest in becoming their mentee"
+  q << "It never hurts to ask - the worst anyone can say is no"
+  q << "Finding a talented, experienced mentor who is willing to invest the time and effort to develop you as a person and a professional is far more important than making career decisions based purely on salary or prestige. attach yourself to great people and great teachers"
+  q << "Mentors often offer guidance because mentees promise something in return - they will work nonstop in an effort to use the mentor's imparted knowledge to make the mentor and his firm more successful. also, mentors must care about their mentees"
+  q << "On asking someone for career advice: \\\"I'm thinking of transitioning into your industry at some point.  Is there anyone you know who you think could lend some helpful advice?\\\""
+  q << "On Bill Clinton: Clinton used to jot down names and information about people he met in a little black address book he carried around with him. when asked why, he said \\\"I'm going into politics and plan to run for governor of Arkansas. I'm keeping track of everyone I meet\\\". Clinton would make it a nightly habit to record, on index cards, the names and vital information of every person whom he'd met that day. the lessons we can learn from this: (1) the more specific you are about where you want to go in life, the easier it becomes to develop a networking strategy to get there and (2) be sensitive to making a real connection in your interactions with others."
+  q << "On cold calling: \\\"Don't cold call - ever. instead, make a warm call. try to get others to make a connection. four rules to warm calling: (1) convey credibility by mentioning a familiar person or institution, (2) state your value proposition [how can I help you], (3) impart urgency and convenience by being prepared to do whatever it takes whenever it takes to meet the other person on his/her own terms, (4) be prepared to offer a compromise that secures a definite follow-up\\\""
+  q.each {|quote|
+    puts "quotes[i++] = \"#{quote}\";"
+  }
+%>
+    function randomQuote() {
+      return quotes[Math.floor(Math.random()*quotes.length)];    
+    }
+    function displayRandomQuote() {
+      document.all.output.innerHTML = randomQuote();
+    }
+  </script>
+</head>
+<body>
+  <h1>Random Keith Ferrazzi Quote</h1>
+  <a href="http://jonaquinolabs.blogspot.com">Jon Aquino Labs</a></span><br><br>
+  <span style="font-size:x-small">
+  From "Never Eat Alone" by Keith Ferrazzi and Tahl Raz<br>
+  Quotes selected by <a href="http://nevereatalone.typepad.com/blog/2005/04/readers_notes_f.html">David Moradi</a><br>
+  Programming by Jon Aquino<br><br>
+  </span>
+  <form name="form">
+    <input type="button" value="Show me another quote" onClick="displayRandomQuote()"><br>
+  </form>
+  <center>
+  <table border="0" width="500"><tr><td>
+  <center>
+  "<span id="output"><%=q[rand(q.size)]%></span>"<br><br>
+  Keith Ferrazzi
+  </center>
+  </td></tr></table>
+  </center>
+</body>
+</html>

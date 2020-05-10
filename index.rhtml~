@@ -1,0 +1,91 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/mystyle.css" />
+  <style type='text/css' media='all'>
+  td {
+    font-size: small;
+    vertical-align: top;
+    padding: 0 0 15px 20px;
+  }
+  </style>
+  <title>Jon Aquino Labs</title>
+</head>
+<body>
+  <center>
+    <!-- Beaker image from WikiMedia Commons [Jon Aquino 2005-04-16] -->
+    <img src="/images/Beaker.jpg">
+    <h1>Jon Aquino Labs</h1>
+    <div style="font-size:x-small; padding:0 0 30px 0">Technologies that make life wonderful</div>
+    <table width=700>
+      <tr>
+        <td><a href="http://jonaquino.blogspot.com/2005/04/bloglines-splicer-improvement-on.html">Bloglines&nbsp;Splicer</a></td>
+        <td>A web application that arranges your unread feed items in a new way: the first item is shown for each feed, then the second item is shown for each feed, then the third for each feed, and so forth. This way, your feedreading is distributed evenly among all your feeds -- a great help if you are under time constraints (imposed by yourself or by your circumstances).</td>
+      </tr>
+      <tr>
+        <td><a href="http://jonaquino.blogspot.com/2005/04/audiolicious-turn-any-rss-feed-into.html">Audiolicious</a></td>
+        <td>A Windows program that lets you turn any RSS feed into a podcast. It uses text-to-speech to convert the feed's webpages into MP3 files.</td>
+      </tr>
+      <tr>
+        <td><a href="http://jonaquino.blogspot.com/2005/03/better-bloglines-notifier.html">Yet Another Bloglines Notifier</a></td>
+        <td>A Windows program that sits in the system tray and displays the number of unread Bloglines items (directly on the system tray icon). When new items arrive, a balloon pops up showing an excerpt. Inspired by the Gmail notifier.</td>
+      </tr>
+      <tr>
+<!--
+        <td><a href="http://jonaquino.blogspot.com/2005/03/scraping-google-directory-to-do.html">Introspicious2</a></td>
+        <td>A Ruby script that analyzes your del.icio.us links to generate a list of your favourite interests. This is version 2, which adds tag normalization using Google Directory categories.</td>
+      </tr>
+-->
+<!--
+      <tr>
+        <td><a href="http://jonaquino.blogspot.com/2005/03/fixing-float-drops-in-blogger.html">Float-Drop Fix</a></td>
+        <td>An investigation into the "float drop" problem caused by wide posts in Blogger's otherwise wonderful templates created by the likes of Douglas Bowman and Dan Cederholm. A workaround is presented.</td>
+      </tr>
+-->
+      <tr>
+        <td><a href="http://jonaquino.blogspot.com/2005/02/first-video-game-written-in-ant.html">Ant Ski</a></td>
+        <td>An Ant script with the dubious distinction of being the world's first video game written in Ant (a programming language originally intended for software builds). Use the &lt; and &gt; keys to race down a dangerous ski slope in this cross-platform skiing game.</td>
+      </tr>
+<!--
+      <tr>
+        <td><a href="http://jonaquino.blogspot.com/2005/02/creating-your-own-resco-keyboard-skin.html">Custom PocketPC Keyboards</a></td>
+        <td>Instructions for creating your own keyboard (or "soft input panel") on the Pocket PC, by making a skin for Resco Keyboard. Hitherto undocumented.</td>
+      </tr>
+-->
+      <tr>
+        <td><a href="http://jonaquino.blogspot.com/2005/02/masterpiece-of-day.html">Masterpiece of the Day</a></td>
+        <td>An RSS feed showcasing a random daily masterwork painting from the ibiblio WebMuseum. The large images add a welcome splash of colour to your nightly feedreading. Updated daily.</td>
+      </tr>
+      <tr>
+<!--
+        <td><a href="http://jonaquino.blogspot.com/2005/01/slightly-more-complicated-ruby-script.html">Prioritizer</a></td>
+        <td>A Ruby script for prioritizing any list of items, by asking you to choose between every possible pair of items in the list. Credit for the technique goes to Richard Bolles.</td>
+      </tr>
+-->
+<!--
+      <tr>
+        <td><a href="http://jonaquino.blogspot.com/2005/01/flickr-vs-atomik-words-from-dom.html">Fitaly vs Atomik</a></td>
+        <td>A visual comparison of the performance of the Fitaly and Atomik keyboards. Shows the gestures for each word using the text from Fitaly's Dom Perignon IV Speed Contest.</td>
+      </tr>
+-->
+<!--
+      <tr>
+        <td><a href="http://jonaquino.blogspot.com/2005/01/fitaly-vs-atomik-comparison-of.html">Keyboard Comparer</a></td>
+        <td>A Ruby script that measures the efficiency of a PDA keyboard by computing the distance travelled by the stylus. Numbers are given for the Fitaly and Atomik keyboard layouts, using the Book of Matthew and Grimm's Fairy Tales.</td>
+      </tr>
+-->
+<!--
+      <tr>
+        <td><a href="http://jonaquino.blogspot.com/2004/12/freewarepalm-ratings-extracted-and.html">FreewarePalm Ratings</a></td>
+        <td>An extraction of all the ratings from freewarepalm.com, sorted by popularity. Programs with the most ratings are at the top; programs with the least ratings, at the bottom. This gives an excellent view of which freeware programs are highly regarded in the Palm community.</td>
+      </tr>
+-->
+<!--
+      <tr>
+        <td><a href="http://jonaquino.blogspot.com/2004/12/freeware-ppc-ratings-extracted-and.html">FreewarePPC Ratings</a></td>
+        <td>Similar to the FreewarePalm work above, but for Pocket PC freeware.</td>
+      </tr>
+-->
+    </table>
+  </center>
+</body>
+</html>

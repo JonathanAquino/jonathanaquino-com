@@ -1,0 +1,16 @@
+import sys
+import libxml2
+import libxslt
+import time
+
+xsl = sys.argv[1]
+name = sys.argv[2]
+styledoc = libxml2.parseFile("/home/jonathanaquino/public_html/descriptious/"+xsl)
+style = libxslt.parseStylesheetDoc(styledoc)
+doc = libxml2.parseFile("/home/jonathanaquino/public_html/descriptious/"+name+".xml")
+#result = style.applyStylesheet(doc, { "feedUrl": "http://jonaquino.textdriven.com/descriptious/"+name+".xml" })
+result = style.applyStylesheet(doc, { "feedUrl": "'"+name+".xml'", "timestamp": "'"+time.ctime()+"'" })
+style.saveResultToFilename("/home/jonathanaquino/public_html/descriptious/"+name+".html", result, 0)
+style.freeStylesheet()
+doc.freeDoc()
+result.freeDoc()

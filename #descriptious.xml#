@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns="http://purl.org/rss/1.0/"
+>
+
+<channel rdf:about="http://www.populicio.us/newlinks.html">
+<title>Descriptious: Populicious. New popular sites (24h).</title>
+<link>http://www.populicio.us/newlinks.html</link>
+<description>New popular sites (24h).</description>
+<sy:updatePeriod>hourly</sy:updatePeriod>
+<sy:updateFrequency>12</sy:updateFrequency>
+<sy:updateBase>2005-05-01T03:00+01:00</sy:updateBase>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://www.macdevcenter.com/pub/a/mac/2005/04/29/tiger.html" />
+<rdf:li rdf:resource="http://tagsonomy.com/" />
+<rdf:li rdf:resource="http://developer.apple.com/documentation/AppleApplications/Conceptual/Dashboard_Tutorial/index.html" />
+<rdf:li rdf:resource="http://www.boreme.com/bm/FEB04/a/f_beatbox_harmonica/jump_fr.htm" />
+<rdf:li rdf:resource="http://www.boxesandarrows.com/archives/implementing_a_pattern_library_in_the_real_world_a_yahoo_case_study.php" />
+<rdf:li rdf:resource="http://flickr.com/creativecommons/" />
+<rdf:li rdf:resource="http://www.globalstarsoftware.com/stronghold2/minigame/index.html" />
+<rdf:li rdf:resource="http://developer.apple.com/macosx/dashboard.html" />
+<rdf:li rdf:resource="http://www.macosxhints.com/article.php?story=20050424065456133" />
+<rdf:li rdf:resource="http://www.ndiyo.org/" />
+<rdf:li rdf:resource="http://daringfireball.net/misc/2005/04/tiger_details" />
+<rdf:li rdf:resource="http://developers.technorati.com/wiki/hReview" />
+<rdf:li rdf:resource="http://cocoadevcentral.com/articles/000085.php" />
+<rdf:li rdf:resource="http://oriol.mine.nu/software/Fish/" />
+<rdf:li rdf:resource="http://www.universetoday.com/am/publish/perfect_einstein_ring.html" />
+<rdf:li rdf:resource="http://daringfireball.net/2005/04/tiger_details_list" />
+<rdf:li rdf:resource="http://developer.apple.com/documentation/AppleApplications/Conceptual/AutomatorConcepts/index.html#//apple_ref/doc/uid/TP40001450" />
+<rdf:li rdf:resource="http://cocoadevcentral.com/articles/000086.php" />
+<rdf:li rdf:resource="http://www.bigbold.com/snippets/posts/show/238" />
+<rdf:li rdf:resource="http://www.macosxhints.com/article.php?story=20050422172929402" />
+<rdf:li rdf:resource="http://www.macgeekery.com/tips/how_to_execute_raw_spotlight_queries_in_the_finder" />
+<rdf:li rdf:resource="http://hengge.blogbus.com/logs/2005/04/1150289.html" />
+<rdf:li rdf:resource="http://www.diymedia.net/" />
+<rdf:li rdf:resource="http://www.pilotmotiv.com/rss.xml" />
+<rdf:li rdf:resource="http://rsp.math.brandeis.edu/3D-XplorMath/Surface/gallery.html" />
+<rdf:li rdf:resource="http://www.fastcompany.com/subscr/94/open_change-or-die.html" />
+<rdf:li rdf:resource="http://www.itmedia.co.jp/enterprise/articles/0504/29/news003.html" />
+<rdf:li rdf:resource="http://www.macosxhints.com/article.php?story=20050424201429961" />
+<rdf:li rdf:resource="http://www.macworld.com/2005/04/features/tipsmanaging/index1.php" />
+<rdf:li rdf:resource="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=652743" />
+
+ </rdf:Seq>
+</items>
+</channel>
+
+<item rdf:about="http://www.macdevcenter.com/pub/a/mac/2005/04/29/tiger.html">
+<title>MacDevCenter.com: Everything You Need to Know to Install Tiger</title>
+<link>http://www.macdevcenter.com/pub/a/mac/2005/04/29/tiger.html</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/a4d356f8ca69194bc22b7c125fbd29a1'&gt;[D]&lt;/a&gt;  When I upgrade, I'll have to look at this.... i will be doing a clean install of mac os x tiger, too much worry with non clean installs... everything? really?... Good advice.... clean install howto... O'Reilly's tips on upgrading to Tiger... I can't see how doing all these things so that you can do &lt;/i&gt;&lt;br&gt;MacDevCenter.com: Everything You Need to Know to Install Tiger</description>
+</item>
+<item rdf:about="http://tagsonomy.com/">
+<title>Youâ??re It!</title>
+<link>http://tagsonomy.com/</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/85608d3005359d7ef9f054efce2528e0'&gt;[D]&lt;/a&gt;  blog on tagging... Team Tagsonomy: Christian Crumlish, Clay Shirky, David Weinberger, Don Turnbull, Jon Lebkowsky, Mary Hodder, Timo Hannay... blog about tag... &quot;a blog on tagging&quot;... Blog sobre folksonomy... a blog on tagging... A blog on tagging... &quot;a blog on tagging&quot;... A blog&lt;/i&gt;&lt;br&gt;Youâ??re It!</description>
+</item>
+<item rdf:about="http://developer.apple.com/documentation/AppleApplications/Conceptual/Dashboard_Tutorial/index.html">
+<title>Dashboard Programming Guide</title>
+<link>http://developer.apple.com/documentation/AppleApplications/Conceptual/Dashboard_Tutorial/index.html</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/d58063bc51f14d67e3d344302d1cdbdd'&gt;[D]&lt;/a&gt;  Dashboard Programming Guide... Make your own widgets... This document provides an overview of Dashboard and the widgets that exist in it. It walks you through the creation of a sample widget, discusses optional features that may be implemented in a widget, and touches on native code integration thro&lt;/i&gt;&lt;br&gt;Dashboard Programming Guide</description>
+</item>
+<item rdf:about="http://www.boreme.com/bm/FEB04/a/f_beatbox_harmonica/jump_fr.htm">
+<title>Bore Me - your daily fix for entertainment</title>
+<link>http://www.boreme.com/bm/FEB04/a/f_beatbox_harmonica/jump_fr.htm</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/2676bc07ed4a5745bb1785311b81ace7'&gt;[D]&lt;/a&gt;  This is insanely great - watch it!... amaizing video... This man has practiced and makes it look easy all with his mouth (via kottke)... If this guy agrees to be in the band, Pat and Edrin are fired.... HOLY SHIT THIS IS AWESOME...&lt;/i&gt;&lt;br&gt;Bore Me - your daily fix for entertainment</description>
+</item>
+<item rdf:about="http://www.boxesandarrows.com/archives/implementing_a_pattern_library_in_the_real_world_a_yahoo_case_study.php">
+<title>Boxes and Arrows: Implementing a Pattern Library in the Real World: A Yahoo!  ...</title>
+<link>http://www.boxesandarrows.com/archives/implementing_a_pattern_library_in_the_real_world_a_yahoo_case_study.php</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/1c28af6138aba16804ecf73e302350cb'&gt;[D]&lt;/a&gt;  Our Solution We designed and built a repository for interaction design patterns, created a process for submitting and reviewing the content, and seeded the resulting library with a set of sample patterns. We organized the content to make it findable, stru... Boxes and Arrows has a case study of how &lt;/i&gt;&lt;br&gt;Boxes and Arrows: Implementing a Pattern Library in the Real World: A Yahoo!  ...</description>
+</item>
+<item rdf:about="http://flickr.com/creativecommons/">
+<title>Flickr: Creative Commons</title>
+<link>http://flickr.com/creativecommons/</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/1024ef23dcd28883cf60e8c6c5b0c9b0'&gt;[D]&lt;/a&gt;  Many Flickr users have chosen to protect their work with a Creative Commons license, and you can browse or search through photos under each type of license.... &quot;Many Flickr users have chosen to protect their work with a Creative Commons license, and you can browse or search through photos under&lt;/i&gt;&lt;br&gt;Flickr: Creative Commons</description>
+</item>
+<item rdf:about="http://www.globalstarsoftware.com/stronghold2/minigame/index.html">
+<title>Castle Attack 2</title>
+<link>http://www.globalstarsoftware.com/stronghold2/minigame/index.html</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/a8bdfbebbd22fdd4cfc01356abfa38a2'&gt;[D]&lt;/a&gt;  via:del.icio.us/popular, simple but well detailed flash game - the problem / challenge is that your forces do not grow as the enemy forces do..... Shockwave + 3D + cool Medieval game = great time waster....&lt;/i&gt;&lt;br&gt;Castle Attack 2</description>
+</item>
+<item rdf:about="http://developer.apple.com/macosx/dashboard.html">
+<title>Developing Dashboard Widgets</title>
+<link>http://developer.apple.com/macosx/dashboard.html</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/a1c07960e564614484f5a694225162b1'&gt;[D]&lt;/a&gt;  Overview on how to develop widgets in Tiger (ie, Konfabulator reprised)...&lt;/i&gt;&lt;br&gt;Developing Dashboard Widgets</description>
+</item>
+<item rdf:about="http://www.macosxhints.com/article.php?story=20050424065456133">
+<title>macosxhints - 10.4: Replace the phone book widget's mapping service</title>
+<link>http://www.macosxhints.com/article.php?story=20050424065456133</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/23160753559441f6aba72e683adfc50f'&gt;[D]&lt;/a&gt;  Replace Mapquest with Google... use Google mapping instead!... google in the Phone Book Widget instead of mapquest... This hint allows you to make the phonebook Dashboard widget point to Google Maps instead of the (I guess) antiquated Mapquest service.... phone book widget to google maps... ... with&lt;/i&gt;&lt;br&gt;macosxhints - 10.4: Replace the phone book widget's mapping service</description>
+</item>
+<item rdf:about="http://www.ndiyo.org/">
+<title>Ndiyo! - The Ndiyo Project</title>
+<link>http://www.ndiyo.org/</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/59bc07ee74cd3aa585d93760ec6374e0'&gt;[D]&lt;/a&gt;  thin terminal clients... A very cool ultra-thin client. I want one. I will convert the 3rd world to Ubuntu... Ndiyo! is a project set up to foster an approach to networked computing that is simple, affordable, open, less environmentally damaging and less dependent on intensive technical support than&lt;/i&gt;&lt;br&gt;Ndiyo! - The Ndiyo Project</description>
+</item>
+<item rdf:about="http://daringfireball.net/misc/2005/04/tiger_details">
+<title>Daring Fireball: Tiger Details</title>
+<link>http://daringfireball.net/misc/2005/04/tiger_details</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/efd14a54f8c842b1f89cca10448f314f'&gt;[D]&lt;/a&gt;  John Gruber is compiling a list of observations and interesting details on Mac OS 10.4. &quot;Things that are new, things that are different.&quot;... Daring Fireball is a great design and Apple oriented blog. This is a list the author's composing of his own Tiger hints and tidbits.... let those who&lt;/i&gt;&lt;br&gt;Daring Fireball: Tiger Details</description>
+</item>
+<item rdf:about="http://developers.technorati.com/wiki/hReview">
+<title>Developers Wiki - hReview</title>
+<link>http://developers.technorati.com/wiki/hReview</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/db252c3b13605628d5edd3e8e06991f4'&gt;[D]&lt;/a&gt;  hReview is a schema for publishing reviews including ratings and tags... &quot;hReview is a simple distributed review format suitable for embedding in (X)HTML, Atom, RSS, and arbitrary XML.&quot;... First revision of the hReview XHTML microformat for reviews.... draft hReview microformat specificati&lt;/i&gt;&lt;br&gt;Developers Wiki - hReview</description>
+</item>
+<item rdf:about="http://cocoadevcentral.com/articles/000085.php">
+<title>Cocoa Dev Central: Build a Core Data Application</title>
+<link>http://cocoadevcentral.com/articles/000085.php</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/567526c552aaa1899358a308330700f1'&gt;[D]&lt;/a&gt;  &quot;Cocoa has been refined dramatically over the years, but no one technology has brought such sweeping advances as Core Data.&quot;q... osx tiger coredata macosx mac programming code... Tutorial at Cocoa Dev Central... Core Data Goodness... great example of page design for step-by-step processes.&lt;/i&gt;&lt;br&gt;Cocoa Dev Central: Build a Core Data Application</description>
+</item>
+<item rdf:about="http://oriol.mine.nu/software/Fish/">
+<title>oriol.mine.nu - Oriol Ferrer MesiÃ </title>
+<link>http://oriol.mine.nu/software/Fish/</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/ee39af29d79aa9e350ce2425916f236b'&gt;[D]&lt;/a&gt;  Fish is an aquarium simulator. It allows you to add fish to an underwater environment and customize them.... Virtual Fish Tank...&lt;/i&gt;&lt;br&gt;oriol.mine.nu - Oriol Ferrer MesiÃ </description>
+</item>
+<item rdf:about="http://www.universetoday.com/am/publish/perfect_einstein_ring.html">
+<title>Universe Today - Near Perfect &quot;Einstein Ring&quot; Discovered</title>
+<link>http://www.universetoday.com/am/publish/perfect_einstein_ring.html</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/88b6aaccf7b93c6463c0d9f2c63c2762'&gt;[D]&lt;/a&gt;  This is Einstein's year...&lt;/i&gt;&lt;br&gt;Universe Today - Near Perfect &quot;Einstein Ring&quot; Discovered</description>
+</item>
+<item rdf:about="http://daringfireball.net/2005/04/tiger_details_list">
+<title>Daring Fireball: The Tiger Details List</title>
+<link>http://daringfireball.net/2005/04/tiger_details_list</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/be8393acb7c50059e5272073de315178'&gt;[D]&lt;/a&gt;  Submit your own lesser known &quot;features&quot; of Tiger...&lt;/i&gt;&lt;br&gt;Daring Fireball: The Tiger Details List</description>
+</item>
+<item rdf:about="http://developer.apple.com/documentation/AppleApplications/Conceptual/AutomatorConcepts/index.html#//apple_ref/doc/uid/TP40001450">
+<title>   Automator Programming Guide</title>
+<link>http://developer.apple.com/documentation/AppleApplications/Conceptual/AutomatorConcepts/index.html#//apple_ref/doc/uid/TP40001450</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/2efbfbb4ea638286648630f5a9445791'&gt;[D]&lt;/a&gt;  Apple's Automator docs.... Make your Mac do your bidding!... Guide to developing Automator actions in Mac OS X Tiger...&lt;/i&gt;&lt;br&gt;   Automator Programming Guide</description>
+</item>
+<item rdf:about="http://cocoadevcentral.com/articles/000086.php">
+<title>Cocoa Dev Central: Core Data Class Overview</title>
+<link>http://cocoadevcentral.com/articles/000086.php</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/863467e2be77bc78b706b0c29273f199'&gt;[D]&lt;/a&gt;  A short overview of the Apple Core Data Classes with links to further tutorials... More Core Data goodness...&lt;/i&gt;&lt;br&gt;Cocoa Dev Central: Core Data Class Overview</description>
+</item>
+<item rdf:about="http://www.bigbold.com/snippets/posts/show/238">
+<title>Send your SSH Public Key to each host you use</title>
+<link>http://www.bigbold.com/snippets/posts/show/238</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/058ae2eb8ec1edeaecd73fa1711eb1c5'&gt;[D]&lt;/a&gt;  A handy tip, just a simple shell command, but useful, nonetheless.... i do this all the time, but frequently forget the syntax...... I'm sure there's actually a command that comes with ssh that does this too... For that single sign-on goodness....&lt;/i&gt;&lt;br&gt;Send your SSH Public Key to each host you use</description>
+</item>
+<item rdf:about="http://www.macosxhints.com/article.php?story=20050422172929402">
+<title>macosxhints 10.4: Detach widgets from the Dashboard</title>
+<link>http://www.macosxhints.com/article.php?story=20050422172929402</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/25344b862f3c420a685e438741ddb962'&gt;[D]&lt;/a&gt;  Great way to utilize Dashboard's widgets... Requires screen realestate though......&lt;/i&gt;&lt;br&gt;macosxhints 10.4: Detach widgets from the Dashboard</description>
+</item>
+<item rdf:about="http://www.macgeekery.com/tips/how_to_execute_raw_spotlight_queries_in_the_finder">
+<title>Mac Geekery - How to Execute Raw Spotlight Queries in the Finder</title>
+<link>http://www.macgeekery.com/tips/how_to_execute_raw_spotlight_queries_in_the_finder</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/19ee79083e52a5878eb10279ac571bbf'&gt;[D]&lt;/a&gt;  siehe auch: man mdls... 'Sometimes you need to do nested queries or more advanced boolean logic than &quot;all or nothing&quot; as the Finder gives, and the Finder gives you a way, though it's a might complicated.'... Neat way to get more complicated boolean queries in Spotlight...&lt;/i&gt;&lt;br&gt;Mac Geekery - How to Execute Raw Spotlight Queries in the Finder</description>
+</item>
+<item rdf:about="http://hengge.blogbus.com/logs/2005/04/1150289.html">
+<title>ä»?blogchinaæ?¶è´­blogcnè¯´å¼?å?»</title>
+<link>http://hengge.blogbus.com/logs/2005/04/1150289.html</link>
+<description>&lt;i&gt;&lt;/i&gt;&lt;br&gt;ä»?blogchinaæ?¶è´­blogcnè¯´å¼?å?»</description>
+</item>
+<item rdf:about="http://www.diymedia.net/">
+<title>DIYmedia.net - Microradio, Media Collage and more.</title>
+<link>http://www.diymedia.net/</link>
+<description>&lt;i&gt;&lt;/i&gt;&lt;br&gt;DIYmedia.net - Microradio, Media Collage and more.</description>
+</item>
+<item rdf:about="http://www.pilotmotiv.com/rss.xml">
+<title>pilotmotiv rss</title>
+<link>http://www.pilotmotiv.com/rss.xml</link>
+<description>&lt;i&gt;&lt;/i&gt;&lt;br&gt;pilotmotiv rss</description>
+</item>
+<item rdf:about="http://rsp.math.brandeis.edu/3D-XplorMath/Surface/gallery.html">
+<title>Gallery of Famous Surfaces</title>
+<link>http://rsp.math.brandeis.edu/3D-XplorMath/Surface/gallery.html</link>
+<description>&lt;i&gt;&lt;/i&gt;&lt;br&gt;Gallery of Famous Surfaces</description>
+</item>
+<item rdf:about="http://www.fastcompany.com/subscr/94/open_change-or-die.html">
+<title>Change or Die</title>
+<link>http://www.fastcompany.com/subscr/94/open_change-or-die.html</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/008a97b05b90367b8cd16c22e390f0d8'&gt;[D]&lt;/a&gt;  9 to 1 that you won't change... ...a fascinating article about change. use emotions, feelings and the way ideas are framed to motivate change instead of facts and fear.... What makes people want to change and stick with a change....&lt;/i&gt;&lt;br&gt;Change or Die</description>
+</item>
+<item rdf:about="http://www.itmedia.co.jp/enterprise/articles/0504/29/news003.html">
+<title>ITmedia ã?¨ã?³ã?¿ã?¼ã??ã?©ã?¤ã?ºï¼?ã??ã?¾ã??ã??äººã?«è??ã??ã?ªã??GPLã?®å?ºç¤? ...</title>
+<link>http://www.itmedia.co.jp/enterprise/articles/0504/29/news003.html</link>
+<description>&lt;i&gt;&lt;/i&gt;&lt;br&gt;ITmedia ã?¨ã?³ã?¿ã?¼ã??ã?©ã?¤ã?ºï¼?ã??ã?¾ã??ã??äººã?«è??ã??ã?ªã??GPLã?®å?ºç¤? ...</description>
+</item>
+<item rdf:about="http://www.macosxhints.com/article.php?story=20050424201429961">
+<title>macosxhints 10.4: Force Spotlight to reindex a drive</title>
+<link>http://www.macosxhints.com/article.php?story=20050424201429961</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/7208ca631998c1556c45ec47883fcb8e'&gt;[D]&lt;/a&gt;  If Spotlight seems like it's missing something, it probably is. Use this tip to force it to do a full rescan and get back on the ball....&lt;/i&gt;&lt;br&gt;macosxhints 10.4: Force Spotlight to reindex a drive</description>
+</item>
+<item rdf:about="http://www.macworld.com/2005/04/features/tipsmanaging/index1.php">
+<title>Macworld: Feature: Managing with AppleScripts and Entourage, Page 2</title>
+<link>http://www.macworld.com/2005/04/features/tipsmanaging/index1.php</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/0ad07f66d23e776012ec3c90935b5742'&gt;[D]&lt;/a&gt;  Let Entourage manage your projects... Projects in Entourage... The other of my articles for the next MacWorld is up now....&lt;/i&gt;&lt;br&gt;Macworld: Feature: Managing with AppleScripts and Entourage, Page 2</description>
+</item>
+<item rdf:about="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=652743">
+<title>SSRN-File-Sharing, Sampling, and Music Distribution by Martin Peitz, Patrick  ...</title>
+<link>http://papers.ssrn.com/sol3/papers.cfm?abstract_id=652743</link>
+<description>&lt;i&gt;&lt;a href='http://del.icio.us/url/42b1ec4cde1dcf5dde1e01a0b3515c19'&gt;[D]&lt;/a&gt;  Economics article demonstrating the financial upside to P2P file sharing...&lt;/i&gt;&lt;br&gt;SSRN-File-Sharing, Sampling, and Music Distribution by Martin Peitz, Patrick  ...</description>
+</item>
+
+
+</rdf:RDF>

@@ -1,0 +1,12 @@
+<%
+def extractDomainName(url)
+    r = url=~(/^(?:\w+:\/\/)?([^\/?]+)(?:\/|\?|$)/) ? $1 : 'Not a valid URL!'
+    r.gsub!(/((?:www)|(?:seek)|(?:query)|(?:search))\.(([^\.]+)\.([^\.]+)(\.([^\.]+))?)/, '\2')
+    r.gsub!(/\:\d+$/, '')
+    r
+end
+
+require "cgi"
+cgi = CGI.new
+puts extractDomainName(cgi["url"])
+%>

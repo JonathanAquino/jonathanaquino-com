@@ -1,0 +1,31 @@
+<%
+cgi = CGI.new
+url = 'http://www.boardgamegeek.com/geeklist.php3?action=view&listid='+cgi['id']
+title = nil
+user = nil
+game = nil
+games = []
+`lynx -source #{url}`.split("\n").each {|line| 
+  if title == nil and line =~ /<TITLE>GeekList: (.*)<.TITLE>/ then
+    title = $1
+puts title
+  end
+  if user == nil and line =~ /^[^>]+>([^<]*)<.*Profile for ([^"]*)/ then
+    user = "#{$1} (#{$2})"
+puts user
+  end
+  if line =~ /game.(\d+)">([^<]+)</ then
+    if game == nil then game = $1 end
+    games << $2
+puts $1
+puts $2
+  end
+}
+puts
+puts
+puts
+puts game + "\"#{title}\" by " + user
+puts url
+puts
+puts games.join(", ")
+%>

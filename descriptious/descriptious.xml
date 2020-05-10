@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rss version="0.91">
+	<channel>
+		<title>Descriptious</title> 
+		<link>http://descriptious.ning.com/</link> 
+		<description>Descriptious has moved</description> 
+		<language>en-us</language> 
+        <item>
+            <title>Descriptious has moved to http://descriptious.ning.com/</title> 
+            <link>http://descriptious.ning.com/</link> 
+            <description>Descriptious has moved to http://descriptious.ning.com/</description> 
+            </item>
+    </channel>
+</rss>
+

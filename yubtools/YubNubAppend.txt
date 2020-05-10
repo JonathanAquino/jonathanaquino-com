@@ -1,0 +1,1 @@
+add &xn_auth=no to the end of Ning URL to get it to pipe to YubNub

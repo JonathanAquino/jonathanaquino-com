@@ -1,0 +1,51 @@
+<html>
+<head>
+</head>
+<body style="background:black">
+
+<style type="text/css">
+#momentMap { font-family:Arial, sans-serif; padding:5px }
+#momentMap p.xnc_html_map { color:#fff; font-size:9.5px; }
+#momentMap a {color: #fff; text-decoration: none; }
+#momentMap a:link {color: #fff; text-decoration: none; }
+#momentMap a:visited {color: #fff; text-decoration: none; border-width:0; }
+#momentMap a:active {color: #165CC6; text-decoration: none; background-color:#fff; }
+#momentMap a:hover {color: #165CC6; text-decoration: none; background-color:#fff; }
+
+#momentMapTitle a img { border:none; }
+#momentMapTitle a:link img { border:none; }
+#momentMapTitle a:visited img { border:none; }
+#momentMapTitle a:active img { border:none; }
+#momentMapTitle a:hover img { border:none; }
+
+#momentMapTitle a { background:none; }
+#momentMapTitle a:link { background:none; }
+#momentMapTitle a:visited { background:none; }
+#momentMapTitle a:active { background:none; }
+#momentMapTitle a:hover { background:none; }
+
+</style>
+
+<table background="http://moments.ning.com/images/cloud_gradient_bg.png" width="345" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td height="64" valign="top" width="345">
+            <div id="momentMapTitle">
+                <a href="http://moments.ning.com">
+                    <img style="padding:0; margin:0; " src="http://moments.ning.com/images/cloud_header.gif" border="0">
+                </a>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <!-- Center alignment looks better than left alignment [Jon Aquino 2005-12-21] -->
+        <td valign="top" style="text-align:center;"><img style="padding:0; margin:0" src="http://moments.ning.com/images/checkmark.gif" border="0" align="right">
+            <!-- Don't put the div outside the table; otherwise IE won't pick up the font size for some reason [Jon Aquino 2005-12-21] -->
+            <div id="momentMap">
+                <script type="text/javascript" src="http://moments.ning.com/cloud.js"></script>
+            </div>
+        </td>
+    </tr>
+</table>
+
+ </body>
+</html>

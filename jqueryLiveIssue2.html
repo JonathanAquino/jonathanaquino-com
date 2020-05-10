@@ -1,0 +1,13 @@
+<html> <head></head> <body> <form>
+
+<input type="submit" />
+
+</form> <a href="/jqueryLiveIssue2.html">Test</a> <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script> <script> $('a').live('click', function (event) {
+
+event.preventDefault(true); alert('click');
+
+}); $('form').live('submit', function(event) {
+
+event.preventDefault(true); alert('submit');
+
+}); </script> </html>

@@ -1,0 +1,25 @@
+#!/usr/local/bin/bash
+
+/usr/local/bin/ruby /home/jonathanaquino/public_html/descriptious_dev/descriptious-1.2.rb http://populicio.us/newlinks.rss | /usr/local/bin/tidy -indent -xml > /home/jonathanaquino/public_html/descriptious_dev/descriptious.xml
+cat /home/jonathanaquino/public_html/descriptious_dev/descriptious.xml > /home/jonathanaquino/public_html/descriptious_dev/descriptious-populicious.xml
+/usr/local/bin/python /home/jonathanaquino/public_html/descriptious_dev/xslt.py rss1.xsl descriptious-populicious.xml descriptious-populicious.html
+
+/usr/local/bin/ruby /home/jonathanaquino/public_html/descriptious_dev/descriptious-1.2.rb http://del.icio.us/rss/popular/ | /usr/local/bin/tidy -indent -xml > /home/jonathanaquino/public_html/descriptious_dev/descriptious.xml
+cat /home/jonathanaquino/public_html/descriptious_dev/descriptious.xml > /home/jonathanaquino/public_html/descriptious_dev/descriptious-delicious-popular.xml
+/usr/local/bin/python /home/jonathanaquino/public_html/descriptious_dev/xslt.py rss1.xsl descriptious-delicious-popular.xml descriptious-delicious-popular.html
+
+/usr/local/bin/ruby /home/jonathanaquino/public_html/descriptious_dev/descriptious-1.2.rb 'http://www.wotzwot.com/rssxl.php?pageurl=http%3A%2F%2Ffresh.homeunix.net%2Fdelicious.html&sf=%3Ctable%3E&si=%3Ctr%3E%3Ctd%3E&ei=%3C%2Ftd%3E%3C%2Ftr%3E&sd=&ed=' | /usr/local/bin/tidy -indent -xml > /home/jonathanaquino/public_html/descriptious_dev/descriptious.xml
+cat /home/jonathanaquino/public_html/descriptious_dev/descriptious.xml > /home/jonathanaquino/public_html/descriptious_dev/descriptious-trendalicious.xml
+
+/usr/local/bin/ruby /home/jonathanaquino/public_html/descriptious_dev/descriptious-1.2.rb http://populicio.us/newlinks48.rss | /usr/local/bin/tidy -indent -xml > /home/jonathanaquino/public_html/descriptious_dev/descriptious.xml
+cat /home/jonathanaquino/public_html/descriptious_dev/descriptious.xml > /home/jonathanaquino/public_html/descriptious_dev/descriptious-populicious-new-sites-48h.xml
+/usr/local/bin/python /home/jonathanaquino/public_html/descriptious_dev/xslt.py rss1.xsl descriptious-populicious-new-sites-48h
+
+/usr/local/bin/ruby /home/jonathanaquino/public_html/descriptious_dev/descriptious-1.2.rb http://populicio.us/last24hours.rss | /usr/local/bin/tidy -indent -xml > /home/jonathanaquino/public_html/descriptious_dev/descriptious.xml
+cat /home/jonathanaquino/public_html/descriptious_dev/descriptious.xml > /home/jonathanaquino/public_html/descriptious_dev/descriptious-populicious-last-24h-popular.xml
+/usr/local/bin/python /home/jonathanaquino/public_html/descriptious_dev/xslt.py rss1.xsl descriptious-populicious-last-24h-popular.xml descriptious-populicious-last-24h-popular.html
+
+# Disabling this feed because it takes too long to process [Jon Aquino 2005-05-07]
+# /usr/local/bin/ruby /home/jonathanaquino/public_html/descriptious_dev/descriptious-1.2.rb http://populicio.us/fulltotal.rss | /usr/local/bin/tidy -indent -xml > /home/jonathanaquino/public_html/descriptious_dev/descriptious.xml
+# cat /home/jonathanaquino/public_html/descriptious_dev/descriptious.xml > /home/jonathanaquino/public_html/descriptious_dev/descriptious-populicious-all-time-popular.xml
+# /usr/local/bin/python /home/jonathanaquino/public_html/descriptious_dev/xslt.py rss1.xsl descriptious-populicious-all-time-popular

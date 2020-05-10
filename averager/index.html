@@ -1,0 +1,40 @@
+<html>
+<head>
+  <title>Averager</title>
+  <link rel="stylesheet" type="text/css" href="/mystyle.css" />
+  <script language="javascript">
+    function trim(str) {
+      return str.replace(/^\s*|\s*$/g,"");
+    }
+    function average (myArray) {
+      sum = 0.0;
+      n = 0
+      for (i = 0; i < myArray.length; i++) {
+        x = trim(myArray[i]);
+        if (!x.match(/^\d+$/)) { continue; }
+        sum += parseFloat(x);
+        n += 1;
+      }
+      return sum/n;
+    }
+    function lines() {
+      return document.form.textarea.value.split("\n");
+    }
+    function computeAverage() {
+      document.all.output.innerHTML = "Average = " + average(lines());
+    }
+  </script>
+</head>
+<body>
+  <h1>Averager</h1>
+  <a href="http://jonaquinolabs.blogspot.com">Jon Aquino Labs</a></span><br><br>
+  Enter some numbers, one per line. Then press the button to compute the average.
+  <form name="form">
+    <textarea name="textarea" cols="60" rows="8">52542
+23524
+123</textarea><br>
+    <input type="button" value="Compute Average" onClick="computeAverage()"><br>
+  </form>
+  <div id="output">Average = </div>
+</body>
+</html>

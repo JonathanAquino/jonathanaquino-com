@@ -1,0 +1,8 @@
+use XML::XSLT;
+
+my $xslt = XML::XSLT->new ($xsl, warnings => 1);
+
+$xslt->transform ($xmlfile);
+print $xslt->toString;
+
+$xslt->dispose();

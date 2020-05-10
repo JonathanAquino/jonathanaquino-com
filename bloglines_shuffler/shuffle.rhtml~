@@ -1,0 +1,127 @@
+<html>
+<head>
+  <title>Bloglines Shuffler</title>
+  <link rel="stylesheet" type="text/css" href="/mystyle.css" />
+  <style type='text/css' media='all'>
+  .item-title {
+    font-weight: bold;
+    font-size: medium;
+  }
+  .unsubscribe {
+    font-style: italic;
+    font-size: x-small;
+  }
+  </style>
+</head>
+<body>
+<%
+begin
+%>
+  <h1>Bloglines Shuffler</h1>
+  <span style="font-size:x-small"><a href="http://jonaquino.blogspot.com/2005/04/bloglines-shuffler-new-way-to-read.html">About Bloglines Shuffler</a> | <a href="http://jonaquinolabs.blogspot.com">Jon Aquino Labs</a></span><br><br>
+  <table width='100%' cellspacing='0' cellpadding='0'>
+<%
+  require "cgi"
+  require "cgi/session"
+  cgi = CGI.new
+  session = nil
+  if cgi["_session_id"] == ""
+    session = CGI::Session.new(cgi, "new_session" => true)
+    session["username"] = cgi["username"]
+    session["password"] = cgi["password"]
+  else
+    session = CGI::Session.new(cgi, "session_id" => cgi["_session_id"], "new_session" => false)
+  end
+
+  require 'net/http'
+  def get(address, path, username, password)
+    Net::HTTP.start(address) { |http|
+      req = Net::HTTP::Get.new(path)
+      req.basic_auth username, password
+      response = http.request(req).body
+    }
+  end
+
+  # my_shuffle! code by David Alan Black, "Array.shuffle",
+  # http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/19148
+  # [Jon Aquino 2005-04-16]
+  class Array
+    def my_shuffle!
+      size.downto(1) do |n| push(delete_at(rand(n))) end
+      self
+    end
+  end
+
+  require "rexml/document"
+  include REXML
+
+  def feed_title_url_to_id_map(username, password)
+    feed_title_url_to_id_map = {}
+    doc = Document.new(get("bloglines.com", "/listsubs", username, password))
+    XPath.each(doc, "//outline") { |outline|
+      next if outline.attributes["htmlUrl"] == nil
+      feed_title_url_to_id_map[outline.attributes["htmlUrl"].to_s+outline.attributes["title"].to_s] = outline.attributes["BloglinesSubId"].to_s
+    }
+    feed_title_url_to_id_map
+  end
+
+  def items(username, password)
+    # The siteid returned by getitems doesn't always match the subscription id.
+    # So produce a map of feed title+url to subscription id. There is room for
+    # ambiguity, but that's the best we can do until Bloglines decides
+    # to provide more information in their API [Jon Aquino 2005-04-18]
+    feed_title_url_to_id_map = feed_title_url_to_id_map(username, password)
+    items = []    
+    doc = Document.new(get("bloglines.com", "/getitems?s=0&n=0", username, password))
+    return items if doc.children.empty?
+    XPath.each(doc, "/rss/channel") { |channel|
+     channel.elements.each('item') { |item|
+        # "link" elements are sometimes not provided [Jon Aquino 2005-04-16]
+       items << "<span class='item-title'><a href=\"#{item.text('link')}\">#{item.text('title')}</a></span><br>" +
+                "<a href=\"#{channel.text('link')}\">#{channel.text('title')}</a> " +
+                "<span class='unsubscribe' style='margin-left:1cm'>Don't like this feed? <a class='unsubscribe' style='color:red' href='http://bloglines.com/myblogs_subs?removesub=#{feed_title_url_to_id_map[channel.text('link')+channel.text('title')]}' target='_blank'>Unsubscribe.</a></span><br>" +
+                "#{item.text('description')}<br>"
+     }
+    }
+    items
+  end
+
+  items = []
+  if cgi["action"] == "mark_all_as_read"
+    get("bloglines.com", "/getitems?s=0&n=1", session["username"], session["password"])
+  else
+    items = items(session["username"], session["password"])
+  end
+  i = 0
+  items.my_shuffle!.each { |item|
+    i += 1 
+%>
+    <tr bgcolor="<%=i%2==0?"#efefef":"#ffffff"%>"><td><br>
+      <%=item%>
+    </td></tr>
+    <tr bgcolor="<%=i%2==0?"#efefef":"#ffffff"%>"><td align="right"><a href="shuffle.html?action=mark_all_as_read&_session_id=<%=session.session_id%>">
+      I'm done. Mark all items as read.
+    </a></td></tr>
+<%
+  }
+%>
+  </table>
+  <% if items.empty? %>
+    There aren't any unread items. You're all caught up!
+    <form name="form" action="shuffle.rhtml?" method="GET">
+      <input name="button" type="submit" value="Check for new items">
+      <input name="_session_id" type="hidden" value="<%=session.session_id%>">
+    </form>
+    <script language="JavaScript">document.form.button.focus();</script>
+  <% end %>
+  <hr>
+  Generated <%=Time.new%>
+<%
+rescue => e
+%>
+  <%="Exception: #{e.class}: #{e.message}\n\t#{e.backtrace.join("\n\t")}"%>
+<%
+end
+%>
+</body>
+</html>

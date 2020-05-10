@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+            <title>Ning Devv Foo Long Name&#039;s Posts - הלב- רשת חברתית, טיולים והכרויות למשפחות חד הוריות והורים גרושים</title>
+            <link rel="self" href="http://devbazjon103.xna.ningops.net/profiles/blog/feed?user=NingDev&amp;xn_auth=no&amp;a=1"/>
+            <updated>2010-12-06T18:46:25Z</updated>
+                            <author>
+                    <name>Ning Devv Foo Long Name</name>
+                    <uri>http://devbazjon103.xna.ningops.net/profile/NingDev</uri>
+                </author>
+                <icon>http://api.xna.ningops.net/files/5*EZqBMwBkpugZyqfGhPdYXkvU54h99sAT2n-zvJaU8C4qM5ipaLMqjhVYgUhuaXpTv-Axw-58daKJrjCa99h6VAjc1aYDOZ/4173275.png?width=48&amp;height=48&amp;crop=1%3A1</icon>
+                        <id>http://devbazjon103.xna.ningops.net/profiles/blog/feed?user=NingDev&amp;xn_auth=no&amp;a=1</id>
+                            <entry>
+                    <title>test</title>
+                    <link rel="alternate" href="http://devbazjon103.xna.ningops.net/xn/detail/692317:BlogPost:561"/>
+                                        <id>tag:devbazjon103.xna.ningops.net,2010-12-06:692317:BlogPost:561</id>
+                                        <updated>2010-12-06T18:30:00.000Z</updated>
+                                                            <author>
+                        <name>Ning Devv Foo Long Name</name>
+                        <uri>http://devbazjon103.xna.ningops.net/profile/NingDev</uri>
+                    </author>
+                                        <summary type="html">
+                        &lt;p&gt;this is a test &lt;a href=&quot;http://www.ibm.com/developerworks/i/spot-nextsteps.jpg&quot;&gt;image&lt;/a&gt;&lt;/p&gt;                    </summary>
+                    <content type="html">
+
+&lt;p&gt;this is a test &lt;a href=&quot;http://www.ibm.com/developerworks/i/spot-nextsteps.jpg&quot;&gt;image&lt;/a&gt;&lt;/p&gt;</content>
+<category term="United States" />
+                    <enclosure url="http://www.ibm.com/developerworks/i/spot-nextsteps.jpg" type="image/jpeg"/>                </entry>
+                            <entry>
+                    <title>hi</title>
+                    <link rel="alternate" href="http://devbazjon103.xna.ningops.net/xn/detail/692317:BlogPost:464"/>
+                                        <id>tag:devbazjon103.xna.ningops.net,2010-12-01:692317:BlogPost:464</id>
+                                        <updated>2010-12-01T00:13:04.000Z</updated>
+                                                            <author>
+                        <name>Ning Devv Foo Long Name</name>
+                        <uri>http://devbazjon103.xna.ningops.net/profile/NingDev</uri>
+                    </author>
+                                        <summary type="html">
+                        &lt;p&gt;there &lt;strong&gt;foo&lt;/strong&gt;&lt;/p&gt;                    </summary>
+                    <content type="html">
+
+&lt;p&gt;there &lt;strong&gt;foo&lt;/strong&gt;&lt;/p&gt;</content>
+<category term="United States" />
+                                    </entry>
+                            <entry>
+                    <title>hi</title>
+                    <link rel="alternate" href="http://devbazjon103.xna.ningops.net/xn/detail/692317:BlogPost:449"/>
+                                        <id>tag:devbazjon103.xna.ningops.net,2010-11-30:692317:BlogPost:449</id>
+                                        <updated>2010-11-30T22:35:36.000Z</updated>
+                                                            <author>
+                        <name>Ning Devv Foo Long Name</name>
+                        <uri>http://devbazjon103.xna.ningops.net/profile/NingDev</uri>
+                    </author>
+                                        <summary type="html">
+                        a &lt;b&gt;b&lt;/b&gt;                    </summary>
+                    <content type="html">
+a &lt;b&gt;b&lt;/b&gt;</content>
+
+<category term="United States" />
+                                    </entry>
+                            <entry>
+                    <title>tiny mce off</title>
+                    <link rel="alternate" href="http://devbazjon103.xna.ningops.net/xn/detail/692317:BlogPost:447"/>
+                                        <id>tag:devbazjon103.xna.ningops.net,2010-11-30:692317:BlogPost:447</id>
+                                        <updated>2010-11-30T21:26:13.000Z</updated>
+                                                            <author>
+                        <name>Ning Devv Foo Long Name</name>
+                        <uri>http://devbazjon103.xna.ningops.net/profile/NingDev</uri>
+                    </author>
+                                        <summary type="html">
+                        hi!                    </summary>
+                    <content type="html">
+hi!</content>
+
+<category term="United States" />
+                                    </entry>
+                            <entry>
+                    <title>test</title>
+                    <link rel="alternate" href="http://devbazjon103.xna.ningops.net/xn/detail/692317:BlogPost:445"/>
+                                        <id>tag:devbazjon103.xna.ningops.net,2010-11-30:692317:BlogPost:445</id>
+                                        <updated>2010-11-30T21:15:49.000Z</updated>
+                                                            <author>
+                        <name>Ning Devv Foo Long Name</name>
+                        <uri>http://devbazjon103.xna.ningops.net/profile/NingDev</uri>
+                    </author>
+                                        <summary type="html">
+                        &lt;p&gt;test&lt;/p&gt;                    </summary>
+                    <content type="html">
+
+&lt;p&gt;test&lt;/p&gt;</content>
+<category term="United States" />
+                                    </entry>
+                            <entry>
+                    <title>hello there</title>
+                    <link rel="alternate" href="http://devbazjon103.xna.ningops.net/xn/detail/692317:BlogPost:443"/>
+                                        <id>tag:devbazjon103.xna.ningops.net,2010-11-30:692317:BlogPost:443</id>
+                                        <updated>2010-11-30T21:15:09.000Z</updated>
+                                                            <author>
+                        <name>Ning Devv Foo Long Name</name>
+                        <uri>http://devbazjon103.xna.ningops.net/profile/NingDev</uri>
+                    </author>
+                                        <summary type="html">
+                        &lt;p&gt;hello there&lt;/p&gt;                    </summary>
+                    <content type="html">
+
+&lt;p&gt;hello there&lt;/p&gt;</content>
+<category term="United States" />
+                                    </entry>
+                            <entry>
+                    <title>hello, world</title>
+                    <link rel="alternate" href="http://devbazjon103.xna.ningops.net/xn/detail/692317:BlogPost:441"/>
+                                        <id>tag:devbazjon103.xna.ningops.net,2010-11-30:692317:BlogPost:441</id>
+                                        <updated>2010-11-30T21:12:30.000Z</updated>
+                                                            <author>
+                        <name>Ning Devv Foo Long Name</name>
+                        <uri>http://devbazjon103.xna.ningops.net/profile/NingDev</uri>
+                    </author>
+                                        <summary type="html">
+                        &lt;p&gt;this is a &lt;strong&gt;test&lt;/strong&gt;&lt;/p&gt;                    </summary>
+                    <content type="html">
+
+&lt;p&gt;this is a &lt;strong&gt;test&lt;/strong&gt;&lt;/p&gt;</content>
+<category term="United States" />
+                                    </entry>
+                            <entry>
+                    <title>j</title>
+                    <link rel="alternate" href="http://devbazjon103.xna.ningops.net/xn/detail/692317:BlogPost:372"/>
+                                        <id>tag:devbazjon103.xna.ningops.net,2010-11-29:692317:BlogPost:372</id>
+                                        <updated>2010-11-29T23:37:29.000Z</updated>
+                                                            <author>
+                        <name>Ning Devv Foo Long Name</name>
+                        <uri>http://devbazjon103.xna.ningops.net/profile/NingDev</uri>
+                    </author>
+                                        <summary type="html">
+                        &lt;p&gt;j&lt;/p&gt;                    </summary>
+                    <content type="html">
+
+&lt;p&gt;j&lt;/p&gt;</content>
+<category term="United States" />
+                                    </entry>
+                    </feed>
+

@@ -1,0 +1,2142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:admin="http://webns.net/mvcb/">
+  <channel rdf:about="http://del.icio.us/popular">
+    <title>Descriptious: del.icio.us/popular</title>
+    <link>http://del.icio.us/popular</link>
+    <description></description>
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://www.foldedspace.org/archives/004245.html" />
+        <rdf:li rdf:resource="http://www.thetoymaker.com/2Toys.html" />
+        <rdf:li rdf:resource="http://shared.snapgrid.com/gtd_tiddlywiki.html" />
+        <rdf:li rdf:resource="http://tofuhut.blogspot.com/2005/05/even-when-you-dont-find-music-here-you.html" />
+        <rdf:li rdf:resource="http://cdburnerxp.se/cssparse/css_optimiser.php" />
+        <rdf:li rdf:resource="http://www.extremetech.com/article2/0,1558,1814924,00.asp" />
+        <rdf:li rdf:resource="http://www.brucemaudesign.com/manifesto.html" />
+        <rdf:li rdf:resource="http://www.gapingvoid.com/Moveable_Type/archives/000932.html" />
+        <rdf:li rdf:resource="http://livsey.org/experiments/textareatools/" />
+        <rdf:li rdf:resource="http://getoutfoxed.com/" />
+        <rdf:li rdf:resource="http://www.tomsnetworking.com/Sections-article118.php" />
+        <rdf:li rdf:resource="http://www.imsdb.com/" />
+        <rdf:li rdf:resource="http://diveintogreasemonkey.org/" />
+        <rdf:li rdf:resource="http://littleoslo.com/eng/blogpoly.htm" />
+        <rdf:li rdf:resource="http://www.smacki.com/mp3%20search%20using%20google" />
+        <rdf:li rdf:resource="http://hwebbjr.typepad.com/openloops/2005/05/ten_ways_to_imp.html" />
+        <rdf:li rdf:resource="http://www.tiddlywiki.com/" />
+        <rdf:li rdf:resource="http://www.beautifulfonts.com/" />
+        <rdf:li rdf:resource="http://radar.oreilly.com/archives/2005/05/web_services_es.html" />
+        <rdf:li rdf:resource="http://www.bitty.com/" />
+        <rdf:li rdf:resource="http://www.incompetech.com/beta/plainGraphPaper/" />
+        <rdf:li rdf:resource="http://www.pbs.org/cringely/pulpit/pulpit20050512.html" />
+        <rdf:li rdf:resource="http://www.startupventuretoolbox.com/index.htm" />
+        <rdf:li rdf:resource="http://www.onlinetools.org/html/tools_javascript.php" />
+        <rdf:li rdf:resource="http://www.techtastic.ca/articles/portable.html" />
+        <rdf:li rdf:resource="http://www.mezzoblue.com/archives/2005/05/13/columns_grid/index.php" />
+        <rdf:li rdf:resource="http://www.lowing.org/fonts/" />
+        <rdf:li rdf:resource="http://backstage.bbc.co.uk/" />
+        <rdf:li rdf:resource="http://blog.flickr.com/flickrblog/2005/05/from_flash_to_a.html" />
+        <rdf:li rdf:resource="http://www.macdevcenter.com/pub/a/mac/2005/05/13/tiger_tips.html" />
+        <rdf:li rdf:resource="http://dwalin.ru/books/" />
+        <rdf:li rdf:resource="http://www.fundable.org/" />
+        <rdf:li rdf:resource="http://www.benjaminadam.com/archives/2005/05/13/creating-graphs-in-php" />
+        <rdf:li rdf:resource="http://www.guardian.co.uk/life/feature/story/0,13026,1481368,00.html" />
+        <rdf:li rdf:resource="http://hwebbjr.typepad.com/openloops/2005/04/how_to_lose_50_.html" />
+        <rdf:li rdf:resource="http://brothercake.com/site/resources/scripts/dbx/" />
+        <rdf:li rdf:resource="http://www.ajaxian.com/" />
+        <rdf:li rdf:resource="http://www.startupventuretoolbox.com/Process%20of%20Forming%20a%20Company.htm" />
+        <rdf:li rdf:resource="http://www.joelonsoftware.com/articles/Wrong.html" />
+        <rdf:li rdf:resource="http://content.salary.monster.com/articles/habits/" />
+        <rdf:li rdf:resource="http://yellowicon.com/index.php" />
+        <rdf:li rdf:resource="http://tiddlywiki.com/" />
+        <rdf:li rdf:resource="http://unrealtorrents.com/index.php" />
+        <rdf:li rdf:resource="http://www.paulgraham.com/hiring.html" />
+        <rdf:li rdf:resource="http://www.feedtagger.com/" />
+        <rdf:li rdf:resource="http://radar.oreilly.com/archives/2005/05/attracting_deve.html" />
+        <rdf:li rdf:resource="http://www.kuro5hin.org/story/2005/5/9/83936/58483" />
+        <rdf:li rdf:resource="http://www.inhabitat.com/" />
+        <rdf:li rdf:resource="http://interglacial.com/hoj/hoj.html" />
+        <rdf:li rdf:resource="http://www.backpackit.com/" />
+        <rdf:li rdf:resource="http://phiffer.org/tiddly/" />
+        <rdf:li rdf:resource="http://www.inhabitat.com/entry_23.php" />
+        <rdf:li rdf:resource="http://www.sitepoint.com/article/successful-development" />
+        <rdf:li rdf:resource="http://microsoft.weblogsinc.com/entry/1234000093041943/" />
+        <rdf:li rdf:resource="http://www.allaboutbeer.com/features/235coffee.html" />
+        <rdf:li rdf:resource="http://blog.monstuff.com/archives/000250.html" />
+        <rdf:li rdf:resource="http://museum.thetech.org/ugenetics/eyeCalc/eyecalculator.html" />
+        <rdf:li rdf:resource="http://www.base2john.com/fireflies/" />
+        <rdf:li rdf:resource="http://www.dodgeball.com/" />
+        <rdf:li rdf:resource="http://www.onlamp.com/pub/a/bsd/2005/05/12/FreeBSD_Basics.html" />
+        <rdf:li rdf:resource="http://inventory.overture.com/d/searchinventory/suggestion/" />
+        <rdf:li rdf:resource="http://www.ajaxmatters.com/" />
+        <rdf:li rdf:resource="http://www.googlesightseeing.com/" />
+        <rdf:li rdf:resource="http://tool-man.org/examples/sorting.html" />
+        <rdf:li rdf:resource="http://geekfantasies.com/" />
+        <rdf:li rdf:resource="http://www.patrickcurry.com/tiddly/" />
+        <rdf:li rdf:resource="http://www.geekfantasies.com/" />
+        <rdf:li rdf:resource="http://audacity.sourceforge.net/" />
+        <rdf:li rdf:resource="http://www.hackaday.com/entry/1234000690043237/" />
+        <rdf:li rdf:resource="http://www.legrady.hu/sc.html" />
+        <rdf:li rdf:resource="http://www.mindjack.com/feature/piracy051305.html" />
+        <rdf:li rdf:resource="http://www.lifehacker.com/software/web-publishing/dhtml-roundup-102924.php" />
+        <rdf:li rdf:resource="http://www.mininova.org/" />
+        <rdf:li rdf:resource="http://greg.vario.us/software/foxipod/" />
+        <rdf:li rdf:resource="http://www.geocities.com/my_haz_runs/" />
+        <rdf:li rdf:resource="http://www.storewars.org/flash/index.html" />
+        <rdf:li rdf:resource="http://blaggblogg.blogspot.com/2005/04/look-nobody-cares-that-youre-dj.html" />
+        <rdf:li rdf:resource="http://www.quirksmode.org/" />
+        <rdf:li rdf:resource="http://timyang.com/comments.php?id=630_0_1_0_C" />
+        <rdf:li rdf:resource="http://www.lifehack.org/" />
+        <rdf:li rdf:resource="http://www.alvit.de/vf/en/essential-bookmarks-for-webdesigners-and-web-developers.html" />
+        <rdf:li rdf:resource="http://www.i-hacked.com/index.php?option=com_content&amp;amp;task=view&amp;id=162&amp;Itemid=44" />
+        <rdf:li rdf:resource="http://playlistmag.com/downloads/" />
+        <rdf:li rdf:resource="http://www.ews.uiuc.edu/~nshin/PROJECTS/LASERSNOOPER/" />
+        <rdf:li rdf:resource="http://platypus.mozdev.org/" />
+        <rdf:li rdf:resource="http://radar.oreilly.com/archives/2005/05/flash_is_ajax_o.html" />
+        <rdf:li rdf:resource="http://www.brazilianartists.net/home/flags/index.htm" />
+        <rdf:li rdf:resource="http://joe.truemesh.com/blog/000511.html" />
+        <rdf:li rdf:resource="http://www.43things.com/" />
+        <rdf:li rdf:resource="http://dunck.us/collab/GreaseMonkeyUserScripts" />
+        <rdf:li rdf:resource="http://www.soundmoneytips.com/" />
+        <rdf:li rdf:resource="http://pchere.blogspot.com/2005/02/absolutely-delicious-complete-tool.html" />
+        <rdf:li rdf:resource="http://slayeroffice.com/tools/modi/v2.0/modi_help.html" />
+        <rdf:li rdf:resource="http://blog.del.icio.us/" />
+        <rdf:li rdf:resource="http://www.adaptivepath.com/publications/essays/archives/000385.php" />
+        <rdf:li rdf:resource="http://www.ilovejackdaniels.com/cheat-sheets/mod_rewrite-cheat-sheet/" />
+        <rdf:li rdf:resource="http://diveintogreasemonkey.org/toc/" />
+        <rdf:li rdf:resource="http://users.sdsc.edu/~steube/Bshell/" />
+        <rdf:li rdf:resource="http://www.realsimple.com/realsimple/content/0,21770,1020737,00.html" />
+        <rdf:li rdf:resource="http://www.baekdal.com/articles/usability/usable-XMLHttpRequest/" />
+        <rdf:li rdf:resource="http://www.grallandco.com/blog/archives/2005/05/web_ui_whats_be.html" />
+        <rdf:li rdf:resource="http://www.participatoryculture.org/bm/" />
+        <rdf:li rdf:resource="http://www.dnahack.com/" />
+        <rdf:li rdf:resource="http://www.daemonology.net/hyperthreading-considered-harmful/" />
+        <rdf:li rdf:resource="http://www.sprol.com/" />
+        <rdf:li rdf:resource="http://www.xml.com/pub/a/2005/05/11/ajax-error.html" />
+        <rdf:li rdf:resource="http://www.benjaminadam.com/" />
+        <rdf:li rdf:resource="http://www.technorati.com/" />
+        <rdf:li rdf:resource="http://hmdt-web.net/shiira/index-e.html" />
+        <rdf:li rdf:resource="http://rhysd.syntesis.org/tutorial/" />
+        <rdf:li rdf:resource="http://www.javarss.com/ajax/j2ee-ajax.html" />
+        <rdf:li rdf:resource="http://www.imdb.com/" />
+        <rdf:li rdf:resource="http://funnyfox.org/" />
+        <rdf:li rdf:resource="http://del.icio.us/doc/about" />
+      </rdf:Seq>
+    </items>
+  </channel>
+  <item rdf:about="http://www.foldedspace.org/archives/004245.html">
+
+    <title>foldedspace.org: Get Rich Slowly!</title>
+    <link>http://www.foldedspace.org/archives/004245.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/0181eb9af424a09789b35d427a01b4f2'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(money, finance, tips,
+    howto)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Advice from a
+    lot of get rich books... An excellent guide to making your
+    money go further.... An interesting article on how to achieve
+    financial freedom. At also summarise methods from different
+    books.... An aggregated summary/review of all the popular
+    personal finance self-help books... Commentary
+    &lt;/span&gt;&lt;/i&gt;&lt;br&gt;foldedspace.org: Get Rich
+    Slowly!</description>
+    <dc:creator>jgee</dc:creator>
+  </item>
+  <item rdf:about="http://www.thetoymaker.com/2Toys.html">
+    <title>T O Y S !</title>
+    <link>http://www.thetoymaker.com/2Toys.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/07d6c3bb2a8c91d9c40d4e9d986aeb89'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(toys, paper, fun,
+    art)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; diy paper
+    toys... Toymakers Workshop... pdf victorian toys and cards to
+    print out, cut out and assemble.... Papertoys... Here are some
+    free paper toys that you can make yourself. Just print them
+    out, cut, glue and enjoy. I've tried to keep them easy to
+    figure out.I hope that they amuse you....
+    paper&lt;/span&gt;&lt;/i&gt;&lt;br&gt;T O Y S !</description>
+    <dc:creator>cro_</dc:creator>
+  </item>
+  <item rdf:about="http://shared.snapgrid.com/gtd_tiddlywiki.html">
+    <title>GTD TiddlyWiki - all your tasks are belong to
+    you</title>
+    <link>http://shared.snapgrid.com/gtd_tiddlywiki.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/0b4ad9bc0a10271c97659359660e1f95'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(gtd, wiki, productivity,
+    tools)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; "GTD Tiddly Wiki
+    is a GettingThingsDone adaptation by NathanBowers of
+    JeremyRuston's Open Source TiddlyWiki."... GTD Tiddly Wiki is a
+    GettingThingsDone adaptation by NathanBowers of JeremyRuston's
+    Open Source TiddlyWiki. The purpose of GTD Tiddly Wiki is to
+    give users a single repository
+    f&lt;/span&gt;&lt;/i&gt;&lt;br&gt;GTD TiddlyWiki - all your
+    tasks are belong to you</description>
+    <dc:creator>unquiet</dc:creator>
+  </item>
+  <item rdf:about="http://tofuhut.blogspot.com/2005/05/even-when-you-dont-find-music-here-you.html">
+
+    <title>THE TOFU HUT</title>
+    <link>
+    http://tofuhut.blogspot.com/2005/05/even-when-you-dont-find-music-here-you.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/a2643bb8f3b7c069f22d5a00f239a614'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(music, mp3, blog,
+    blogs)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; mp3 blogs
+    list... Listing of MP3 blogs... Sensacional lista de
+    mp3blogs... "... what I think is the most comprehensive list of
+    musicbloggers yet available."... List of mp3 blogs,
+    aggregators, etc by genre... mp3 sites... links to lots of
+    mp3blogs out there... pretty hefty index of mp3
+    blog&lt;/span&gt;&lt;/i&gt;&lt;br&gt;THE TOFU HUT</description>
+    <dc:creator>lanto</dc:creator>
+  </item>
+  <item rdf:about="http://cdburnerxp.se/cssparse/css_optimiser.php">
+
+    <title>CSS Formatter and Optimiser/Optimizer (based on CSS
+    Parser CSSPP ver. 0.93)</title>
+    <link>http://cdburnerxp.se/cssparse/css_optimiser.php</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/891ad34abf7c1ea292826b9a87fbe643'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(css, tools, tool,
+    design)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; CSS Formatter
+    and Optimiser... Make your CSS code lighter and more readable
+    with this handy online tool.... very nice... CSS Optimiser...
+    (mal schauen)... cut and paste your css, have it reformatted
+    for readability or compactness... looks handy - could be useful
+    for learning optimization tricks -
+    wi&lt;/span&gt;&lt;/i&gt;&lt;br&gt;CSS Formatter and
+    Optimiser/Optimizer (based on CSS Parser CSSPP ver.
+    0.93)</description>
+    <dc:creator>yalestar</dc:creator>
+  </item>
+  <item rdf:about="http://www.extremetech.com/article2/0,1558,1814924,00.asp">
+
+    <title>Microsoft-Free Home Part 4: The Linux HTPC--ExtremeTech
+    Build It</title>
+    <link>
+    http://www.extremetech.com/article2/0,1558,1814924,00.asp</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/ab915a645b517c2432f50ee11fc0ec22'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(linux, pvr, htpc,
+    howto)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; soon... Home
+    Theater PC... Linux is one of the most remarkable phenomena in
+    the recent history of personal computing. In some ways, it's
+    similar to the original homebrew PC movement of the late 1970s
+    and early 80s. Equal parts cool kids club and grass roots
+    revolution, Linux in its... linux based
+    ho&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Microsoft-Free Home Part 4:
+    The Linux HTPC--ExtremeTech Build It</description>
+    <dc:creator>jvaquino</dc:creator>
+  </item>
+  <item rdf:about="http://www.brucemaudesign.com/manifesto.html">
+    <title>Incomplete Manifesto</title>
+    <link>http://www.brucemaudesign.com/manifesto.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/ccc81e7aebe8b061cb1fac3046d57f5b'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(design, manifesto,
+    lifehacks, creativity)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; "10. Everyone is
+    a leader. Growth happens. Whenever it does, allow it to emerge.
+    Learn to follow when it makes sense. Let anyone lead."...
+    manifesto for the jilted generation... Written in 1998, the
+    Incomplete Manifesto is an articulation of statements that
+    exemplify Bruce Mau's beliefs,
+    m&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Incomplete
+    Manifesto</description>
+    <dc:creator>ade</dc:creator>
+  </item>
+  <item rdf:about="http://www.gapingvoid.com/Moveable_Type/archives/000932.html">
+
+    <title>gapingvoid: how to be creative</title>
+    <link>
+    http://www.gapingvoid.com/Moveable_Type/archives/000932.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/4e6ab78ce7bfd69685bf7a85235097c5'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(creativity, art,
+    creative, productivity)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; ... je to
+    dlouhe, ale urcite si na to musim najit cas, bude se mi to
+    hodit ...... So you want to be more creative, in art, in
+    business, whatever. Here are some tips that have worked for me
+    over the years.... dy has their own private Mount Everest they
+    were put on this ea... Excellent, lengthy
+    treati&lt;/span&gt;&lt;/i&gt;&lt;br&gt;gapingvoid: how to be
+    creative</description>
+    <dc:creator>teleman</dc:creator>
+  </item>
+  <item rdf:about="http://livsey.org/experiments/textareatools/">
+    <title>Textarea tools
+    &#237;&#8482;&#8226;&#236;&#382;&#165;&#234;&#184;&#176;&#235;&#352;&#165;</title>
+    <link>http://livsey.org/experiments/textareatools/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/7dbb7399eea90d878ceab69775fae17f'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(javascript, css,
+    textarea, forms)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Small collection
+    of tools for use with textareas (or input fields).... fun with
+    the textarea... Small collection of tools for use with
+    textareas (or input fields).... Resizable textareas and word
+    counters.... wordcount, resizable, maxlength... Cool tools...
+    word count, etc.... Small collection of
+    t&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Textarea tools
+    &#237;&#8482;&#8226;&#236;&#382;&#165;&#234;&#184;&#176;&#235;&#352;&#165;</description>
+    <dc:creator>Hooney</dc:creator>
+  </item>
+  <item rdf:about="http://getoutfoxed.com/">
+    <title>Outfoxed | Personalize your internet.</title>
+    <link>http://getoutfoxed.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/18222e9bca9aa098b8560e3c27acddea'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(firefox, social, web,
+    tools)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Trusted Metadata
+    Distribution Using Social Networks... outfoxed uses ideas of
+    personal networks and trust to rank webpages. No functioning
+    linux or mac ports but source available... True personalized
+    searching, phishing &amp; spyware protection, discovery of good
+    stuff and socially aware
+    surfing....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Outfoxed |
+    Personalize your internet.</description>
+    <dc:creator>resuna</dc:creator>
+  </item>
+  <item rdf:about="http://www.tomsnetworking.com/Sections-article118.php">
+
+    <title>How To Crack WEP %u2013 Part 1: Setup &amp; Network
+    Recon : TomsNetworking :</title>
+    <link>
+    http://www.tomsnetworking.com/Sections-article118.php</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/3ecb4f30b481826063aae114173d23f7'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(security, wifi, wep,
+    wireless)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; could be
+    useful.... How To Crack WEP... How To Crack WEP - Part 1: Setup
+    &amp; Network Recon... Part 1: Setup &amp; Network Recon :
+    TomsNetworking... Well, Crack WEP!... Cracking WEP.... via
+    TomsNetworking... You don't need to be a networking expert to
+    successfully follow this How To, but you need
+    b&lt;/span&gt;&lt;/i&gt;&lt;br&gt;How To Crack WEP %u2013 Part
+    1: Setup &amp; Network Recon : TomsNetworking :</description>
+    <dc:creator>happysteve</dc:creator>
+  </item>
+  <item rdf:about="http://www.imsdb.com/">
+    <title>The Internet Movie Script Database (IMSDb)</title>
+    <link>http://www.imsdb.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/4da1261fc0e88f8ae0269b4b653c42a4'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(movies, film, scripts,
+    reference)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; The Internet
+    Movie Script Database... thanks, alex!!... The biggest
+    collection of movie scripts available anywhere on the web....
+    collection of movie scripts in HTML format... free transcripts
+    of movies... The web's largest movie script resource!... If you
+    enjoy movies you've come to the right
+    plac&lt;/span&gt;&lt;/i&gt;&lt;br&gt;The Internet Movie Script
+    Database (IMSDb)</description>
+    <dc:creator>bulletproofheeb</dc:creator>
+  </item>
+  <item rdf:about="http://diveintogreasemonkey.org/">
+    <title>Dive Into Greasemonkey</title>
+    <link>http://diveintogreasemonkey.org/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/6710663c5b49ce632b8dbf92bffd2496'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(greasemonkey, firefox,
+    javascript, programming)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; how to use
+    greasemonkey... Dive Into Greasemonkey is a book about
+    programming with Greasemonkey, a Firefox extension for
+    customizing web pages. Read it online for free.... "Dive Into
+    Greasemonkey is a book about programming with Greasemonkey, a
+    Firefox extension for customizing web pages. Read
+    &lt;/span&gt;&lt;/i&gt;&lt;br&gt;Dive Into
+    Greasemonkey</description>
+    <dc:creator>atul</dc:creator>
+  </item>
+  <item rdf:about="http://littleoslo.com/eng/blogpoly.htm">
+    <title>blogpoly - Monopoly for bloggers</title>
+    <link>http://littleoslo.com/eng/blogpoly.htm</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/1a216187408b4b021c094311c74edd3c'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(games, blog, blogs,
+    monopoly)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; From Monopoly to
+    Blogpoly... Il monopoli dei blogger.....
+    &#233;&#162;&#231;&#8482;&#189;&#227;&#8222;... A Monopoly game
+    board with Blog-related realestate... A monopoly board with
+    Internet stuff instead of streets. And they are clickable!...
+    Some surprisingly appropriate choices.... Monopoly with a
+    blogging theme... "It is
+    jus&lt;/span&gt;&lt;/i&gt;&lt;br&gt;blogpoly - Monopoly for
+    bloggers</description>
+    <dc:creator>kohwyj</dc:creator>
+  </item>
+  <item rdf:about="http://www.smacki.com/mp3%20search%20using%20google">
+
+    <title>How to Search for MP3s using Google - Automated!</title>
+    <link>
+    http://www.smacki.com/mp3%20search%20using%20google</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/817133bce1ea001c9ee790189d67ddc2'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(mp3, google, music,
+    search)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; adds google
+    parameters for mp3 searches... Achei at&#195;&#169; o "Human
+    After All" do Daft Punk e mp3!!!
+    &gt;&gt;http://faivreduboz.free.fr/divers/Daft_Punk-Human_After_All-(Retail)-2005-ToF/...
+    Type in the name of an artist or song here, and then click
+    search. All of the various parameters will
+    be&lt;/span&gt;&lt;/i&gt;&lt;br&gt;How to Search for MP3s using
+    Google - Automated!</description>
+    <dc:creator>idonen</dc:creator>
+  </item>
+  <item rdf:about="http://hwebbjr.typepad.com/openloops/2005/05/ten_ways_to_imp.html">
+
+    <title>Ten Ways to Improve Your Communication Skills</title>
+    <link>
+    http://hwebbjr.typepad.com/openloops/2005/05/ten_ways_to_imp.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/7ca01bff660e91f4009269226a750655'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(communication, speaking,
+    lifehacks, articles)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; about
+    talking...... Ten Ways to Improve Your Communication Skills...
+    Ten ways to improve your communication skills.... We all have
+    people with whom we have to work to get things done. Our
+    ability to communicate with clients, customers, subordinates,
+    peers, and superiors can enhance our
+    effectivenes&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Ten Ways to
+    Improve Your Communication Skills</description>
+    <dc:creator>kvossen</dc:creator>
+  </item>
+  <item rdf:about="http://www.tiddlywiki.com/">
+    <title>TiddlyWiki - a reusable non-linear personal web
+    notebook</title>
+    <link>http://www.tiddlywiki.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/9030797ebd5e53e711531344b0297de9'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(wiki, javascript, web,
+    software)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; an experimental
+    MicroContent WikiWikiWeb built by JeremyRuston... ThirdVersion
+    of TiddlyWiki, an experimental MicroContent WikiWikiWeb built
+    by JeremyRuston.... a reusable non-linear personal web
+    notebook... Full wiki in JavaScript; no server required... I
+    need to bring back a disk to save this
+    ups&lt;/span&gt;&lt;/i&gt;&lt;br&gt;TiddlyWiki - a reusable
+    non-linear personal web notebook</description>
+    <dc:creator>hopeless</dc:creator>
+  </item>
+  <item rdf:about="http://www.beautifulfonts.com/">
+    <title>Beautiful Fonts For Free</title>
+    <link>http://www.beautifulfonts.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/d2dc3b6adcb0eb6b6c74d4b068595e11'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(fonts, free, design,
+    font)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Beautiful Fonts
+    offers a large collection of free true type fonts for
+    Windows.... Free Fonts...
+    (&#229;&#164;&#167;&#233;&#8225;)&#230;&#181;&#183;&#229;&#164;&#8211;&#227;&#174;&#227;&#402;&#8226;&#227;&#402;&#170;&#227;&#402;&#188;&#227;&#402;&#8226;&#227;&#8218;&#169;&#227;&#402;&#179;&#227;&#402;&#710;&#233;&#8250;&#8224;...
+    large collection of true type fonts... Beautiful Fonts offers a
+    large collection of free true type fonts for Windows....
+    fonts... Beautiful Fonts offers a
+    larg&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Beautiful Fonts For
+    Free</description>
+    <dc:creator>juanjo</dc:creator>
+  </item>
+  <item rdf:about="http://radar.oreilly.com/archives/2005/05/web_services_es.html">
+
+    <title>O'Reilly Radar &gt; How To Roll Out An Open API</title>
+    <link>
+    http://radar.oreilly.com/archives/2005/05/web_services_es.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/149398d5e10063b6ef5af056463a326e'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(api, design,
+    webservices, oreilly)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Make signup
+    simple, offer toolkits for the languages that Internet
+    developers use, and think laterally about business models.
+    Ultimately, not every developer will have a business model and
+    exit strategy. Identify and help those that do, support those
+    that... I think i need to know this... toread...
+    &lt;/span&gt;&lt;/i&gt;&lt;br&gt;O'Reilly Radar &gt; How To
+    Roll Out An Open API</description>
+    <dc:creator>interruptorjones</dc:creator>
+  </item>
+  <item rdf:about="http://www.bitty.com/">
+    <title>Bitty Browser: Introduction</title>
+    <link>http://www.bitty.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/cab86438843e12a3329efdf5be00effe'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(browser, web, tools,
+    webdesign)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Bitty - embed a
+    browser in your web pages... Embedded browser within a page...
+    how neat is that? a browser within a browser :-D... Embed a
+    browser in a web page... add a little browswer to any web
+    page... an embedded browser hack... "Bitty makes it easy to add
+    a little browser (just like this
+    o&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Bitty Browser:
+    Introduction</description>
+    <dc:creator>revgeorge</dc:creator>
+  </item>
+  <item rdf:about="http://www.incompetech.com/beta/plainGraphPaper/">
+
+    <title>Free Online Graph Paper PDFs</title>
+    <link>http://www.incompetech.com/beta/plainGraphPaper/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/6088ce27b9177b5c37dcdcec686730da'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(paper, pdf, graph,
+    tools)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Downloadable and
+    very printable graph paper... Downloadable and very
+    printable... Use .pdf and printer to turn plain paper to graph
+    paper.... Graph paper generator... WTF? Graph Papers, lol. okay
+    then... Graph paper generator... Download graph paper... A
+    valuable resource when you're in a
+    pinch...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Free Online Graph
+    Paper PDFs</description>
+    <dc:creator>khaoohs</dc:creator>
+  </item>
+  <item rdf:about="http://www.pbs.org/cringely/pulpit/pulpit20050512.html">
+
+    <title>PBS | I, Cringely . May 12, 2005 - Inflection
+    Point</title>
+    <link>
+    http://www.pbs.org/cringely/pulpit/pulpit20050512.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/1c775fbec646bb00a51cf89b6060d6b1'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(google, apple,
+    microsoft, tech)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; han
+    &#195;&#164;r smart, mr X. eller smart, han &#195;&#164;r rolig
+    iaf.... the future of some important companies?... This Week
+    Changed the World of High Tech Forever, Though Most of Us Still
+    Don't Know It... Microsoft, Google, and Apple changed the world
+    of high tech forever this week, and most of us don't know it
+    ye&lt;/span&gt;&lt;/i&gt;&lt;br&gt;PBS | I, Cringely . May 12,
+    2005 - Inflection Point</description>
+    <dc:creator>ideasbazaar</dc:creator>
+  </item>
+  <item rdf:about="http://www.startupventuretoolbox.com/index.htm">
+    <title>Startup Venture Toolbox</title>
+    <link>http://www.startupventuretoolbox.com/index.htm</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/d6ec443c7b128a1148e1f169e39bdcd3'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(business, startup,
+    entrepreneur, venture)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; useful info for
+    startups... Welcome to the Startup Venture Toolbox created by
+    David Rex. The goal of the Toolbox is to provide entrepreneurs
+    with the tools and assistance necessary to help achieve their
+    desired goals as well as to provide a forum for the exploration
+    of entrepreneuri... Welcome to
+    th&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Startup Venture
+    Toolbox</description>
+    <dc:creator>ctdean</dc:creator>
+  </item>
+  <item rdf:about="http://www.onlinetools.org/html/tools_javascript.php">
+
+    <title>Javascripts, small helpers to add some interactivity to
+    your web site</title>
+    <link>
+    http://www.onlinetools.org/html/tools_javascript.php</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/13b38541c21b28d77e57d834d0c3d50b'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(javascript, tools, web,
+    dhtml)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; cool little
+    tools... Small helpers to add some interactivity to your web
+    site... S&#195;&#169;rie de recursos CSS/javascript do mesmo
+    pessoal do DOM Colapse. Ali&#195;&#161;s, tem um recurso de
+    navega&#195;&#167;&#195;&#163;o via abas que se mais aprimorado
+    fica &#195;&#179;timo. Bom conceito para uma skin do zen
+    Garden.... small collection of
+    Jav&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Javascripts, small helpers
+    to add some interactivity to your web site</description>
+    <dc:creator>ohskylab</dc:creator>
+  </item>
+  <item rdf:about="http://www.techtastic.ca/articles/portable.html">
+
+    <title>Portable apps for USB flash Drives</title>
+    <link>http://www.techtastic.ca/articles/portable.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/99caba7120f1ab85f243ed427d20ff3b'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(software, usb, portable,
+    usbdrive)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; flashdrive
+    portable apps... Today we've gathered together a bunch of
+    applications that you can use directly off your flash drive. We
+    we're inspired by the release of portable Firefox and portable
+    Thunderbird which was developed by John T. Haller. Basically
+    what he did was optimize M... Small,
+    portab&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Portable apps for USB
+    flash Drives</description>
+    <dc:creator>noelo</dc:creator>
+  </item>
+  <item rdf:about="http://www.mezzoblue.com/archives/2005/05/13/columns_grid/index.php">
+
+    <title>Columns &amp; Grids</title>
+    <link>
+    http://www.mezzoblue.com/archives/2005/05/13/columns_grid/index.php</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/c8f43054b79f23ede992012869063b63'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(design, layout, css,
+    web)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; An Article about
+    the layour of websites... The difficulty of grid systems in web
+    pages, the compromise of columns... Nice analysis and some
+    great examples.... The difficulty of grid systems in web pages,
+    the compromise of columns.... The difficulty of grid systems in
+    web pages, the compromise of
+    col&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Columns &amp;
+    Grids</description>
+    <dc:creator>joetan</dc:creator>
+  </item>
+  <item rdf:about="http://www.lowing.org/fonts/">
+    <title>Monospace/Fixed Width Programer's Fonts</title>
+    <link>http://www.lowing.org/fonts/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/abff484b9079800e3ae6e0cef2a32b1c'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(fonts, programming,
+    font, typography)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Tipografias para
+    programadores... I personally like Fixedsys... Becoming
+    frustrated with source code not aligning in my favorite source
+    editor I decided to hunt for the best font. In particular, I
+    began to hunt down the available fixed-width or monospaced
+    fonts.... Becoming frustrated with source
+    co&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Monospace/Fixed Width
+    Programer's Fonts</description>
+    <dc:creator>steveny</dc:creator>
+  </item>
+  <item rdf:about="http://backstage.bbc.co.uk/">
+    <title>BBC Backstage - open BBC developer network</title>
+    <link>http://backstage.bbc.co.uk/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/4bb91c15e7410e364c54b52b08c74202'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(bbc, rss, api,
+    news)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;
+    "prop&#195;&#179;sito &#195;&#169; que as pessoas apresentem
+    projetos e discutam suas id&#195;&#169;ias para reutlizar,
+    reproduzir e editar os conte&#195;&#186;dos disponibilizados."
+    &gt;&gt;http://www.bluebus.com.br/cgi-bin/show.pl?p=1&amp;id=60759...
+    BBC service which provides content feeds and tools to
+    developers... Developer&lt;/span&gt;&lt;/i&gt;&lt;br&gt;BBC
+    Backstage - open BBC developer network</description>
+    <dc:creator>takeoneonion</dc:creator>
+  </item>
+  <item rdf:about="http://blog.flickr.com/flickrblog/2005/05/from_flash_to_a.html">
+
+    <title>flickr changes from flash to dhtml</title>
+    <link>
+    http://blog.flickr.com/flickrblog/2005/05/from_flash_to_a.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/2e59635c8cd55110261ce58d5b6096f7'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(flickr, ajax, flash,
+    dhtml)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Flickr, the
+    popular photo-sharing application, is trading in parts of its
+    slick Flash interface for DHTML.... Flickr dumps flash for
+    DHTML... In answer to countless requests, photo pages no longer
+    use a Macromedia Flash wrapper to display photos; instead we
+    are using an old technology called
+    "&lt;/span&gt;&lt;/i&gt;&lt;br&gt;flickr changes from flash to
+    dhtml</description>
+    <dc:creator>idealisms</dc:creator>
+  </item>
+  <item rdf:about="http://www.macdevcenter.com/pub/a/mac/2005/05/13/tiger_tips.html">
+
+    <title>MacDevCenter.com: 20 Cool Tiger Features You Might Not
+    Have Heard About</title>
+    <link>
+    http://www.macdevcenter.com/pub/a/mac/2005/05/13/tiger_tips.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/b739845ae6abd1218b4b98b7c8e5d5a1'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(tiger, mac, apple,
+    osx)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Could Tiger have
+    any MORE cool features? I guess so...... great hints from Scott
+    Knaster... Lots of great Tiger Tips... at O'Reilly's
+    MacDevCenter.com... another 20 tiger features... read... some
+    Tiger features, including ones I forgot to
+    mention...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;MacDevCenter.com: 20
+    Cool Tiger Features You Might Not Have Heard
+    About</description>
+    <dc:creator>incanus</dc:creator>
+  </item>
+  <item rdf:about="http://dwalin.ru/books/">
+    <title>dwalin.ru/books</title>
+    <link>http://dwalin.ru/books/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/fa15d22896ef9b99b7080df64c46987c'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(books, free, literature,
+    ebooks)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; ... knizky, pro
+    ktere nemusim do knihovny ...... Bunch of books (fiction)...
+    Tom clancy, isaac asimov, etc... tons of books online in text
+    files... free scifi ebooks... many downloadable books by many
+    great authors... Free books!... Free Books... text format
+    books... Free Books... ebooks from a
+    russ&lt;/span&gt;&lt;/i&gt;&lt;br&gt;dwalin.ru/books</description>
+    <dc:creator>mote</dc:creator>
+  </item>
+  <item rdf:about="http://www.fundable.org/">
+    <title>Fundable</title>
+    <link>http://www.fundable.org/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/04241917ed11b0d35e579d78440320b5'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(money, fundraising, web,
+    community)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; group
+    fundraising -- and it's powered by Plone!...
+    &#232;&#353;&#233;&#8250;&#8224;&#233;&#8250;&#8224;&#228;&#189;&#8220;&#231;&#353;&#8222;&#233;&#8217;&#177;&#229;&#381;&#187;&#229;&#352;&#382;&#229;&#338;&#228;&#184;&#8364;&#228;&#187;&#182;&#228;&#186;&#8249;&#239;&#188;&#338;&#232;&#8364;&#338;Fundable&#229;&#176;&#177;&#230;&#732;&#175;&#228;&#191;&#161;&#231;&#8221;&#168;&#228;&#184;&#173;&#228;&#187;&#8249;&#232;&#8364;&#8230;...
+    raises funds as a unit .. that is divided. online.... "Fundable
+    is a new service that lets groups of people pool money to raise
+    funds or make purchases."...
+    organiz&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Fundable</description>
+    <dc:creator>dsaint</dc:creator>
+  </item>
+  <item rdf:about="http://www.benjaminadam.com/archives/2005/05/13/creating-graphs-in-php">
+
+    <title>Creating Graphs in PHP - B. Adam (Howell)</title>
+    <link>
+    http://www.benjaminadam.com/archives/2005/05/13/creating-graphs-in-php</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/9050225272add7256222e6fff0e96c06'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(php, web, programming,
+    graphing)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Brilliant....
+    Amazingly useful tutorial on drawing graphs with PHP... B. Adam
+    (Howell)... A blogger describes how he makes a dynamic graph
+    for his Web site using
+    PHP....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Creating Graphs in PHP
+    - B. Adam (Howell)</description>
+    <dc:creator>plemeljr</dc:creator>
+  </item>
+  <item rdf:about="http://www.guardian.co.uk/life/feature/story/0,13026,1481368,00.html">
+
+    <title>Guardian Unlimited | Life | 'This is how science is
+    done'</title>
+    <link>
+    http://www.guardian.co.uk/life/feature/story/0,13026,1481368,00.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/9117e9b95ae44e385ff1b67a2fcab6aa'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(science, feynman,
+    physics, letters)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Selection of
+    Richard Feynman's letters, published by his daughter... Nobel
+    physicist Richard Feynman wrote hundreds of inspiring letters,
+    often to strangers.... An insightful look at the man via his
+    writing.... Feynman... Nobel physicist Richard Feynman wrote
+    hundreds of inspiring letters, often to
+    &lt;/span&gt;&lt;/i&gt;&lt;br&gt;Guardian Unlimited | Life |
+    'This is how science is done'</description>
+    <dc:creator>blackbeltjones</dc:creator>
+  </item>
+  <item rdf:about="http://hwebbjr.typepad.com/openloops/2005/04/how_to_lose_50_.html">
+
+    <title>How to Lose 50 Pounds</title>
+    <link>
+    http://hwebbjr.typepad.com/openloops/2005/04/how_to_lose_50_.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/a019e73f9dcb611d78bd6d9f067e2294'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(diet, health, food,
+    fitness)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; How to Lose 50
+    Pounds - Stop sniggering at the back...... the 20-30 Diet...
+    Fat &amp; Fiber... The "simple as can be" weight watching
+    plan.... 20/30 weight loss... no more than 20 grams fat, 30+
+    grams fibre, exercise... No more than 20g of fat/day, at least
+    30g of fiber/day, plus
+    exercise.&lt;/span&gt;&lt;/i&gt;&lt;br&gt;How to Lose 50
+    Pounds</description>
+    <dc:creator>kingtone</dc:creator>
+  </item>
+  <item rdf:about="http://brothercake.com/site/resources/scripts/dbx/">
+
+    <title>[brothercake] Docking boxes (dbx)</title>
+    <link>http://brothercake.com/site/resources/scripts/dbx/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/ecddf94587e4d5cf8186a72bf51edd3b'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(javascript, css, dhtml,
+    web)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Docking boxes
+    (dbx) adds animated drag 'n' drop, snap-to-grid, and
+    show/hide-contents functionality to any group of elements. And
+    ... in what might be another world-first for brothercake - dbx
+    is fully accessible to the keyboard as well as the mouse, an
+    a... Javascript Dragable Collapsing Menu
+    boxes&lt;/span&gt;&lt;/i&gt;&lt;br&gt;[brothercake] Docking
+    boxes (dbx)</description>
+    <dc:creator>tooled</dc:creator>
+  </item>
+  <item rdf:about="http://www.ajaxian.com/">
+    <title>Ajaxian.com: Dynamic tools for the web</title>
+    <link>http://www.ajaxian.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/382827e20d6b1c6ad6ce2a5eba760fe4'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(ajax, javascript, blog,
+    web)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Good source of
+    info on Ajax... Ben and Dion's Ajax Mission... new dhtml era
+    has begun... XMLHttpRequest... it could be boring and stupid...
+    Ben and Dion discuss Ajaxian technology.... Blog about Ajax...
+    web site about ajax philosophy... Ajaxian Blog... better follow
+    the hype... Learn about Ajax at
+    A&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Ajaxian.com: Dynamic tools
+    for the web</description>
+    <dc:creator>mediaslave</dc:creator>
+  </item>
+  <item rdf:about="http://www.startupventuretoolbox.com/Process%20of%20Forming%20a%20Company.htm">
+
+    <title>Startup: Process of Forming a Company</title>
+    <link>
+    http://www.startupventuretoolbox.com/Process%20of%20Forming%20a%20Company.htm</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/d57e2babe6922abb502d0268cc918cfe'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(business, startup,
+    howto, company)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; John Nesheim, in
+    his best-selling book High Tech Start Up: The Complete Handbook
+    for Creating Successful New High Tech Companies, concludes from
+    his research that there are 14 stages in taking a venture from
+    idea to IPO,... 14 Steps!... startup process... A good thing to
+    keep around in case I ever
+    w&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Startup: Process of Forming a
+    Company</description>
+    <dc:creator>tdarugar</dc:creator>
+  </item>
+  <item rdf:about="http://www.joelonsoftware.com/articles/Wrong.html">
+
+    <title>"Making Wrong Code Look Wrong" by Joel Spolsky</title>
+    <link>http://www.joelonsoftware.com/articles/Wrong.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/54b6ad2b2aa3919c850f38961910d66f'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(programming, software,
+    code, development)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; how hungarian
+    notation should really be applied and why it should be used...
+    more on "systems" vs. "apps" Hungarian notation... how
+    Hungarian notation should really work and why it should be
+    used... how Hungarian notation should really work and why it
+    should be used... This is
+    th&lt;/span&gt;&lt;/i&gt;&lt;br&gt;"Making Wrong Code Look
+    Wrong" by Joel Spolsky</description>
+    <dc:creator>mudge</dc:creator>
+  </item>
+  <item rdf:about="http://content.salary.monster.com/articles/habits/">
+
+    <title>Five Habits of Millionaires -</title>
+    <link>http://content.salary.monster.com/articles/habits/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/eb4f8df6afd0e0fbe358b0c2f33d6088'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(finance, money,
+    business, wealth)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Does it do any
+    good to act like a millionaire before you actually are one?
+    Probably so.... And how much money does the professor say it
+    takes to be happy? "About $1 million, give or take a
+    little."... Long-term strategies - more like a
+    philosophy....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Five Habits of
+    Millionaires -</description>
+    <dc:creator>garufalias</dc:creator>
+  </item>
+  <item rdf:about="http://yellowicon.com/index.php">
+    <title>Yellow Icon : Quality Freeware Icons For You</title>
+    <link>http://yellowicon.com/index.php</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/ea765f2d8414184bd78b1904ebedcff7'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(icons, design, free,
+    graphics)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Quality Freeware
+    Icons... Iconos muy buenos completamente gratuitos... Quality
+    Freeware Icons For You... Quality Freeware Icons For You...
+    Quality Freeware Icons For You... when you need an icon, check
+    here first... Grande quantidade de bons &#195;&#173;cone
+    fornecidos pela Yellow Icon. Trabalho bem feito,
+    na&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Yellow Icon : Quality
+    Freeware Icons For You</description>
+    <dc:creator>hibinoster</dc:creator>
+  </item>
+  <item rdf:about="http://tiddlywiki.com/">
+    <title>Client Side Wiki</title>
+    <link>http://tiddlywiki.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/bbe13b2dce0e0d589d0547f955d48be7'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(wiki, javascript, web,
+    software)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; this looks uber
+    groovy for keeping track of my brain - almost like a voodoopad
+    i can use on any computer.... a reusable non-linear personal
+    web notebook... a reusable non-linear personal web notebook...
+    a reusable non-linear personal web notebook... Interesting wiki
+    thingy!... Client side wiki...
+    'a&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Client Side
+    Wiki</description>
+    <dc:creator>jon.m</dc:creator>
+  </item>
+  <item rdf:about="http://unrealtorrents.com/index.php">
+    <title>UnrealTorrents</title>
+    <link>http://unrealtorrents.com/index.php</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/6d7fb96edd43df91f3a48cfd2fbcff43'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(torrent, bittorrent,
+    torrents, p2p)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;UnrealTorrents</description>
+    <dc:creator>leptonix</dc:creator>
+  </item>
+  <item rdf:about="http://www.paulgraham.com/hiring.html">
+    <title>Hiring is Obsolete</title>
+    <link>http://www.paulgraham.com/hiring.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/f8493ae613a137039f7b54986f022488'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(business, startup,
+    hiring, toread)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Paul Graham
+    essay... The best CV is an upstart...
+    &#227;&#8364;&#232;&#170;&#173;&#227;&#191;&#228;&#184;&#173;&#227;&#8364;&#8216;Paul
+    Graham
+    &#233;&#8250;&#8225;&#227;&#8224;&#227;&#8220;&#227;&#168;&#227;&#175;&#230;&#8482;&#8218;&#228;&#187;&#163;&#233;&#8230;&#227;&#8218;&#338;&#227;&#8364;&#8218;&#229;&#173;&#166;&#231;&#8221;&#376;&#227;&#160;&#227;&#163;&#227;&#166;&#227;&#167;&#227;&#227;&#8218;&#8220;&#227;&#732;&#227;&#8218;&#402;&#227;&#8218;&#8220;&#239;&#188;&#376;&#227;&#166;&#227;&#168;&#227;&#8220;&#227;&#8218;&#227;&#8249;&#227;&#8218;&#8240;&#227;&#8364;&#8218;...
+    Undergrads are Undervalued... Paul's new essay... Low barriers
+    to trying new things... Paul Graham explains why self-employed
+    hackin&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Hiring is
+    Obsolete</description>
+    <dc:creator>danielrm26</dc:creator>
+  </item>
+  <item rdf:about="http://www.feedtagger.com/">
+    <title>feedtagger.com - rss feeds tags feed reader</title>
+    <link>http://www.feedtagger.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/195d6d7d083cfae3808d3c6e1c6a5c68'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(rss, tags, aggregator,
+    tagging)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Neat web based
+    RSS/ATOM aggregator that makes use of AJAX. Not as feature rich
+    as Bloglines but still nice.... Firstly it is web-based, so
+    when you go on holiday or don't check your feeds for an
+    extended period FeedTagger will continue to index your
+    feeds....
+    RSS&#233;&#732;&#8230;&#232;&#175;&#187;&#229;&#8482;&#168;...
+    FeedTagger allows
+    anyone&lt;/span&gt;&lt;/i&gt;&lt;br&gt;feedtagger.com - rss
+    feeds tags feed reader</description>
+    <dc:creator>sMoRTy71</dc:creator>
+  </item>
+  <item rdf:about="http://radar.oreilly.com/archives/2005/05/attracting_deve.html">
+
+    <title>O'Reilly Radar: Attracting Developers to Your
+    Platform</title>
+    <link>
+    http://radar.oreilly.com/archives/2005/05/attracting_deve.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/58cdaea83d30a8708e806994763e867f'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(api, openapi, biz,
+    marketing)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Love the best
+    developers. A great coder who's terrible at self-promotion
+    should get a leg up from your marketing group. A developer's
+    work that is catching on should have a big bucket of gasoline
+    dumped on top of it. This is just like management in a
+    team...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;O'Reilly Radar:
+    Attracting Developers to Your Platform</description>
+    <dc:creator>softtechvc</dc:creator>
+  </item>
+  <item rdf:about="http://www.kuro5hin.org/story/2005/5/9/83936/58483">
+
+    <title>Demystifying Depression - Part I || kuro5hin.org</title>
+    <link>http://www.kuro5hin.org/story/2005/5/9/83936/58483</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/131ff329368f49f5c2ab352bf1a90608'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(depression, health,
+    psychology, science)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; A really
+    well-written overview of depression and its treatments.... good
+    practical tips... awesome article on healthy living &amp;
+    depression, explained mostly scientifically... A very
+    well-composed analysis of what "clinical depression" means and
+    how to be aware of it. First of a
+    two-par&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Demystifying Depression
+    - Part I || kuro5hin.org</description>
+    <dc:creator>ametade</dc:creator>
+  </item>
+  <item rdf:about="http://www.inhabitat.com/">
+    <title>Inhabitat - source on the future of design</title>
+    <link>http://www.inhabitat.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/9591b94952424be54e7017f4f27fc1e5'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(design, architecture,
+    blog, house)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Furniture...
+    Inhabitat.com is a weblog devoted to the future of architecture
+    and interior design, tracking the innovations in technology,
+    practices and materials that are pushing design towards a
+    smarter and more sustainable
+    future....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Inhabitat - source
+    on the future of design</description>
+    <dc:creator>UTDRay</dc:creator>
+  </item>
+  <item rdf:about="http://interglacial.com/hoj/hoj.html">
+    <title>Higher-Order JavaScript</title>
+    <link>http://interglacial.com/hoj/hoj.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/f55e2317f9c7288b02007a9d59b8618c'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(javascript, programming,
+    perl, reference)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; A JavaScriptish
+    companion to Mark-Jason Dominus's Higher-Order Perl.... A
+    JavaScriptish companion to Mark-Jason Dominus's Higher-Order
+    Perl http://hop.perl.plover.com/... discussion of JavaScript
+    features vs. Perl features...
+    &#233;&#171;&#732;&#231;&#186;&#167;&#231;&#353;&#8222;javascript...
+    port of higher order perl to javascript...
+    "Hi&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Higher-Order
+    JavaScript</description>
+    <dc:creator>crysflame</dc:creator>
+  </item>
+  <item rdf:about="http://www.backpackit.com/">
+    <title>Backpack</title>
+    <link>http://www.backpackit.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/8831dc2c108067644656d90473d50937'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(tools, web, gtd,
+    productivity)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; website for
+    easily creating one page repositories of notes and media...
+    store things that are top-of-mind (current to-dos, notes,
+    thoughts, ideas, etc.)... Get things done with Backpack... Yet
+    another widget I want to play with and start to review....
+    Personal and small business information
+    manager.&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Backpack</description>
+    <dc:creator>Virginia</dc:creator>
+  </item>
+  <item rdf:about="http://phiffer.org/tiddly/">
+    <title>TiddlyWikiRemote - a wiki for your laptop</title>
+    <link>http://phiffer.org/tiddly/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/36db366c4be773e7b88ddc1cdcf495a4'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(wiki, tools, gtd,
+    software)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; a wiki for your
+    laptop...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;TiddlyWikiRemote - a
+    wiki for your laptop</description>
+    <dc:creator>christianhauck</dc:creator>
+  </item>
+  <item rdf:about="http://www.inhabitat.com/entry_23.php">
+    <title>Inhabitat&#194;&#160;-&#194;&#160;source on the future
+    of design</title>
+    <link>http://www.inhabitat.com/entry_23.php</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/85602c959d7b08199a1343af4b31b61a'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(furniture, tetris,
+    design, cool)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Cool tetris
+    building block shelves... Overpriced but nerd-compatible
+    tetris-shaped furniture... My old man could make this for next
+    to nothing. Thanks for the idea!... I want one in my room...
+    Whomever came up with the lower-left example configuration must
+    not be very good at Tetris.... Overpriced
+    b&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Inhabitat&#194;&#160;-&#194;&#160;source
+    on the future of design</description>
+    <dc:creator>chimpsky</dc:creator>
+  </item>
+  <item rdf:about="http://www.sitepoint.com/article/successful-development">
+
+    <title>Successful Web Development Methodolgies [Site
+    Planning]</title>
+    <link>
+    http://www.sitepoint.com/article/successful-development</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/8479b862db8d8ad073c44281f4b4315b'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(web, development,
+    webdesign, webdevelop)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Successful web
+    development methodolgies... Commercial Web development has been
+    around for more than 10 years. As an industry, this one's still
+    fairly young when you consider others that have been around for
+    centuries. But relative youth as an industry is no excuse for
+    not doing better.... good
+    artic&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Successful Web
+    Development Methodolgies [Site Planning]</description>
+    <dc:creator>ametade</dc:creator>
+  </item>
+  <item rdf:about="http://microsoft.weblogsinc.com/entry/1234000093041943/">
+
+    <title>Open source software for Windows - The Unofficial
+    Microsoft Weblog - microsoft.weblogsinc.com _</title>
+    <link>
+    http://microsoft.weblogsinc.com/entry/1234000093041943/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/85f7bfe5bc79200f989354d93c9b4395'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(software, windows,
+    opensource, tools)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; One thing that
+    people tend to forget is that open source
+    isn&#226;&#8364;&#8482;t just about Linux. Apple uses open
+    source stuff in it&#226;&#8364;&#8482;s products - like
+    it&#226;&#8364;&#8482;s kernel &amp; web browser for instance -
+    and even MSFT has released a couple of things as open source
+    (and I&#226;&#8364;&#8482;m no... Some nice opensource software
+    for Win&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Open source software
+    for Windows - The Unofficial Microsoft Weblog -
+    microsoft.weblogsinc.com _</description>
+    <dc:creator>sridhar</dc:creator>
+  </item>
+  <item rdf:about="http://www.allaboutbeer.com/features/235coffee.html">
+
+    <title>How to Brew Beer in a Coffee Pot</title>
+    <link>
+    http://www.allaboutbeer.com/features/235coffee.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/8574f27312b488cc0773a6e2b608ff7e'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(beer, food, howto,
+    diy)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; try this!... one
+    week to beer (probably should age longer)... All you need is an
+    electric coffee maker, a wooden rolling pin, coffee filter,
+    large saucepan, a couple of mason jars, some cheesecloth, a
+    couple of elastics, some filtered water, malted barley, hops,
+    yeast, and an hour. Start Monday
+    and&lt;/span&gt;&lt;/i&gt;&lt;br&gt;How to Brew Beer in a
+    Coffee Pot</description>
+    <dc:creator>eip</dc:creator>
+  </item>
+  <item rdf:about="http://blog.monstuff.com/archives/000250.html">
+    <title>"XMLHttpRequest Tracing" for AJAX debugging</title>
+    <link>http://blog.monstuff.com/archives/000250.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/5086244fd473fe518278bc38ff80edad'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(ajax, greasemonkey,
+    javascript, xmlhttprequest)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Cool
+    Greasemonkey plugin for your ajaxin needs... Here's a
+    Greasemonkey user script to trace XMLHttpRequest calls in the
+    javascript console. It logs the "open" and "send" calls, as
+    well as the response status code and text.... Here's a
+    Greasemonkey user script to trace
+    XMLHttpReq&lt;/span&gt;&lt;/i&gt;&lt;br&gt;"XMLHttpRequest
+    Tracing" for AJAX debugging</description>
+    <dc:creator>rybesh</dc:creator>
+  </item>
+  <item rdf:about="http://museum.thetech.org/ugenetics/eyeCalc/eyecalculator.html">
+
+    <title>What Color Eyes Would Your Children Have?</title>
+    <link>
+    http://museum.thetech.org/ugenetics/eyeCalc/eyecalculator.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/4b2e2de6988103f39cf87429a314e68f'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(science, genetics, eyes,
+    cool)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; ... uplne presne
+    to nebude, ale je to zajimave ...... predict the colour of your
+    children's eyes... What Color Eyes Would Your Children Have?...
+    What Color Eyes Would Your Children Have?... What Color Eyes
+    Would Your Children Have?... Online tool to calculate the eye
+    color of your future
+    children...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;What Color Eyes
+    Would Your Children Have?</description>
+    <dc:creator>chocolatesmudge</dc:creator>
+  </item>
+  <item rdf:about="http://www.base2john.com/fireflies/">
+    <title>Fireflies - a networked nightlights</title>
+    <link>http://www.base2john.com/fireflies/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/9919ecb6321fe8c14bbbb586cb63a9c1'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(electronics, howto, diy,
+    art)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; via the Make
+    blog: neat little PIC-based hardware project, kinda like those
+    orb things, only cooler.... Fireflies are networked nightlights
+    for a local environment, the jars can be placed in different
+    bedrooms or other spots around a home so people can communicate
+    with one another through simply
+    tap&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Fireflies - a networked
+    nightlights</description>
+    <dc:creator>crataegus</dc:creator>
+  </item>
+  <item rdf:about="http://www.dodgeball.com/">
+    <title>Dodgeball</title>
+    <link>http://www.dodgeball.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/43ccadfe9d09cf2f7786e786aea1aafb'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(mobile, social, google,
+    software)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Build social
+    relationships by texting your friends via cell phone....
+    http://home.donews.com/donews/article/7/77762.html... [Fabulosa
+    herramienta que ha comprado Google, permite, a traves del
+    movil, y por localizacion, ponerse en contacto con amigos foaf
+    y otros cercanos]... mobile social
+    software..&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Dodgeball</description>
+    <dc:creator>loquehayquever</dc:creator>
+  </item>
+  <item rdf:about="http://www.onlamp.com/pub/a/bsd/2005/05/12/FreeBSD_Basics.html">
+
+    <title>ONLamp.com: Setting up a Secure Subversion
+    Server</title>
+    <link>
+    http://www.onlamp.com/pub/a/bsd/2005/05/12/FreeBSD_Basics.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/4c6f7387ef612e5f65a6df41876979c2'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(subversion, freebsd,
+    svn, security)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Recently a
+    client hired a team of web developers to assist his overworked
+    web administrator. They asked me to set up a revision-control
+    system to ensure that no one on the team inadvertently
+    overwrote another member's work and to give the administrator
+    th... FreeBSD... Article from ONLamp.com...
+    Set&lt;/span&gt;&lt;/i&gt;&lt;br&gt;ONLamp.com: Setting up a
+    Secure Subversion Server</description>
+    <dc:creator>too.cheap.jp</dc:creator>
+  </item>
+  <item rdf:about="http://inventory.overture.com/d/searchinventory/suggestion/">
+
+    <title>Overture- Search Term Suggestion Tool</title>
+    <link>
+    http://inventory.overture.com/d/searchinventory/suggestion/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/36ad0dd25a23e68bd11b8ae5b74c3b64'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(seo, search, tools,
+    keywords)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; overture phrase
+    suggestion tool... Overture's search term suggestion tool.
+    Helpful when creating online ads.... Check what keywords are
+    used in Google... Type keywords, returns relative searches and
+    how often the keywords were used... Not sure what search terms
+    to bid on?... [use this on "used
+    &lt;/span&gt;&lt;/i&gt;&lt;br&gt;Overture- Search Term
+    Suggestion Tool</description>
+    <dc:creator>mfagan</dc:creator>
+  </item>
+  <item rdf:about="http://www.ajaxmatters.com/">
+    <title>AJAX Matters - Asynchronous JavaScript and XML and
+    XMLHTTP development information</title>
+    <link>http://www.ajaxmatters.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/7bfb86a8c97a1eaf8cb08e8c7ad795c5'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(ajax, javascript, xml,
+    xmlhttprequest)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; AJAX Matters is
+    an informational site about AJAX... An informational site about
+    AJAX and how this set of technologies is applied to web
+    development.... informational site about AJAX... Information
+    about AJAX... AJAX Matters is an informational site about AJAX
+    (short for "Advanced Javascripting
+    &lt;/span&gt;&lt;/i&gt;&lt;br&gt;AJAX Matters - Asynchronous
+    JavaScript and XML and XMLHTTP development
+    information</description>
+    <dc:creator>dion</dc:creator>
+  </item>
+  <item rdf:about="http://www.googlesightseeing.com/">
+    <title>Google Sightseeing</title>
+    <link>http://www.googlesightseeing.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/ef5652b94805435be91114494a3ec9b0'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(google, maps, cool,
+    fun)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; satellite
+    imaging maps... google maps... Cool things seen in Google maps
+    satellite views... A blog all about the funny things you can
+    see from the satelite images used by google maps.... Unusual
+    sights from google maps... Strange, interesting, or otherwise
+    noteworthy images from the satellite
+    photos&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Google
+    Sightseeing</description>
+    <dc:creator>lpaglia</dc:creator>
+  </item>
+  <item rdf:about="http://tool-man.org/examples/sorting.html">
+    <title>Drag &amp; Drop Sortable Lists with JavaScript and
+    CSS</title>
+    <link>http://tool-man.org/examples/sorting.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/3f3d3efbb80cebada20eb6321868c2de'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(javascript, css, dhtml,
+    web)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; a dynamic way to
+    sort list... awesome... Drag &amp; Drop Sortable Lists with
+    JavaScript and CSS... Cool use of javascript and css to make
+    lists sortable... Tons of good examples... cool drag and
+    drop... Then I came across Simon Cozens' example of rearranging
+    a list via drag &amp; drop. I was so
+    insp&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Drag &amp; Drop Sortable
+    Lists with JavaScript and CSS</description>
+    <dc:creator>singpolyma</dc:creator>
+  </item>
+  <item rdf:about="http://geekfantasies.com/">
+    <title>Geek Fantasies</title>
+    <link>http://geekfantasies.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/1fea114b5301a55b7df59afb1b2fdcb5'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(geek, fun, funny,
+    humor)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Kinda lame, but
+    still pretty funny.... bwahaha.... We know what you want and we
+    know how you like it....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Geek
+    Fantasies</description>
+    <dc:creator>bibi</dc:creator>
+  </item>
+  <item rdf:about="http://www.patrickcurry.com/tiddly/">
+    <title>PhpTiddlyWiki - TiddlyWiki, but with PhP!</title>
+    <link>http://www.patrickcurry.com/tiddly/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/b569ac71e7ca3d7e86f2d0ef38665387'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(wiki, php, javascript,
+    software)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; these are fun!
+    lol... based on TiddlyWiki... TiddlyWiki that links to a
+    server-side PHP component... PhpTiddlyWiki is an awesome
+    front-end (TiddlyWiki) plus a PhP/MySql backend.... mouse over
+    edit delete... msq plus tiddlywiki... nice wiki system... A
+    server-side enabled version of
+    GTDTiddlyWiki...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;PhpTiddlyWiki
+    - TiddlyWiki, but with PhP!</description>
+    <dc:creator>thatrobert</dc:creator>
+  </item>
+  <item rdf:about="http://www.geekfantasies.com/">
+    <title>Geek Fantasies</title>
+    <link>http://www.geekfantasies.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/f48832a01ae8ecaa7941a71cdbef177b'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(geek, funny, humor,
+    porn)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; "We know what
+    you want and we know how you like it." Destaque para o video
+    dos ingressos para Star Wars Episode III.... I don't understand
+    exactly what this site is meant for...... they know just what
+    we like... I have so many questions, such as "where are the RSS
+    feeds?" and &amp;qu&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Geek
+    Fantasies</description>
+    <dc:creator>eggplant</dc:creator>
+  </item>
+  <item rdf:about="http://audacity.sourceforge.net/">
+    <title>audacity</title>
+    <link>http://audacity.sourceforge.net/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/babaaa81f8cf7e58437c7e7f0b941c96'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(audio, software, music,
+    sound)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; free audio
+    editor open source... free mac os x sound recording editting
+    software... Audacity is a free audio editor. You can record
+    sounds, play sounds, import and export WAV, AIFF, Ogg Vorbis,
+    and MP3 files, and more. Use it to edit your sounds using Cut,
+    Copy and Paste (with unlimited Undo), mix
+    t&lt;/span&gt;&lt;/i&gt;&lt;br&gt;audacity</description>
+    <dc:creator>nagash</dc:creator>
+  </item>
+  <item rdf:about="http://www.hackaday.com/entry/1234000690043237/">
+
+    <title>HOW-TO: WRT Client Mode - hack a day - www.hackaday.com
+    _</title>
+    <link>http://www.hackaday.com/entry/1234000690043237/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/ca41817f6f23e47898b4202bcf9d3570'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(linksys, wrt54g, hacks,
+    linux)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Client mode lets
+    you connect the computers on the wired side of the router to
+    another router
+    wirelessly,...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;HOW-TO: WRT
+    Client Mode - hack a day - www.hackaday.com _</description>
+    <dc:creator>pantagruel</dc:creator>
+  </item>
+  <item rdf:about="http://www.legrady.hu/sc.html">
+    <title>Is your screen dirty? This might help!</title>
+    <link>http://www.legrady.hu/sc.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/da1aa75b19ce3f12a89e1585af715c91'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(humor, flash, cat,
+    funny)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; I need one of
+    these...... Let a cat lick your monitor clean... A screen
+    cleaner that works... Does your screen need cleaning? try
+    this... One of the cheesiest links you'll ever see on
+    plasticbag.org and thanks to Rebekah Ford for the
+    pointer......&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Is your screen
+    dirty? This might help!</description>
+    <dc:creator>plasticbag</dc:creator>
+  </item>
+  <item rdf:about="http://www.mindjack.com/feature/piracy051305.html">
+
+    <title>Mindjack - Piracy is Good?</title>
+    <link>http://www.mindjack.com/feature/piracy051305.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/99f55ec9896f803363c82715efb0f67f'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(tv,
+    bittorrent)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; The end of
+    TV?... "While you might assume the SciFi Channel saw a
+    significant drop-off in viewership as a result of this piracy,
+    it appears to have had the reverse effect..."... Bittorrent has
+    completely changed how I watch television, or don't... "Piracy
+    made it possible for
+    "wo&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Mindjack - Piracy is
+    Good?</description>
+    <dc:creator>donaldm</dc:creator>
+  </item>
+  <item rdf:about="http://www.lifehacker.com/software/web-publishing/dhtml-roundup-102924.php">
+
+    <title>DHTML roundup : Lifehacker</title>
+    <link>
+    http://www.lifehacker.com/software/web-publishing/dhtml-roundup-102924.php</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/dcdefd03d8ff8db6f6e7539da67c07df'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(dhtml, javascript, css,
+    web)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Cool demos...
+    Praktiaska javascript/css/dom trix... links to handy dhtml
+    code... Web monkeys, a few nifty Javascript/CSS tricks to make
+    your web pages more dynamic:... Useful little scripts - I've
+    recently been incorporating more Javascript/DOM/DHTML/whatever
+    into forms, they're useful for quick
+    fee&lt;/span&gt;&lt;/i&gt;&lt;br&gt;DHTML roundup :
+    Lifehacker</description>
+    <dc:creator>hieronymus</dc:creator>
+  </item>
+  <item rdf:about="http://www.mininova.org/">
+    <title>mininova : the ultimate bittorent source</title>
+    <link>http://www.mininova.org/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/8b848d0206893b9f7ea813ef51c2a514'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(bittorrent, torrents,
+    torrent, p2p)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; torrent file
+    &#234;&#178;&#8364;&#236;&#402;&#8240;&#236;&#8212;&#8221;&#236;&#167;&#8222;...
+    Bit Torrent search site... the ultimate bittorrent source...
+    another torrent tracker that seems quite comprehesive... the
+    ultimate bittorrent source!... BitTorrent search engine... kool
+    bt... suprnova reincarnate... Torrent tracker searchable
+    database... Mini
+    Suprnova..&lt;/span&gt;&lt;/i&gt;&lt;br&gt;mininova : the
+    ultimate bittorent source</description>
+    <dc:creator>reflog</dc:creator>
+  </item>
+  <item rdf:about="http://greg.vario.us/software/foxipod/">
+    <title>FoxiPod</title>
+    <link>http://greg.vario.us/software/foxipod/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/81773491732585c2e610a2d819bf57e6'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(firefox, ipod,
+    podcasting, mp3)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; FoxiPod uses
+    Greasemonkey with Firefox to make downloading MP3s and music
+    files and adding them to iTunes a single-click process....
+    One-click download/install of mp3s into iTunes... Greasemonkey
+    script to make downloading mp3s and music files and adding them
+    to iTunes a single-click process...
+    iPod&lt;/span&gt;&lt;/i&gt;&lt;br&gt;FoxiPod</description>
+    <dc:creator>Woody</dc:creator>
+  </item>
+  <item rdf:about="http://www.geocities.com/my_haz_runs/">
+    <title>Google for Mp3s</title>
+    <link>http://www.geocities.com/my_haz_runs/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/e3a9ace2f8fae413abf69092d035d5ed'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(mp3, google, music,
+    search)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; search strings
+    google mp3... How To Find MP3's with Google...
+    http://www.geocities.com/my_haz_runs/... automated by
+    http://www.smacki.com/mp3%20search%20using%20google... This
+    How-To will teach you how to use google to find mp3s. This
+    How-To will be highly pragmatic and will focus on the hows and
+    no&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Google for
+    Mp3s</description>
+    <dc:creator>hubs99</dc:creator>
+  </item>
+  <item rdf:about="http://www.storewars.org/flash/index.html">
+    <title>Grocery Store Wars | Join the Organic Rebellion</title>
+    <link>http://www.storewars.org/flash/index.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/5e7924dfa6005dff389ff3314eaf3df4'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(starwars, food, humor,
+    flash)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;
+    &#230;&#382;&#231;&#172;&#8216;&#231;&#353;&#8222;Store Wars...
+    Join the Organic Rebellion... "That's no moon... that's a
+    melon." - Hilarious and informative!... Join the Organic
+    Rebellion... Darth Tater! Chewbroccoli! DEATH MELON.... Awesome
+    flash video by the Organic Trade Association to reach out to
+    people about organic
+    foods.&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Grocery Store Wars |
+    Join the Organic Rebellion</description>
+    <dc:creator>numlok</dc:creator>
+  </item>
+  <item rdf:about="http://blaggblogg.blogspot.com/2005/04/look-nobody-cares-that-youre-dj.html">
+
+    <title>blagg blogg</title>
+    <link>
+    http://blaggblogg.blogspot.com/2005/04/look-nobody-cares-that-youre-dj.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/2a758c3cba1044bcc81dec0bb6e09f4a'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(humor, dj, funny,
+    music)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Jealousy or
+    well-founded vitriol?... Easy slams of DJ stereotypes saved at
+    last with a tiny bit of self irreverence.... haha!... "I have a
+    pretty impressive DVD collection and know quite a bit about
+    film history, but if I show up at your house and play Taxi
+    Driver for you, does that make me
+    Mar&lt;/span&gt;&lt;/i&gt;&lt;br&gt;blagg blogg</description>
+    <dc:creator>bringmespears</dc:creator>
+  </item>
+  <item rdf:about="http://www.quirksmode.org/">
+    <title>QuirksMode - for all your browser quirks</title>
+    <link>http://www.quirksmode.org/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/c07512ffa14b299f550a77a878db25dd'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(css, javascript, web,
+    html)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Site devoted to
+    documenting all the tips and tricks necessary to surmount
+    browser incompatibilities.... css javascript code standards
+    development... Helpful for figuring out the the best way of
+    doing things in JS or CSS.... fabulous reference for browser
+    discrepancies (bummer about the frames) -
+    esp&lt;/span&gt;&lt;/i&gt;&lt;br&gt;QuirksMode - for all your
+    browser quirks</description>
+    <dc:creator>deusx</dc:creator>
+  </item>
+  <item rdf:about="http://timyang.com/comments.php?id=630_0_1_0_C">
+    <title>15 things you can do with RSS (it was supposed to be 10,
+    but I got carried away) - Tim Yang's Geek Blog</title>
+    <link>http://timyang.com/comments.php?id=630_0_1_0_C</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/5c8c86d5a9bdc0234878f58a9743cf0c'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(rss, web, tips,
+    blog)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Ideas for using
+    RSS (as a way to evangelize it)... - Tim Yang's Geek Blog...
+    (it was supposed to be 10, but I got carried away) - Tim Yang's
+    Geek Blog... Tim Yang's Geek Blog... Cool article on RSS... 15
+    things you can do with RSS feeds... 15 things you can do with
+    RSS (it was supposed to be 10,
+    but&lt;/span&gt;&lt;/i&gt;&lt;br&gt;15 things you can do with
+    RSS (it was supposed to be 10, but I got carried away) - Tim
+    Yang's Geek Blog</description>
+    <dc:creator>timyang</dc:creator>
+  </item>
+  <item rdf:about="http://www.lifehack.org/">
+    <title>lifehack.org</title>
+    <link>http://www.lifehack.org/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/132c5563c84c28460b155b45e5688cf2'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(gtd, productivity,
+    lifehack, lifehacks)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Speed up your
+    life... Speed up your life... Speed up your life... what do you
+    think?... A lifehack blog... Tips for
+    life...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;lifehack.org</description>
+    <dc:creator>sol2k</dc:creator>
+  </item>
+  <item rdf:about="http://www.alvit.de/vf/en/essential-bookmarks-for-webdesigners-and-web-developers.html">
+
+    <title>Essential bookmarks for web designers and web
+    developers</title>
+    <link>
+    http://www.alvit.de/vf/en/essential-bookmarks-for-webdesigners-and-web-developers.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/3b0364319cf355cd582022c6e3ed2d36'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(css, web, design,
+    webdesign)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; ouch, my brain.
+    So many links...... I wanted to list on a one single page the
+    most useful web-sites, which make the life of web designers
+    easier.... the most useful web-sites, which make the life of
+    web designers easier.... Essential bookmarks for web designers
+    and web developers... Essential
+    bookm&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Essential bookmarks for
+    web designers and web developers</description>
+    <dc:creator>jeremyf</dc:creator>
+  </item>
+  <item rdf:about="http://www.i-hacked.com/index.php?option=com_content&amp;task=view&amp;id=162&amp;Itemid=44">
+
+    <title>I-Hacked.com Taking Advantage Of Technology - Transmit
+    Audio with a Laser Pen</title>
+    <link>
+    http://www.i-hacked.com/index.php?option=com_content&amp;task=view&amp;id=162&amp;Itemid=44</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/6bcccfb01de584eeb914695b83e395b3'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;()&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;I-Hacked.com
+    Taking Advantage Of Technology - Transmit Audio with a Laser
+    Pen</description>
+    <dc:creator>makemagazine</dc:creator>
+  </item>
+  <item rdf:about="http://playlistmag.com/downloads/">
+    <title>Play List Downloads</title>
+    <link>http://playlistmag.com/downloads/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/390bbf16f9192ef435a7de176506d435'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(music, mp3, free,
+    downloads)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; mmmm...free
+    music.... and there's a song called "El Toro" which used to be
+    a nickname of mine (really)... free and legal music
+    downloads... Free music is so hit and miss, ranging from great
+    finds to sucking ass, but I've heard several rave reviews of
+    the stuff coming out of this site -
+    wo&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Play List
+    Downloads</description>
+    <dc:creator>fender</dc:creator>
+  </item>
+  <item rdf:about="http://www.ews.uiuc.edu/~nshin/PROJECTS/LASERSNOOPER/">
+
+    <title>Laser Snooper</title>
+    <link>
+    http://www.ews.uiuc.edu/~nshin/PROJECTS/LASERSNOOPER/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/45405718c98e44a85a8dc6ad0a32637c'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(projects, tech, laser,
+    hacks)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Laser
+    Snooper</description>
+    <dc:creator>jamesrleejr</dc:creator>
+  </item>
+  <item rdf:about="http://platypus.mozdev.org/">
+    <title>mozdev.org - platypus</title>
+    <link>http://platypus.mozdev.org/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/86cbec14b40a39b71724c6e5f99c98cb'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(firefox, greasemonkey,
+    extension, web)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Generate custom
+    greasemonkey scripts based on your own WYSIWYG changes to a web
+    page... Platypus is a Firefox extension which lets you modify a
+    Web page from your browser -- "What You See Is What You Get" --
+    and then save those changes as a Greasemonkey script... Firefox
+    extension which le&lt;/span&gt;&lt;/i&gt;&lt;br&gt;mozdev.org -
+    platypus</description>
+    <dc:creator>hublicious</dc:creator>
+  </item>
+  <item rdf:about="http://radar.oreilly.com/archives/2005/05/flash_is_ajax_o.html">
+
+    <title>O'Reilly Radar &gt; Flash is Ajax, or Flash versus Ajax,
+    at the Ajax Summit</title>
+    <link>
+    http://radar.oreilly.com/archives/2005/05/flash_is_ajax_o.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/5c27092927bd9f9d0e74d485eda206a5'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(ajax, flash, javascript,
+    programming)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; In a "worse is
+    better" way Ajax makes Flash (and Java, ActiveX) unnecessary
+    for some kinds of interface models. Faster load time,
+    consistent interface with the rest of the browser, a
+    standard/free HTTP server backend, and broader development tool
+    support.... Another summary of the AJAX
+    con&lt;/span&gt;&lt;/i&gt;&lt;br&gt;O'Reilly Radar &gt; Flash
+    is Ajax, or Flash versus Ajax, at the Ajax Summit</description>
+    <dc:creator>hirmes</dc:creator>
+  </item>
+  <item rdf:about="http://www.brazilianartists.net/home/flags/index.htm">
+
+    <title>.:: The A-Z of Brazilian Arts, Entertainment and
+    Cultural Events in the UK ::.</title>
+    <link>
+    http://www.brazilianartists.net/home/flags/index.htm</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/ec012bb001dd7fc66aa80396069d9af0'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(art, politics, flags,
+    design)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Gotta see it to
+    get it, but very cool and poignant.... "...relevant, global,
+    and current facts put new meanings to the colours of the
+    flags..."... Flags as descriptions of world events... Good art
+    by Icaro Doria... genialiskt... Brilliant way of hammering home
+    the inequities in a variety
+    o&lt;/span&gt;&lt;/i&gt;&lt;br&gt;.:: The A-Z of Brazilian
+    Arts, Entertainment and Cultural Events in the UK
+    ::.</description>
+    <dc:creator>adecarvalho</dc:creator>
+  </item>
+  <item rdf:about="http://joe.truemesh.com/blog/000511.html">
+    <title>Joe Walnes, Flexible JUnit assertions with
+    assertThat()</title>
+    <link>http://joe.truemesh.com/blog/000511.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/4eaa69338815911c4ec7cc3f47107a65'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(java, test, junit,
+    testing)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; interesting spin
+    on testing code... Use jmock's predicates in general JUnit
+    assertions... assertThat(something, or(contains("color"),
+    contains("colour")));... Cool way of doing
+    assertions...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Joe Walnes,
+    Flexible JUnit assertions with assertThat()</description>
+    <dc:creator>jharper</dc:creator>
+  </item>
+  <item rdf:about="http://www.43things.com/">
+    <title>43 Things</title>
+    <link>http://www.43things.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/291de7f15127f2c9bc7850fc37e9ee27'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(social, goals,
+    community, tags)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; What do you want
+    to do with your life?... Things you want to do... What 43
+    things do you want to accomplish today?... What do you want to
+    do with your life?... link up with other people - do what
+    you've always wanted to do... Do 43 things in your life...
+    Interesting...
+    &#208;&#161;&#208;&#190;&#209;&#8224;&#208;&#184;&#208;&#176;&#208;&#187;&#209;&#338;&#208;&#189;&#209;&#8249;&#208;&#185;
+    &#208;&#191;&#209;&#8364;&#208;&#190;&#208;&#181;&#208;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;43
+    Things</description>
+    <dc:creator>interrupt</dc:creator>
+  </item>
+  <item rdf:about="http://dunck.us/collab/GreaseMonkeyUserScripts">
+    <title>GreaseMonkeyUserScripts</title>
+    <link>http://dunck.us/collab/GreaseMonkeyUserScripts</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/cd7b83fc5f8fe856a6d125f4ecf6d095'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(firefox, greasemonkey,
+    javascript, extensions)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; A nice
+    compendium of Greasemonkey scripts... scripts for
+    greasemonkey... Nice list of scripts for the GreaseMonkey
+    plug-in for Firefox and Mozilla.... Ton of greasemonkey
+    scripts... Grease Monkey scripts... greasemonkey script list...
+    &#208;&#8216;&#208;&#176;&#208;&#189;&#208;&#186;
+    &#209;&#208;&#186;&#209;&#8364;&#208;&#184;&#208;&#191;&#209;&#8218;&#208;&#190;&#208;&#178;
+    &#208;&#191;&#208;&#190;&#208;&#180; Greasemonkey... List of
+    Greasemo&lt;/span&gt;&lt;/i&gt;&lt;br&gt;GreaseMonkeyUserScripts</description>
+    <dc:creator>ldodds</dc:creator>
+  </item>
+  <item rdf:about="http://www.soundmoneytips.com/">
+    <title>Sound Money Tips</title>
+    <link>http://www.soundmoneytips.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/413e3b9b4ffd74a12badb477838e6098'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(money, finance, blogs,
+    blog)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; i found money
+    due me because of this weblog.... sound money tips... good
+    model... Because money just turns out to be so useful, yo...
+    Personal finance tips...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Sound
+    Money Tips</description>
+    <dc:creator>tedesson</dc:creator>
+  </item>
+  <item rdf:about="http://pchere.blogspot.com/2005/02/absolutely-delicious-complete-tool.html">
+
+    <title>Absolutely Del.icio.us - Complete Tool
+    Collection</title>
+    <link>
+    http://pchere.blogspot.com/2005/02/absolutely-delicious-complete-tool.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/df5b4d7dcd8e4d607d07fe76c26889db'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(del.icio.us, delicious,
+    tools, tips)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Integrate
+    delicious with EVERYTHING.... Del.icio.us - Complete Tool
+    Collection... Additional tools for using del.icio.us... Tips on
+    using Del.icio.us and links to addons (extensions or whatever
+    you wanna call em)... absolutely delicious complete tools
+    library... some amazing del.icio.us tools...
+    Com&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Absolutely Del.icio.us -
+    Complete Tool Collection</description>
+    <dc:creator>alonisser</dc:creator>
+  </item>
+  <item rdf:about="http://slayeroffice.com/tools/modi/v2.0/modi_help.html">
+
+    <title>Mouseover DOM Inspector v2.0 Helps @ layeroffice | tools
+    |</title>
+    <link>
+    http://slayeroffice.com/tools/modi/v2.0/modi_help.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/a218da105021351c7f10b5c9cbd79cc1'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(javascript, dom, css,
+    web)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; very cool
+    tool-let... inspect your dom!... Handy DOM inspector
+    bookmarklet... favelet that allows you to view and manipulate
+    the DOM of a web page simply by mousing around the document.
+    holy shit.... Bookmarklet and instructions... You must get this
+    now.... The Mouseover DOM Inspector, or MODI for
+    s&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Mouseover DOM Inspector v2.0
+    Helps @ layeroffice | tools |</description>
+    <dc:creator>choan</dc:creator>
+  </item>
+  <item rdf:about="http://blog.del.icio.us/">
+    <title>del.icio.us blog</title>
+    <link>http://blog.del.icio.us/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/672a2a43d7a0f24842f8006129e16906'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(del.icio.us, blog,
+    delicious, blogs)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; So I am using
+    del.icio.us to bookmark and share the news on a blog that
+    del.icio.us has a blog, on del.icio.us. How self-referential
+    can we get?... del.icio.us Corporate blog... With pics too.
+    They have nice monitors, but picnic chairs?... blog de
+    delicious... A development blog for del.icio.us....
+    &lt;/span&gt;&lt;/i&gt;&lt;br&gt;del.icio.us blog</description>
+    <dc:creator>fabrizius</dc:creator>
+  </item>
+  <item rdf:about="http://www.adaptivepath.com/publications/essays/archives/000385.php">
+
+    <title>ajax: a new approach to web applications</title>
+    <link>
+    http://www.adaptivepath.com/publications/essays/archives/000385.php</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/19456e761687204e2bc7857cbc52fe4b'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(ajax, javascript, web,
+    xml)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Good
+    introduction on Asynchronous JavaScript XML... Good article on
+    Asynchronous JavaScript + XML (JavaScript, XmlHttpRequest, DOM,
+    XHTML etc.)... web publishing theory... Explaining what Ajax is
+    and how it's used.... Asiakaspuolen tekniikat alkavat olla
+    kypsi&#195;&#164;
+    hy&#195;&#182;dynnett&#195;&#164;v&#195;&#164;ksi joustavampien
+    w&lt;/span&gt;&lt;/i&gt;&lt;br&gt;ajax: a new approach to web
+    applications</description>
+    <dc:creator>dsaint</dc:creator>
+  </item>
+  <item rdf:about="http://www.ilovejackdaniels.com/cheat-sheets/mod_rewrite-cheat-sheet/">
+
+    <title>mod_rewrite Cheat Sheet - Cheat Sheets -
+    ILoveJackDaniels.com</title>
+    <link>
+    http://www.ilovejackdaniels.com/cheat-sheets/mod_rewrite-cheat-sheet/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/7c65d24e1236cba40959467f2bdf462e'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(apache, mod_rewrite,
+    reference, cheatsheet)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; mod rewrite
+    apache... cheatsheet... Love them cheat sheets.... Another
+    cheat sheet from ilovejackdaniels... the Necronomicon of apache
+    admin... Could come handy. But why is it a bitmap file rather
+    than a PDF?... Because there are many asshats on the Web....
+    all of the pieces of mod_rewrite in one
+    pl&lt;/span&gt;&lt;/i&gt;&lt;br&gt;mod_rewrite Cheat Sheet -
+    Cheat Sheets - ILoveJackDaniels.com</description>
+    <dc:creator>m1th</dc:creator>
+  </item>
+  <item rdf:about="http://diveintogreasemonkey.org/toc/">
+    <title>Table of contents [Dive Into Greasemonkey]</title>
+    <link>http://diveintogreasemonkey.org/toc/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/31955ce25d8170d5311cd4db37e95ff8'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(greasemonkey, firefox,
+    javascript, programming)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Dive Into
+    Greasemonkey is a book about programming with Greasemonkey, a
+    Firefox extension for customizing web pages. Read it online for
+    free.... Free online book on Greasemonkey...
+    Greasemonkey&#231;&#353;&#8222;&#232;&#175;&#166;&#231;&#187;&#8224;&#228;&#189;&#191;&#231;&#8221;&#168;&#230;&#338;&#8225;&#229;&#8212;...
+    Dive Into Greasemonkey --how to write GM scripts... a book
+    about programming with &lt;/span&gt;&lt;/i&gt;&lt;br&gt;Table
+    of contents [Dive Into Greasemonkey]</description>
+    <dc:creator>dt</dc:creator>
+  </item>
+  <item rdf:about="http://users.sdsc.edu/~steube/Bshell/">
+    <title>UNIX Shell Programming</title>
+    <link>http://users.sdsc.edu/~steube/Bshell/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/4aa16ad2a2de997ad303f016bfad7026'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(unix, shell, linux,
+    programming)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; More of a
+    tutorial but has lots of info... UNIX Bourne Shell Scripting...
+    info on bash shell programming... Shell programming notities
+    van een workshop; goede start voor shell scripters in spe....
+    nice reference sheet for shell scripting... bash shell
+    examples... very simple examples.... Bourne
+    Shel&lt;/span&gt;&lt;/i&gt;&lt;br&gt;UNIX Shell
+    Programming</description>
+    <dc:creator>cami13</dc:creator>
+  </item>
+  <item rdf:about="http://www.realsimple.com/realsimple/content/0,21770,1020737,00.html">
+
+    <title>Real Simple | Cleaning | The Keep-It-Clean Plan</title>
+    <link>
+    http://www.realsimple.com/realsimple/content/0,21770,1020737,00.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/fa5313e81ad7aeb90301b84a6f0b841f'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(cleaning, home, gtd,
+    lifehacks)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; a collection of
+    routines for each area of the home, decluttering, a la
+    FlyLady.com... Daily cleaning regimen... Nur 19 Minuten am Tag
+    f&#195;&#188;r den Haushalt...... Even if it took 30 minutes,
+    these are still good priorites.... Daily cleaning regimen...
+    Must be a small house...... With a plan of attack,
+    yo&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Real Simple | Cleaning | The
+    Keep-It-Clean Plan</description>
+    <dc:creator>shakes</dc:creator>
+  </item>
+  <item rdf:about="http://www.baekdal.com/articles/usability/usable-XMLHttpRequest/">
+
+    <title>Usable XMLHttpRequest in Practice | Baekdal.com</title>
+    <link>
+    http://www.baekdal.com/articles/usability/usable-XMLHttpRequest/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/b8bad7e1212e6ce6e47d877b767bb285'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(ajax, xmlhttprequest,
+    javascript, usability)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;
+    XMLHttpRequest... Usability in XMLHttpRequest based HTML
+    forms.... WYSIWYG Business card editor... Good examples of
+    small touches to make editable forms usable...
+    XMLHttpRequest... Brief tutorial to using AJAX while
+    maintaining usability with an example form.... An interesting
+    article analyzing the &lt;/span&gt;&lt;/i&gt;&lt;br&gt;Usable
+    XMLHttpRequest in Practice | Baekdal.com</description>
+    <dc:creator>Creap</dc:creator>
+  </item>
+  <item rdf:about="http://www.grallandco.com/blog/archives/2005/05/web_ui_whats_be.html">
+
+    <title>Tug's Blog: Web UI: What's behind AJAX? Simple use cases
+    using XMLHttpRequest</title>
+    <link>
+    http://www.grallandco.com/blog/archives/2005/05/web_ui_whats_be.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/e04d58cd9cf04b2ff9194fd3bb31c35a'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(ajax, javascript,
+    programming, web)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; some good simple
+    ajax examples... I am sure you already heard about AJAX, the
+    "new" way of building Web application where using HTML,
+    Javascript, DOM, and XML you can build very interactive Web
+    applications, some examples of this interactivity are Google
+    (suggest, local, mail), MSN,
+    Amaz.&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Tug's Blog: Web UI:
+    What's behind AJAX? Simple use cases using
+    XMLHttpRequest</description>
+    <dc:creator>sbanwart</dc:creator>
+  </item>
+  <item rdf:about="http://www.participatoryculture.org/bm/">
+    <title>Broadcast Machine: Publish RSS / Torrent Video
+    Channels</title>
+    <link>http://www.participatoryculture.org/bm/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/78c1f7694b4d65ab825e56c341fffb1c'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(video, rss, p2p,
+    bittorrent)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Broadcast
+    Machine is software for your website that can publish
+    fullscreen video files to thousands, using torrent technology
+    to reduce or eliminate bandwidth costs.... web-based app for
+    easy video "channels" - RSS feeds using torrents to distrubute
+    bandwidth... An Open Source, Site Based
+    &lt;/span&gt;&lt;/i&gt;&lt;br&gt;Broadcast Machine: Publish RSS
+    / Torrent Video Channels</description>
+    <dc:creator>bryce</dc:creator>
+  </item>
+  <item rdf:about="http://www.dnahack.com/">
+    <title>DNA Hack</title>
+    <link>http://www.dnahack.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/a80c84a988b7915a8b2708445b731c09'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(dna, genetics, biology,
+    science)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Your source for
+    DIY DNA hacking information.... ooh err... DNA Hack... The
+    website for Amateur Genetic Engineering... The website for
+    Amateur Genetic Engineering... The website for Amateur Genetic
+    Engineering... Unbelievable. Information for the DIY molecular
+    biologist.... Yess! This *will* help
+    Kee&lt;/span&gt;&lt;/i&gt;&lt;br&gt;DNA Hack</description>
+    <dc:creator>flatfeetpete</dc:creator>
+  </item>
+  <item rdf:about="http://www.daemonology.net/hyperthreading-considered-harmful/">
+
+    <title>
+    http://www.daemonology.net/hyperthreading-considered-harmful/</title>
+    <link>
+    http://www.daemonology.net/hyperthreading-considered-harmful/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/e4873db3399ab67f0df22f6d6c988e74'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(security,
+    hyperthreading, cpu)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Send to CM...
+    what is this? 'make microsoft look good by comparison
+    week'?...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;http://www.daemonology.net/hyperthreading-considered-harmful/</description>
+    <dc:creator>linuxnews</dc:creator>
+  </item>
+  <item rdf:about="http://www.sprol.com/">
+    <title>bad places from space</title>
+    <link>http://www.sprol.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/06274e8310ca838aa9ed20dd77206f57'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(blog, environment, maps,
+    sprawl)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; human impact
+    from space... "Visit some of the worst places in the world via
+    satellite imagery. Our mission is to use the powers of space
+    imaging to show people the visual macroscopic effects of our
+    decisions and behavior."... A photoblog of some pretty bad
+    places... Interesting blog that
+    a&lt;/span&gt;&lt;/i&gt;&lt;br&gt;bad places from
+    space</description>
+    <dc:creator>sabak</dc:creator>
+  </item>
+  <item rdf:about="http://www.xml.com/pub/a/2005/05/11/ajax-error.html">
+
+    <title>XML.com: Errors and AJAX</title>
+    <link>
+    http://www.xml.com/pub/a/2005/05/11/ajax-error.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/672f22a497310fcb457cabac68d35014'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(ajax, javascript,
+    xmlhttprequest, xml)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; I will
+    demonstrate how to use XMLHttpRequest to not only add
+    previously impossible or infeasible features, but also to
+    reduce errors and improve quality.... I demonstrate how to use
+    XMLHttpRequest to not only add previously impossible or
+    infeasible features, but also to reduce errors and improve
+    qua&lt;/span&gt;&lt;/i&gt;&lt;br&gt;XML.com: Errors and
+    AJAX</description>
+    <dc:creator>vanderwal</dc:creator>
+  </item>
+  <item rdf:about="http://www.benjaminadam.com/">
+    <title>B. Adam (Howell)</title>
+    <link>http://www.benjaminadam.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/da446469cdd8680fc5581853cf8ce012'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(design, blog, css,
+    blogs)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Beautiful site
+    design... php graphing info... My goodness. I like so many
+    things about this page/design. I don't know where to begin.
+    Sweet use of both smart columns and graphing! [Link:
+    mezzoblue.com]... a designer's take on php graphing... somewhat
+    rare horizontal layout... All redesign, all the
+    t&lt;/span&gt;&lt;/i&gt;&lt;br&gt;B. Adam
+    (Howell)</description>
+    <dc:creator>cleer</dc:creator>
+  </item>
+  <item rdf:about="http://www.technorati.com/">
+    <title>Technorati: Web Services for bloggers.</title>
+    <link>http://www.technorati.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/43e9ca216a7317c8daecfcc1571ee80d'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(blog, search, blogs,
+    web)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Technorati Tag
+    pages bring you the latest photos, links, and posts on any
+    topic. And now you can jump from tag to tag with handy related
+    tags, listed at the top of each Tag page.... Blog search...
+    real-time search engine for blogs, create watch lists that are
+    sent as RSS feeds... Blogs search...
+    Wha&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Technorati: Web Services
+    for bloggers.</description>
+    <dc:creator>manne</dc:creator>
+  </item>
+  <item rdf:about="http://hmdt-web.net/shiira/index-e.html">
+    <title>Shiira Project - MacOS X Web Browser</title>
+    <link>http://hmdt-web.net/shiira/index-e.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/d0c5698b76e4c5ecc1ab57493345440f'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(mac, osx, web,
+    browser)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; OS X browser
+    based on WebKit. Has "tab expos&#195;&#169;". Cool.... A new
+    Mac web browser that uses Safari's Webkit for rendering and
+    extends functionality... The Shiira Project is an attempt to
+    development a web browser using Web Kit. All source code is
+    publicly available under the BSD license....
+    &lt;/span&gt;&lt;/i&gt;&lt;br&gt;Shiira Project - MacOS X Web
+    Browser</description>
+    <dc:creator>wonder</dc:creator>
+  </item>
+  <item rdf:about="http://rhysd.syntesis.org/tutorial/">
+    <title>The Complete Guide to Isometric Pixel Art</title>
+    <link>http://rhysd.syntesis.org/tutorial/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/da2b17352c48011a2145713abbd0b7e6'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(art, design, pixel,
+    graphics)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; via
+    everywhere... Guia completo de Pixel Arte. Bem interessante e
+    um aprendizado direcionado de qualidade. Foco em isometria....
+    a how to guide for pixel art... Reminds me of BeOS....
+    photoshop, illustration, art... mmm, pixels... The Complete
+    Guide to Isometric Pixel Art... great tutorials on
+    creat&lt;/span&gt;&lt;/i&gt;&lt;br&gt;The Complete Guide to
+    Isometric Pixel Art</description>
+    <dc:creator>ropeboy</dc:creator>
+  </item>
+  <item rdf:about="http://www.javarss.com/ajax/j2ee-ajax.html">
+    <title>AJAX in Action</title>
+    <link>http://www.javarss.com/ajax/j2ee-ajax.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/98925ff9faad81a0ea5daea6f5863451'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(ajax, java, javascript,
+    xmlhttprequest)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Good diagram
+    illustrating the
+    process....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;AJAX in
+    Action</description>
+    <dc:creator>j2ux</dc:creator>
+  </item>
+  <item rdf:about="http://www.imdb.com/">
+    <title>IMDB the Internet movie database</title>
+    <link>http://www.imdb.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/8eb7ae49250bc1a95057163c382ecfb8'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(movies, reference,
+    movie, film)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Site
+    non-officiel mais qui devient de plus en plus la
+    r&#195;&#169;f&#195;&#169;rence en cin&#195;&#169;ma sur le
+    Net... The Internet Movie Database...
+    Informa&#195;&#167;&#195;&#181;es sobre filmes... anything and
+    everything about any movie you can think of.... film... Best
+    resource to find anything about movies... The definitive movie
+    reference s&lt;/span&gt;&lt;/i&gt;&lt;br&gt;IMDB the Internet
+    movie database</description>
+    <dc:creator>nagash</dc:creator>
+  </item>
+  <item rdf:about="http://funnyfox.org/">
+    <title>The Office - Funnyfox</title>
+    <link>http://funnyfox.org/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/3fa1cfa3b2d86ef351dd8b5e1e3e5dc5'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(firefox, fun, video,
+    funny)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; experience
+    Firefox... a ad flash aboub firefox, very funny... Firefox
+    video ads... Hear it, taste it, see it.... [The Office -
+    Funnyfox]... Firefox video ads....
+    &#234;&#180;&#8216;&#234;&#179;&#160;&#234;&#176;&#8364;
+    &#236;&#162;&#8364;
+    &#236;&#8212;&#189;&#234;&#184;&#176;&#236;&#160;&#236;&#184;&#235;&#176;...
+    via MozillaZine - Mozilla Firefox Viral Marketing Video
+    (http://www.mozillazine.org/talkback.html?artic&lt;/span&gt;&lt;/i&gt;&lt;br&gt;The
+    Office - Funnyfox</description>
+    <dc:creator>fabrice</dc:creator>
+  </item>
+  <item rdf:about="http://del.icio.us/doc/about">
+    <title>del.icio.us</title>
+    <link>http://del.icio.us/doc/about</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/b70b4236b29ab5345010252ce80dcdfb'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(del.icio.us, delicious,
+    bookmarks, test)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;
+    http://roy.nicetypo.com/nt/roylee.nsf/Index... help page for
+    del.icio.us service...
+    &#230;&#168;&#230;&#176;&#184;&#229;&#188;&#186;... kristen
+    archives... to read later... www.qoqaznews.com... dfdsfdsa...
+    what... Test tag... STUDY this and get retrieval down...
+    test... twst... post-modern digital comics... Social
+    Bookmarking Service...
+    &lt;/span&gt;&lt;/i&gt;&lt;br&gt;del.icio.us</description>
+    <dc:creator>ipa</dc:creator>
+  </item>
+</rdf:RDF>

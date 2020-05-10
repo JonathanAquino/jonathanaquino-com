@@ -1,0 +1,6 @@
+require 'xml/xslt'
+xslt = XML::XSLT.new()
+xslt.xsl = xsl_string
+xslt.xml = xml_string
+out = xslt.serve()
+print out;

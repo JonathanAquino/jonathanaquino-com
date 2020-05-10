@@ -1,0 +1,53 @@
+<%
+require 'cgi'
+cgi = CGI.new()
+minutesBetweenNotifications = cgi['minutesBetweenNotifications'] != '' ? cgi['minutesBetweenNotifications'] : '30'
+minutesToSnooze = cgi['minutesToSnooze'] != '' ? cgi['minutesToSnooze'] : '5'
+buttonFontSize = cgi['buttonFontSize'] != '' ? cgi['buttonFontSize'] : '75pt'
+clockFontSize = cgi['clockFontSize'] != '' ? cgi['clockFontSize'] : '150pt'
+%>
+
+<html>
+<head>
+<script language="JavaScript">
+var secondsBetweenNotifications = <%=minutesBetweenNotifications%>*60;
+var startTime = new Date().getTime();
+function tick() {
+    secondsElapsed = Math.floor((new Date().getTime() - startTime) / 1000);
+    secondsRemaining = secondsBetweenNotifications - secondsElapsed;
+    minutes = Math.max(0, Math.floor(secondsRemaining / 60));
+    seconds = Math.max(0, Math.floor(secondsRemaining - (minutes * 60)));    
+    document.getElementById('clock').innerHTML = minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
+    document.title = minutes + ' min remaining';
+    if (secondsElapsed > secondsBetweenNotifications) { 
+        alert ('Snooze?');
+        secondsBetweenNotifications = <%=minutesToSnooze%>*60;
+        startTime = new Date().getTime();
+    }
+    setTimeout('tick()',1000)
+}
+</script>
+</head>
+<body onload="tick()" style="font-family: tahoma, arial, helvetica, sans-serif">
+<center>
+<form method="get">
+    minutes between notifications:
+    <input type="text" name="minutesBetweenNotifications" value="<%=minutesBetweenNotifications%>" size="4" />
+    minutes to snooze:
+    <input type="text" name="minutesToSnooze" value="<%=minutesToSnooze%>" size="2"/>
+    button font size:
+    <input type="text" name="buttonFontSize" value="<%=buttonFontSize%>" size="4" />
+    clock font size:
+    <input type="text" name="clockFontSize" value="<%=clockFontSize%>" size="4" /><br />
+    <br />
+    <span style="font-size: small">
+        <b>Tip:</b> Make this online break reminder your startup page.
+        <a href="http://jonaquino.blogspot.com/2005/10/online-break-timer.html">more</a>
+    </span><br />
+    <br />
+    <input type="submit" value="Reset" style="font-size: <%=buttonFontSize%>"/>
+</form>
+<div id="clock" style="font-weight: bolder; font-size: <%=clockFontSize%>;"></div>
+</center>
+</body>
+</html>

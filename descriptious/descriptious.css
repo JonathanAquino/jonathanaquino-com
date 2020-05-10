@@ -1,0 +1,24 @@
+.syndication-title
+{
+     font-size:  x-large;
+     font-weight:  bold;
+}
+.syndication-list-item-title
+{
+     font-size:  medium;
+     font-weight:  bold;
+}
+.syndication-list-item
+{
+     width:  700px;
+     padding-top:  10px;
+     padding-bottom:  10px;
+}
+.syndication-list-item-0
+{
+     background-color:  #FFFFFF;
+}
+.syndication-list-item-1
+{
+     background-color:  #EFEFEF;
+}

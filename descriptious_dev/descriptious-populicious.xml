@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns="http://purl.org/rss/1.0/">
+  <channel rdf:about="http://www.populicio.us/newlinks.html">
+    <title>Descriptious: Populicious. New popular sites
+    (24h).</title>
+    <link>http://www.populicio.us/newlinks.html</link>
+    <description>New popular sites (24h).</description>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>12</sy:updateFrequency>
+    <sy:updateBase>2005-05-14T16:50+01:00</sy:updateBase>
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://radar.oreilly.com/archives/2005/05/web_services_es.html" />
+        <rdf:li rdf:resource="http://www.mezzoblue.com/archives/2005/05/13/columns_grid/index.php" />
+        <rdf:li rdf:resource="http://www.macdevcenter.com/pub/a/mac/2005/05/13/tiger_tips.html" />
+        <rdf:li rdf:resource="http://www.benjaminadam.com/archives/2005/05/13/creating-graphs-in-php" />
+        <rdf:li rdf:resource="http://content.salary.monster.com/articles/habits/" />
+        <rdf:li rdf:resource="http://www.hackaday.com/entry/1234000690043237/" />
+        <rdf:li rdf:resource="http://www.base2john.com/fireflies/" />
+        <rdf:li rdf:resource="http://radar.oreilly.com/archives/2005/05/attracting_deve.html" />
+        <rdf:li rdf:resource="http://geekfantasies.com/" />
+        <rdf:li rdf:resource="http://greg.vario.us/software/foxipod/" />
+        <rdf:li rdf:resource="http://www.ews.uiuc.edu/~nshin/PROJECTS/LASERSNOOPER/" />
+        <rdf:li rdf:resource="http://www.mindjack.com/feature/piracy051305.html" />
+        <rdf:li rdf:resource="http://joe.truemesh.com/blog/000511.html" />
+        <rdf:li rdf:resource="http://www.javarss.com/ajax/j2ee-ajax.html" />
+        <rdf:li rdf:resource="http://dave.runningland.com/2005/05/13/using-backpack-and-caller-id/" />
+        <rdf:li rdf:resource="http://weblog.infoworld.com/udell/2005/05/13.html#a1232" />
+        <rdf:li rdf:resource="http://www.exubero.com/ant/dependencies.html" />
+        <rdf:li rdf:resource="http://radio.weblogs.com/0001011/2005/05/13.html#a10087" />
+        <rdf:li rdf:resource="http://slate.msn.com/id/2118391/" />
+        <rdf:li rdf:resource="http://agylen.com/2005/05/13/ajaxan-toolset/" />
+        <rdf:li rdf:resource="http://www.endicott-studio.com/jMA03Summer/theMermaid.html" />
+        <rdf:li rdf:resource="http://home.blarg.net/~glinden/Google-shareholders-meeting-slides-2005-05-12.html" />
+        <rdf:li rdf:resource="http://www.robservatory.com/" />
+        <rdf:li rdf:resource="http://www.goodpic.com/mt/archives2/2005/05/firefox_greasem.html" />
+        <rdf:li rdf:resource="http://www.schneier.com/blog/archives/2005/05/combating_spam.html" />
+        <rdf:li rdf:resource="http://www.theserverside.com/news/thread.tss?thread_id=33918" />
+        <rdf:li rdf:resource="http://www.larsholst.info/blog/2003/11/29/well-designed-weblogs/" />
+        <rdf:li rdf:resource="http://hmdt-web.net/shiira/screenshot-e.html" />
+        <rdf:li rdf:resource="http://www.people.umass.edu/ktheis/.karsten/games.html" />
+        <rdf:li rdf:resource="http://epierce.blog.usf.edu/2005/04/26/wpexport-02" />
+        <rdf:li rdf:resource="http://www.pcworld.com/resource/printable/article/0,aid,120761,00.asp" />
+        <rdf:li rdf:resource="http://www.wired.com/wired/archive/13.06/xbox.html" />
+        <rdf:li rdf:resource="http://java.sun.com/developer/technicalArticles/Media/timing/index.html?feed=JSC" />
+        <rdf:li rdf:resource="http://www.microsoft.com/downloads/details.aspx?familyid=b9bff619-236c-4bbb-9aa1-2e7bc562c7f5&amp;displaylang=en" />
+        <rdf:li rdf:resource="http://www.cnn.com/2005/TECH/internet/05/13/internet.explorer.ap/index.html" />
+        <rdf:li rdf:resource="http://www.newscientist.com/article.ns?id=mg18624995.700" />
+        <rdf:li rdf:resource="http://www.baseball-databank.org/" />
+        <rdf:li rdf:resource="http://www.siliconvalleywatcher.com/mt/archives/2005/05/scoop_can_blogg.php" />
+        <rdf:li rdf:resource="http://newsbreakers.org/" />
+        <rdf:li rdf:resource="http://doc.asf.ru/Tools%20&amp;%20Utilities.htm" />
+        <rdf:li rdf:resource="http://llamasoft.co.uk/neon.php" />
+        <rdf:li rdf:resource="http://www.letterpressed.com/index.shtml" />
+        <rdf:li rdf:resource="http://www.zentastic.com/entries/200505131335.html" />
+        <rdf:li rdf:resource="http://filebox.vt.edu/users/akemp/Portfolio/had/" />
+        <rdf:li rdf:resource="http://www.micropersuasion.com/2005/05/let_the_blog_ba.html" />
+        <rdf:li rdf:resource="http://www.visual-io.com/" />
+        <rdf:li rdf:resource="http://honolulu.hawaii.edu/intranet/committees/FacDevCom/guidebk/teachtip/teachtip.htm#assessment" />
+        <rdf:li rdf:resource="http://defendem.com/read/book/1" />
+        <rdf:li rdf:resource="http://www.esi.umontreal.ca/~gauvin/formationcontinue/index.html" />
+        <rdf:li rdf:resource="http://www.usus.org/elements/tracing.htm" />
+        <rdf:li rdf:resource="http://www.microsoft.com/windows/onecare/default.mspx" />
+        <rdf:li rdf:resource="http://www.conceptlab.com/control/" />
+        <rdf:li rdf:resource="http://www.clichesw.com/products/burnoutmenu250/" />
+        <rdf:li rdf:resource="http://news.bbc.co.uk/1/hi/magazine/4543675.stm" />
+        <rdf:li rdf:resource="http://www.featuredrivendevelopment.com/" />
+        <rdf:li rdf:resource="http://joe.truemesh.com/blog//000511.html" />
+        <rdf:li rdf:resource="http://slate.msn.com/id/2118429/" />
+        <rdf:li rdf:resource="http://www.codestore.net/store.nsf/unid/BLOG-20050420?OpenDocument" />
+        <rdf:li rdf:resource="http://openwrt.org/OpenWrtDocs" />
+        <rdf:li rdf:resource="http://www.donews.net/zrde/archive/2005/05/12/377257.aspx" />
+      </rdf:Seq>
+    </items>
+  </channel>
+  <item rdf:about="http://radar.oreilly.com/archives/2005/05/web_services_es.html">
+
+    <title>O'Reilly Radar &gt; How To Roll Out An Open API</title>
+    <link>
+    http://radar.oreilly.com/archives/2005/05/web_services_es.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/149398d5e10063b6ef5af056463a326e'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(api, design,
+    webservices, oreilly)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Make signup
+    simple, offer toolkits for the languages that Internet
+    developers use, and think laterally about business models.
+    Ultimately, not every developer will have a business model and
+    exit strategy. Identify and help those that do, support those
+    that... I think i need to know this... toread...
+    &lt;/span&gt;&lt;/i&gt;&lt;br&gt;O'Reilly Radar &gt; How To
+    Roll Out An Open API</description>
+  </item>
+  <item rdf:about="http://www.mezzoblue.com/archives/2005/05/13/columns_grid/index.php">
+
+    <title>mezzoblue &#194;&#167; Columns &amp; Grids</title>
+    <link>
+    http://www.mezzoblue.com/archives/2005/05/13/columns_grid/index.php</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/c8f43054b79f23ede992012869063b63'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(design, layout, css,
+    web)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; An Article about
+    the layour of websites... The difficulty of grid systems in web
+    pages, the compromise of columns... Nice analysis and some
+    great examples.... The difficulty of grid systems in web pages,
+    the compromise of columns.... The difficulty of grid systems in
+    web pages, the compromise of
+    col&lt;/span&gt;&lt;/i&gt;&lt;br&gt;mezzoblue &#194;&#167;
+    Columns &amp; Grids</description>
+  </item>
+  <item rdf:about="http://www.macdevcenter.com/pub/a/mac/2005/05/13/tiger_tips.html">
+
+    <title>20 Cool Tiger Features You Might Not Have Heard
+    About</title>
+    <link>
+    http://www.macdevcenter.com/pub/a/mac/2005/05/13/tiger_tips.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/b739845ae6abd1218b4b98b7c8e5d5a1'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(tiger, mac, apple,
+    osx)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Could Tiger have
+    any MORE cool features? I guess so...... great hints from Scott
+    Knaster... Lots of great Tiger Tips... at O'Reilly's
+    MacDevCenter.com... another 20 tiger features... read... some
+    Tiger features, including ones I forgot to
+    mention...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;20 Cool Tiger
+    Features You Might Not Have Heard About</description>
+  </item>
+  <item rdf:about="http://www.benjaminadam.com/archives/2005/05/13/creating-graphs-in-php">
+
+    <title>Creating Graphs in PHP</title>
+    <link>
+    http://www.benjaminadam.com/archives/2005/05/13/creating-graphs-in-php</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/9050225272add7256222e6fff0e96c06'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(php, web, programming,
+    graphing)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Brilliant....
+    Amazingly useful tutorial on drawing graphs with PHP... B. Adam
+    (Howell)... A blogger describes how he makes a dynamic graph
+    for his Web site using
+    PHP....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Creating Graphs in
+    PHP</description>
+  </item>
+  <item rdf:about="http://content.salary.monster.com/articles/habits/">
+
+    <title>Five Habits of Millionaires</title>
+    <link>http://content.salary.monster.com/articles/habits/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/eb4f8df6afd0e0fbe358b0c2f33d6088'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(finance, money,
+    business, wealth)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Does it do any
+    good to act like a millionaire before you actually are one?
+    Probably so.... And how much money does the professor say it
+    takes to be happy? "About $1 million, give or take a
+    little."... Long-term strategies - more like a
+    philosophy....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Five Habits of
+    Millionaires</description>
+  </item>
+  <item rdf:about="http://www.hackaday.com/entry/1234000690043237/">
+
+    <title>HOW-TO: WRT Client Mode - hack a day - www.hackaday.com
+    _</title>
+    <link>http://www.hackaday.com/entry/1234000690043237/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/ca41817f6f23e47898b4202bcf9d3570'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(linksys, wrt54g, hacks,
+    linux)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Client mode lets
+    you connect the computers on the wired side of the router to
+    another router
+    wirelessly,...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;HOW-TO: WRT
+    Client Mode - hack a day - www.hackaday.com _</description>
+  </item>
+  <item rdf:about="http://www.base2john.com/fireflies/">
+    <title>Fireflies - a networked nightlights</title>
+    <link>http://www.base2john.com/fireflies/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/9919ecb6321fe8c14bbbb586cb63a9c1'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(electronics, howto, diy,
+    art)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; via the Make
+    blog: neat little PIC-based hardware project, kinda like those
+    orb things, only cooler.... Fireflies are networked nightlights
+    for a local environment, the jars can be placed in different
+    bedrooms or other spots around a home so people can communicate
+    with one another through simply
+    tap&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Fireflies - a networked
+    nightlights</description>
+  </item>
+  <item rdf:about="http://radar.oreilly.com/archives/2005/05/attracting_deve.html">
+
+    <title>O'Reilly Radar &gt; Attracting Developers to Your
+    Platform</title>
+    <link>
+    http://radar.oreilly.com/archives/2005/05/attracting_deve.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/58cdaea83d30a8708e806994763e867f'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(api, openapi, biz,
+    marketing)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Love the best
+    developers. A great coder who's terrible at self-promotion
+    should get a leg up from your marketing group. A developer's
+    work that is catching on should have a big bucket of gasoline
+    dumped on top of it. This is just like management in a
+    team...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;O'Reilly Radar &gt;
+    Attracting Developers to Your Platform</description>
+  </item>
+  <item rdf:about="http://geekfantasies.com/">
+    <title>Geek Fantasies</title>
+    <link>http://geekfantasies.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/1fea114b5301a55b7df59afb1b2fdcb5'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(geek, fun, funny,
+    humor)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Kinda lame, but
+    still pretty funny.... bwahaha.... We know what you want and we
+    know how you like it....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Geek
+    Fantasies</description>
+  </item>
+  <item rdf:about="http://greg.vario.us/software/foxipod/">
+    <title>FoxiPod</title>
+    <link>http://greg.vario.us/software/foxipod/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/81773491732585c2e610a2d819bf57e6'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(firefox, ipod,
+    podcasting, mp3)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; FoxiPod uses
+    Greasemonkey with Firefox to make downloading MP3s and music
+    files and adding them to iTunes a single-click process....
+    One-click download/install of mp3s into iTunes... Greasemonkey
+    script to make downloading mp3s and music files and adding them
+    to iTunes a single-click process...
+    iPod&lt;/span&gt;&lt;/i&gt;&lt;br&gt;FoxiPod</description>
+  </item>
+  <item rdf:about="http://www.ews.uiuc.edu/~nshin/PROJECTS/LASERSNOOPER/">
+
+    <title>Laser Snooper</title>
+    <link>
+    http://www.ews.uiuc.edu/~nshin/PROJECTS/LASERSNOOPER/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/45405718c98e44a85a8dc6ad0a32637c'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(projects, tech, laser,
+    hacks)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Laser
+    Snooper</description>
+  </item>
+  <item rdf:about="http://www.mindjack.com/feature/piracy051305.html">
+
+    <title>Mindjack - Piracy is Good?</title>
+    <link>http://www.mindjack.com/feature/piracy051305.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/99f55ec9896f803363c82715efb0f67f'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(tv,
+    bittorrent)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; The end of
+    TV?... "While you might assume the SciFi Channel saw a
+    significant drop-off in viewership as a result of this piracy,
+    it appears to have had the reverse effect..."... Bittorrent has
+    completely changed how I watch television, or don't... "Piracy
+    made it possible for
+    "wo&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Mindjack - Piracy is
+    Good?</description>
+  </item>
+  <item rdf:about="http://joe.truemesh.com/blog/000511.html">
+    <title>Flexible JUnit assertions with assertThat()</title>
+    <link>http://joe.truemesh.com/blog/000511.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/4eaa69338815911c4ec7cc3f47107a65'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(java, test, junit,
+    testing)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; interesting spin
+    on testing code... Use jmock's predicates in general JUnit
+    assertions... assertThat(something, or(contains("color"),
+    contains("colour")));... Cool way of doing
+    assertions...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Flexible JUnit
+    assertions with assertThat()</description>
+  </item>
+  <item rdf:about="http://www.javarss.com/ajax/j2ee-ajax.html">
+    <title>AJAX in Action</title>
+    <link>http://www.javarss.com/ajax/j2ee-ajax.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/98925ff9faad81a0ea5daea6f5863451'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(ajax, java, javascript,
+    xmlhttprequest)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Good diagram
+    illustrating the
+    process....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;AJAX in
+    Action</description>
+  </item>
+  <item rdf:about="http://dave.runningland.com/2005/05/13/using-backpack-and-caller-id/">
+
+    <title>Another Blog by Dave &#194;&#187; Using Backpack and
+    Caller ID</title>
+    <link>
+    http://dave.runningland.com/2005/05/13/using-backpack-and-caller-id/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/e1eb3b0dbe445e35ddab886aa9561ed0'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(backpack, gtd,
+    callerid)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Another
+    Blog by Dave &#194;&#187; Using Backpack and Caller
+    ID</description>
+  </item>
+  <item rdf:about="http://weblog.infoworld.com/udell/2005/05/13.html#a1232">
+
+    <title>Jon Udell: Envisioning information</title>
+    <link>
+    http://weblog.infoworld.com/udell/2005/05/13.html#a1232</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/adb9a3c8033228ea06be1cef5a973732'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(visualization,
+    jonudell)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; contemplations
+    on the previous post... Interesting piece by jon udell about
+    visualizing dynamic data.... thoughts on data visualization...
+    The title of this entry is also the title of one of my favorite
+    books, Edward Tufte's Envisioning Information. For me, it's a
+    constant reminder of how software
+    s&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Jon Udell: Envisioning
+    information</description>
+  </item>
+  <item rdf:about="http://www.exubero.com/ant/dependencies.html">
+    <title>Exubero - Project Dependencies Using Ant</title>
+    <link>http://www.exubero.com/ant/dependencies.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/77221527d786c40df9cdc884c45152ac'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(ant, java, development,
+    build)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Resolving
+    dependencies with Ant 1.6... a technique for managing the build
+    order of separate sub-projects in a large software system
+    purely using task dependencies within Ant
+    scripts...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Exubero - Project
+    Dependencies Using Ant</description>
+  </item>
+  <item rdf:about="http://radio.weblogs.com/0001011/2005/05/13.html#a10087">
+
+    <title>No RSS feed? It's a genetic marker for "lame
+    site"</title>
+    <link>
+    http://radio.weblogs.com/0001011/2005/05/13.html#a10087</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/dd5c3c1f4e6f76e8c3d5c454a646c0aa'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(rss, technology,
+    business, scoble)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Scobleizer:
+    Microsoft Geek Blogger... scoble on why syndication works and
+    email lists don't; plus the virtues of dynamic content... this
+    a dsescripting... Scoble "gets" RSS down to a T!... No RSS
+    feed? It's a genetic marker for "lame
+    site"...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;No RSS feed? It's a
+    genetic marker for "lame site"</description>
+  </item>
+  <item rdf:about="http://slate.msn.com/id/2118391/">
+    <title>The Neiman Marcus Paradox - How dumb rich people end up
+    in debt. By Daniel Gross</title>
+    <link>http://slate.msn.com/id/2118391/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/2c744c6d0fe647d379a549df8b6d1847'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(money,
+    debt)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;The
+    Neiman Marcus Paradox - How dumb rich people end up in debt. By
+    Daniel Gross</description>
+  </item>
+  <item rdf:about="http://agylen.com/2005/05/13/ajaxan-toolset/">
+    <title>Agylen &#194;&#187; Ajaxan toolset</title>
+    <link>http://agylen.com/2005/05/13/ajaxan-toolset/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/bacc3bf1cde78cbb82d7d804c745b783'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(ajax, development,
+    tools)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Some stuff to
+    get you started.... blog about tools for
+    dhtml....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Agylen &#194;&#187;
+    Ajaxan toolset</description>
+  </item>
+  <item rdf:about="http://www.endicott-studio.com/jMA03Summer/theMermaid.html">
+
+    <title>The Mermaid</title>
+    <link>
+    http://www.endicott-studio.com/jMA03Summer/theMermaid.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/990791b36a35b73b650bbc20eb8b4ef3'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(coffee, mythology,
+    starbucks, folklore)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; article about
+    this mythological creature... Mermaids and the Starbucks
+    Logo... Ein Essay, das erkl&#195;&#164;rt, was das
+    Starbucks-Logo wirklich darstellt. Interessante
+    Ausf&#195;&#188;hrungen.... The Art History behind the coffee
+    company logo... You decide.... Mermaid? Siren? Starbucks is
+    confused? All this and
+    merma&lt;/span&gt;&lt;/i&gt;&lt;br&gt;The Mermaid</description>
+  </item>
+  <item rdf:about="http://home.blarg.net/~glinden/Google-shareholders-meeting-slides-2005-05-12.html">
+
+    <title>Google Shareholders Meeting Slides - May 12,
+    2005</title>
+    <link>
+    http://home.blarg.net/~glinden/Google-shareholders-meeting-slides-2005-05-12.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/fcb70a7d5e2b784823f6a351b3f7bc7f'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(google, slides,
+    presentation, search)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;
+    Google&#232;&#8218;&#161;&#228;&#184;&#339;&#229;&#164;&#167;&#228;&#188;&#353;&#229;&#8250;&#190;&#231;&#8240;&#8225;&#232;&#174;&#176;&#232;&#166;&#227;&#8364;&#8218;...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Google
+    Shareholders Meeting Slides - May 12, 2005</description>
+  </item>
+  <item rdf:about="http://www.robservatory.com/">
+    <title>The Robservatory -- OS X commentary from Rob Griffith of
+    macosxhints.com fame</title>
+    <link>http://www.robservatory.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/61d5dea397451d5b96b21ff7f2343892'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(blog, mac, osx,
+    apple)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; mac blog. guy
+    from macosxhints.com... Robg (from macosxhints.com) has got
+    himself a blog...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;The
+    Robservatory -- OS X commentary from Rob Griffith of
+    macosxhints.com fame</description>
+  </item>
+  <item rdf:about="http://www.goodpic.com/mt/archives2/2005/05/firefox_greasem.html">
+
+    <title>Firefox :
+    Greasemonkey&#227;?&#167;Ajax&#227;??&#227;??&#227;??&#227;?&#175;
+    /
+    Tidy&#227;?&#167;HTML&#227;?&#174;&#230;&#164;?&#232;&#168;&#188;&#239;&#188;?Goodpic</title>
+    <link>
+    http://www.goodpic.com/mt/archives2/2005/05/firefox_greasem.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/de4db5678b9f4c6a1dd18870f545954e'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(ajax, firefox, debug,
+    greasemonkey)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Firefox
+    :
+    Greasemonkey&#227;?&#167;Ajax&#227;??&#227;??&#227;??&#227;?&#175;
+    /
+    Tidy&#227;?&#167;HTML&#227;?&#174;&#230;&#164;?&#232;&#168;&#188;&#239;&#188;?Goodpic</description>
+  </item>
+  <item rdf:about="http://www.schneier.com/blog/archives/2005/05/combating_spam.html">
+
+    <title>Schneier on Security: Combating Spam</title>
+    <link>
+    http://www.schneier.com/blog/archives/2005/05/combating_spam.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/6e4b72d00aa69c195cd8e0f61112a4f5'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(spam, security,
+    voip)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Bruce provides a
+    good "spam is more complicated than you think" piece.... 'spam
+    is one of computer security's success stories. The current crop
+    of anti-spam products work. I get almost no spam and very few
+    legitimate e-mails end up in my spam trap.' (my thought: I
+    agree!)... *great*
+    articl&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Schneier on Security:
+    Combating Spam</description>
+  </item>
+  <item rdf:about="http://www.theserverside.com/news/thread.tss?thread_id=33918">
+
+    <title>Backbase publishes AJAX and Beyond whitepaper</title>
+    <link>
+    http://www.theserverside.com/news/thread.tss?thread_id=33918</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/92d574178cf8072d79b10b00147ed7b0'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(ajax, java,
+    javascript)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; An Interesting
+    discussion about AJAX and Java on the Server
+    Side...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Backbase publishes AJAX
+    and Beyond whitepaper</description>
+  </item>
+  <item rdf:about="http://www.larsholst.info/blog/2003/11/29/well-designed-weblogs/">
+
+    <title>Well-Designed Weblogs | mono</title>
+    <link>
+    http://www.larsholst.info/blog/2003/11/29/well-designed-weblogs/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/7acf37895fcc8141f9ea88cbf998b7e0'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(webdesign)&lt;/span&gt;
+    &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Well-Designed
+    Weblogs | mono</description>
+  </item>
+  <item rdf:about="http://hmdt-web.net/shiira/screenshot-e.html">
+    <title>Screenshot</title>
+    <link>http://hmdt-web.net/shiira/screenshot-e.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/74a596ed0f223dfd6e53f80401d7c14a'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(mac, web, tiger,
+    apps)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Screenshot</description>
+  </item>
+  <item rdf:about="http://www.people.umass.edu/ktheis/.karsten/games.html">
+
+    <title>Mutabor</title>
+    <link>
+    http://www.people.umass.edu/ktheis/.karsten/games.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/a3e856de3418bcd5cc1d62954a2f0ab9'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(game, mutabor,
+    recursion, abstract)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Hofstadter uses
+    this game to illustrate what happens when a complex system
+    makes statements about itself, an idea that is one of the red
+    threads of his book. If you're interested in this idea, I
+    suggest you read his book (or read in it, its a pretty big b...
+    Description of the game
+    Mutabor...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Mutabor</description>
+  </item>
+  <item rdf:about="http://epierce.blog.usf.edu/2005/04/26/wpexport-02">
+
+    <title>WPexport 0.2</title>
+    <link>http://epierce.blog.usf.edu/2005/04/26/wpexport-02</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/58ac0da9fc2f3b0df2ad72c464a65077'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(wordpress, plugin,
+    export)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Since students
+    lose their accounts two semesters after they graduate, I needed
+    an easy way to export their blog entries to take with them. I
+    found a script here that exports to MovableType, but I wanted
+    something that was a real WP plugin, not a stand-alo... exports
+    wordpress content into
+    movabletyp&lt;/span&gt;&lt;/i&gt;&lt;br&gt;WPexport
+    0.2</description>
+  </item>
+  <item rdf:about="http://www.pcworld.com/resource/printable/article/0,aid,120761,00.asp">
+
+    <title>PCWorld.com - Build a Flag-Free HD Personal Video
+    Recorder</title>
+    <link>
+    http://www.pcworld.com/resource/printable/article/0,aid,120761,00.asp</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/4d61228a251b87fde2da7fea206911e9'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(video)&lt;/span&gt;
+    &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;PCWorld.com
+    - Build a Flag-Free HD Personal Video Recorder</description>
+  </item>
+  <item rdf:about="http://www.wired.com/wired/archive/13.06/xbox.html">
+
+    <title>Wired 13.06: The Xbox Reloaded</title>
+    <link>http://www.wired.com/wired/archive/13.06/xbox.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/74aea839746176b6a21102ba22b47789'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(xbox, microsoft, xenon,
+    games)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; more promo on
+    how great the xbox 360 is... the hype
+    continues.....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Wired 13.06: The
+    Xbox Reloaded</description>
+  </item>
+  <item rdf:about="http://java.sun.com/developer/technicalArticles/Media/timing/index.html?feed=JSC">
+
+    <title>Timing is Everything</title>
+    <link>
+    http://java.sun.com/developer/technicalArticles/Media/timing/index.html?feed=JSC</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/26c7767a5b41b4d9b47490bb06adbdbb'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(java, timing, time,
+    queue)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Timing
+    is Everything</description>
+  </item>
+  <item rdf:about="http://www.microsoft.com/downloads/details.aspx?familyid=b9bff619-236c-4bbb-9aa1-2e7bc562c7f5&amp;displaylang=en">
+
+    <title>Download details: Enterprise Library 1.0 Hands On
+    Labs</title>
+    <link>
+    http://www.microsoft.com/downloads/details.aspx?familyid=b9bff619-236c-4bbb-9aa1-2e7bc562c7f5&amp;displaylang=en</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/e64c1785a17acc45f34d93204809bb74'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;()&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Download
+    details: Enterprise Library 1.0 Hands On Labs</description>
+  </item>
+  <item rdf:about="http://www.cnn.com/2005/TECH/internet/05/13/internet.explorer.ap/index.html">
+
+    <title>CNN.com - Group: Internet Explorer share slips below 90
+    percent - May 13, 2005</title>
+    <link>
+    http://www.cnn.com/2005/TECH/internet/05/13/internet.explorer.ap/index.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/175665b4d87112f55d63579fedae1fb5'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(browser, firefox,
+    microsoft)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; I think that
+    says it all.... Woo Hoo! IE is losing market share
+    again!...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;CNN.com - Group:
+    Internet Explorer share slips below 90 percent - May 13,
+    2005</description>
+  </item>
+  <item rdf:about="http://www.newscientist.com/article.ns?id=mg18624995.700">
+
+    <title>New Scientist News - Multi-eyed jellyfish helps with
+    Darwin's puzzle</title>
+    <link>
+    http://www.newscientist.com/article.ns?id=mg18624995.700</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/98c31c289449a8c2b6e877dc9707414b'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(evolution,
+    intelligentdesign, science, intelligentdesign.not)&lt;/span&gt;
+    &lt;span class='descriptious-extended-descriptions'&gt;
+    (Contradicting a key argument from the Intelligent Design
+    camp)...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;New Scientist News -
+    Multi-eyed jellyfish helps with Darwin's puzzle</description>
+  </item>
+  <item rdf:about="http://www.baseball-databank.org/">
+    <title>Baseball-DataBank.org</title>
+    <link>http://www.baseball-databank.org/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/5beeabb730815874a4b9ae1703046f3d'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(baseball, db,
+    sql)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Release Notes
+    (last change 2004/12/02)... " A volunteer effort to accumulate
+    and redistribute baseball data in a convenient and easy to use
+    form."... Downloadable SQL files for creating your own baseball
+    statistics
+    database...free!...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Baseball-DataBank.org</description>
+  </item>
+  <item rdf:about="http://www.siliconvalleywatcher.com/mt/archives/2005/05/scoop_can_blogg.php">
+
+    <title>Silicon Valley Watcher: Can blogging boost IBM's
+    revenues and reduce layoffs?</title>
+    <link>
+    http://www.siliconvalleywatcher.com/mt/archives/2005/05/scoop_can_blogg.php</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/fceb5b12f9563ba02f2493344f4f27a2'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(blogs, ibm)&lt;/span&gt;
+    &lt;span class='descriptious-extended-descriptions'&gt; IBM to
+    start a massive blogging initiative... Silicon Valley Watcher:
+    IBM to launch a massive corporate blog initiative... Early next
+    week IBM will introduce the largest ever corporate blogging
+    initiative in a bid to encourage any of its 130,000 staff to
+    become online evangelists for the
+    company....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Silicon Valley
+    Watcher: Can blogging boost IBM's revenues and reduce
+    layoffs?</description>
+  </item>
+  <item rdf:about="http://newsbreakers.org/">
+    <title>NEWSBREAKERS When News Breaks, We Bust It.</title>
+    <link>http://newsbreakers.org/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/9e9568b62f6af3f01827c89641a0357d'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(funny, video,
+    internet)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; These guys have
+    a website devoted to their attacks on live newsguy promo
+    feeds....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;NEWSBREAKERS When
+    News Breaks, We Bust It.</description>
+  </item>
+  <item rdf:about="http://doc.asf.ru/Tools%20&amp;%20Utilities.htm">
+
+    <title>Tools &amp; Utilities</title>
+    <link>http://doc.asf.ru/Tools%20&amp;%20Utilities.htm</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/7e733b0370d9f934d4f5441aa07f4abe'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;()&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Tools
+    &amp; Utilities</description>
+  </item>
+  <item rdf:about="http://llamasoft.co.uk/neon.php">
+    <title>Neon</title>
+    <link>http://llamasoft.co.uk/neon.php</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/c9066e3c00bfebdaa7f8099c5f1c2ffe'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(xbox)&lt;/span&gt;
+    &lt;span class='descriptious-extended-descriptions'&gt; New
+    visualiser to be built into the Xbox360... Minter's lightsynth
+    to be included with the XBox 360 (this news reminds me of Unity
+    :(...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Neon</description>
+  </item>
+  <item rdf:about="http://www.letterpressed.com/index.shtml">
+    <title>letterpressed.com | letterpress stationery</title>
+    <link>http://www.letterpressed.com/index.shtml</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/f8d0a42017291bc5b45803551834a393'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(design, letterpress,
+    cards)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; I could purchase
+    a million of these, and use them in a
+    day....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;letterpressed.com |
+    letterpress stationery</description>
+  </item>
+  <item rdf:about="http://www.zentastic.com/entries/200505131335.html">
+
+    <title>XRAY Piercing Pictures [Zentastic!]</title>
+    <link>http://www.zentastic.com/entries/200505131335.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/2577063ba3351b5ba723a4a5792690be'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(art,
+    gallery)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; In celebration
+    of it being Friday the 13th, I thought it might be a nice time
+    to post a little gallery of x-ray images of body piercings (and
+    one implant as well)....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;XRAY
+    Piercing Pictures [Zentastic!]</description>
+  </item>
+  <item rdf:about="http://filebox.vt.edu/users/akemp/Portfolio/had/">
+
+    <title>Graduation Cap Hack</title>
+    <link>http://filebox.vt.edu/users/akemp/Portfolio/had/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/9e59ab9233c37de7a96762cf5384c57a'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(hacks, hats,
+    projects)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Spinning
+    Cap....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Graduation Cap
+    Hack</description>
+  </item>
+  <item rdf:about="http://www.micropersuasion.com/2005/05/let_the_blog_ba.html">
+
+    <title>Steve Rubel on the naysayers about business blogs and
+    the reality.</title>
+    <link>
+    http://www.micropersuasion.com/2005/05/let_the_blog_ba.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/29ae0fc9f5ea4f2cc88e685dd2f9e930'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(business)&lt;/span&gt;
+    &lt;span class='descriptious-extended-descriptions'&gt; Micro
+    Persuasion: "Pete Blackshaw predicted this would happen and he
+    was right. A blog bashing movement is underway. In a new
+    report, eMarketer is questioning whether businesses will ever
+    blog."...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Steve Rubel on the
+    naysayers about business blogs and the reality.</description>
+  </item>
+  <item rdf:about="http://www.visual-io.com/">
+    <title>Visual i|o - Home</title>
+    <link>http://www.visual-io.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/374d3403e83976cc48933d1ea5f9dce9'&gt;[D]&lt;/a&gt;
+    &lt;span
+    class='descriptious-tags'&gt;(visualization)&lt;/span&gt;
+    &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Visual
+    i|o - Home</description>
+  </item>
+  <item rdf:about="http://honolulu.hawaii.edu/intranet/committees/FacDevCom/guidebk/teachtip/teachtip.htm#assessment">
+
+    <title>Teaching Tips</title>
+    <link>
+    http://honolulu.hawaii.edu/intranet/committees/FacDevCom/guidebk/teachtip/teachtip.htm#assessment</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/d766d42e03639c0914184f8b2a398fbb'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(education,
+    teaching)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Teaching
+    Tips</description>
+  </item>
+  <item rdf:about="http://defendem.com/read/book/1">
+    <title>Enterprise Ruby On Rails |</title>
+    <link>http://defendem.com/read/book/1</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/47a9ec017bc15c6c230f4724e71b824d'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(rails,
+    ruby)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; "If
+    you&#226;&#8364;&#8482;re frustrated and trying to get more
+    speed and scalability out of rails, you&#226;&#8364;&#8482;ve
+    found your
+    reference."...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Enterprise Ruby
+    On Rails |</description>
+  </item>
+  <item rdf:about="http://www.esi.umontreal.ca/~gauvin/formationcontinue/index.html">
+
+    <title>Introduction &#195;&#160; l'architecture de
+    l'information et &#195;&#160; la conception de sites
+    Web</title>
+    <link>
+    http://www.esi.umontreal.ca/~gauvin/formationcontinue/index.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/6a078b7dc610e56766dba31393b66c40'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;()&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;
+    L'exp&#195;&#169;rience des usagers qui naviguent dans un site
+    Web d&#195;&#169;pend de la qualit&#195;&#169; de sa structure,
+    de ses &#195;&#169;l&#195;&#169;ments de design et du contenu
+    propos&#195;&#169;. Cet atelier vise une
+    compr&#195;&#169;hension des principes de base pour la
+    cr&#195;&#169;ation de sites Web conviviaux et
+    ef...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Introduction &#195;&#160;
+    l'architecture de l'information et &#195;&#160; la conception
+    de sites Web</description>
+  </item>
+  <item rdf:about="http://www.usus.org/elements/tracing.htm">
+    <title>USUS - tracing email: find out who sent you that
+    email</title>
+    <link>http://www.usus.org/elements/tracing.htm</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/07c556c0945c8a2cd25dea29d6aaf485'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;()&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;USUS
+    - tracing email: find out who sent you that email</description>
+  </item>
+  <item rdf:about="http://www.microsoft.com/windows/onecare/default.mspx">
+
+    <title>Windows OneCare Live: Coming soon to beta</title>
+    <link>
+    http://www.microsoft.com/windows/onecare/default.mspx</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/a712ad3b8fdee881d92e9c4d226bf976'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(windows)&lt;/span&gt;
+    &lt;span class='descriptious-extended-descriptions'&gt;
+    Werkplekbeheer kan ook met scripts, maar met een mooie
+    vormgegeven shell als One-Care is het gemakkelijker te
+    verkopen. Goede markering strategie van MS met als doel om ook
+    in de antivirus markt aktief te worden.... Windows OneCare
+    Live: Coming Soon to Beta... Windows OneCare will be a paid-for
+    subs&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Windows OneCare Live:
+    Coming soon to beta</description>
+  </item>
+  <item rdf:about="http://www.conceptlab.com/control/">
+    <title>Garnet Hertz: Control and Communication in the Animal
+    and the Machine</title>
+    <link>http://www.conceptlab.com/control/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/6ca852df92e8a70a776bd76555dcf275'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(robots)&lt;/span&gt;
+    &lt;span class='descriptious-extended-descriptions'&gt; Roach
+    Coach!... via engadget, via collision detection... Giving
+    cockroaches robot bodies. Because both cockroaches and robots
+    need *more* encouragement to roam the world malevolently and
+    kill us all.... a roach sits in the control chair of a
+    mechanized mover, proving simple control is possible of a
+    &lt;/span&gt;&lt;/i&gt;&lt;br&gt;Garnet Hertz: Control and
+    Communication in the Animal and the Machine</description>
+  </item>
+  <item rdf:about="http://www.clichesw.com/products/burnoutmenu250/">
+
+    <title>BurnoutMenu 2.5</title>
+    <link>http://www.clichesw.com/products/burnoutmenu250/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/94fa2ffb7b6cdd15baa9d908976c4109'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(mac,
+    productivity)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; to-do list maker
+    is iCal, iSync and iPod
+    friendly...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;BurnoutMenu
+    2.5</description>
+  </item>
+  <item rdf:about="http://news.bbc.co.uk/1/hi/magazine/4543675.stm">
+
+    <title>'luxury' garden sheds go wireless - people create
+    'garden offices'</title>
+    <link>http://news.bbc.co.uk/1/hi/magazine/4543675.stm</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/c20913f4ed01affee5b10b3d3a7b1268'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(sheds,
+    architecture)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Wilson, Giles
+    (2005) Shed Heaven, BBC News Online (13.05.05)... Sheds are
+    increasingly being used as garden
+    offices....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;'luxury' garden
+    sheds go wireless - people create 'garden
+    offices'</description>
+  </item>
+  <item rdf:about="http://www.featuredrivendevelopment.com/">
+    <title>Feature Driven Development | The portal for all things
+    FDD.</title>
+    <link>http://www.featuredrivendevelopment.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/99bad13971ddfb06f049b3c0966fa1bb'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(development, agile,
+    methodology, fdd)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; This website is
+    the place for all to discuss Feature Driven Development (FDD),
+    ask questions, learn more about it, and discuss their own
+    experiences and their own FDD-inspired approaches.... This
+    website is the place for all to discuss Feature Driven
+    Development (FDD), ask questions, learn more
+    abou&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Feature Driven Development
+    | The portal for all things FDD.</description>
+  </item>
+  <item rdf:about="http://joe.truemesh.com/blog//000511.html">
+    <title>Joe Walnes, Flexible JUnit assertions with
+    assertThat()</title>
+    <link>http://joe.truemesh.com/blog//000511.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/13d015fe9b89007a545706685c0a2b95'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(java, junit,
+    testing)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Joe
+    Walnes, Flexible JUnit assertions with
+    assertThat()</description>
+  </item>
+  <item rdf:about="http://slate.msn.com/id/2118429/">
+    <title>It's Fun To Play at the YMCA</title>
+    <link>http://slate.msn.com/id/2118429/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/6e212863000b62eb0641b4b749a4d365'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(sports, nba,
+    funny)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; The guy who
+    wears too much protective gear and the other pickup basketball
+    players in the NBA playoffs.... Great NBA article, which easily
+    enhances the fun of the playoffs ten-fold... Yes, it's
+    true...Reggie Miller sucks... so
+    true...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;It's Fun To Play at the
+    YMCA</description>
+  </item>
+  <item rdf:about="http://www.codestore.net/store.nsf/unid/BLOG-20050420?OpenDocument">
+
+    <title>DOM Parsing With XPath and JavaScript | Wed 20 Apr 2005
+    | Blog | CodeStore</title>
+    <link>
+    http://www.codestore.net/store.nsf/unid/BLOG-20050420?OpenDocument</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/92d698cad6add1863905f1b1e3d089c4'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(javascript, xpath, xml,
+    firefox)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; useful stuff -
+    information on greasemonkey, javascript and
+    xpath....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;DOM Parsing With
+    XPath and JavaScript | Wed 20 Apr 2005 | Blog |
+    CodeStore</description>
+  </item>
+  <item rdf:about="http://openwrt.org/OpenWrtDocs">
+    <title>OpenWrtDocs - OpenWrt</title>
+    <link>http://openwrt.org/OpenWrtDocs</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/2d3972d03ed2bc5165cef34014680d74'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(wrt54g)&lt;/span&gt;
+    &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;OpenWrtDocs
+    - OpenWrt</description>
+  </item>
+  <item rdf:about="http://www.donews.net/zrde/archive/2005/05/12/377257.aspx">
+
+    <title>
+    &#228;&#184;?&#229;??&#231;&#185;?&#229;??&#239;&#188;?&#228;&#184;?&#230;?&#167;&#231;&#187;?&#231;&#186;&#177;&#239;&#188;?&#229;?&#190;&#231;??&#239;&#188;?
+    - &#229;&#188;&#160;&#233;??</title>
+    <link>
+    http://www.donews.net/zrde/archive/2005/05/12/377257.aspx</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/7ab05758ed08a9a6936080d953aa19f1'&gt;[D]&lt;/a&gt;
+    &lt;span
+    class='descriptious-tags'&gt;(&#232;&#165;&#191;&#232;&#8212;)&lt;/span&gt;
+    &lt;span class='descriptious-extended-descriptions'&gt;
+    2001&#229;&#185;&#180;2&#230;&#339;&#710;22&#230;&#8212;&#165;&#227;&#8364;&#8218;&#231;&#180;&#231;&#180;&#8222;Ackland
+    &#231;&#353;&#8222;Yager&#231;&#8226;&#171;&#229;&#187;&#352;&#227;&#8364;&#8218;&#229;&#185;&#189;&#232;&#8212;&#231;&#353;&#8222;&#230;&#161;&#338;&#229;&#173;&#239;&#188;&#338;&#230;&#353;&#8212;&#230;&#183;&#161;&#231;&#353;&#8222;&#229;&#8230;&#8240;&#227;&#8364;&#8218;&#233;&#8364;&#8482;&#229;&#175;&#8218;&#233;&#339;&#231;&#353;&#8222;&#231;&#169;&#186;&#233;&#8211;&#8220;&#231;&#173;&#8240;&#229;&#190;&#8230;&#232;&#8216;&#8212;&#229;&#8230;&#169;&#229;&#8364;&#8249;&#228;&#190;&#8224;&#232;&#8225;&#170;&#229;&#176;&#188;&#230;&#179;&#352;&#231;&#710;&#190;&#229;&#8217;&#338;&#228;&#184;&#173;&#229;&#339;&#8249;&#232;&#165;&#191;&#232;&#8212;&#231;&#353;&#8222;&#229;&#402;&#167;&#228;&#190;&#182;&#239;&#188;&#353;Ven.
+    Tenzin Thutop &#229;&#8217;&#338;Ven. Tenzin
+    Deshek&#227;&#8364;&#8218;&#228;&#187;&#8211;&#229;&#8364;&#8216;&#232;&#166;&#231;&#8221;&#168;1&#229;&#8364;&#8249;&#230;&#339;&#710;&#231;&#353;&#8222;&#230;&#8482;&#8218;&#233;&#8211;&#8220;&#239;&#188;&#338;&#228;&#190;&#8224;&#229;&#174;&#338;&#230;&#710;&#228;&#184;&#8364;&#229;&#8364;&#8249;&#228;&#189;&#339;&#229;&#8220;&#227;&#8364;...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;&#228;&#184;?&#229;??&#231;&#185;?&#229;??&#239;&#188;?&#228;&#184;?&#230;?&#167;&#231;&#187;?&#231;&#186;&#177;&#239;&#188;?&#229;?&#190;&#231;??&#239;&#188;?
+    - &#229;&#188;&#160;&#233;??</description>
+  </item>
+</rdf:RDF>

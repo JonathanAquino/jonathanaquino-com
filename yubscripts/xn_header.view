@@ -1,0 +1,6 @@
+<img src="ning_logo.gif" alt="Ning Logo">
+<script type="text/javascript">
+dojo.addOnLoad(function(){
+    dojo.byId("xn_bar").parentNode.removeChild(dojo.byId("xn_bar"));
+});
+</script>

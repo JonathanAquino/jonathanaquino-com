@@ -1,0 +1,18 @@
+body {
+  font: small Arial, Verdana, Helvetica, sans-serif;
+}
+.descriptious-extended-descriptions {
+  padding-top: 15px;
+  display: block;
+  font-style: normal;
+}
+.descriptious-tags {
+  font-style: normal;
+  color: rgb(153, 0, 0);
+  font-size:  medium;
+  font-weight:  bold;
+}
+.descriptious-delicious-url {
+  font-style: normal;
+  font-size: x-small;
+}

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns="http://purl.org/rss/1.0/">
+  <channel rdf:about="http://www.populicio.us/last24hours.html">
+    <title>Descriptious: Populicious. Last 24 hours popular
+    sites.</title>
+    <link>http://www.populicio.us/last24hours.html</link>
+    <description>Last 24 hours popular sites.</description>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>12</sy:updateFrequency>
+    <sy:updateBase>2005-05-14T13:50+01:00</sy:updateBase>
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://www.foldedspace.org/archives/004245.html" />
+        <rdf:li rdf:resource="http://shared.snapgrid.com/gtd_tiddlywiki.html" />
+        <rdf:li rdf:resource="http://www.thetoymaker.com/2Toys.html" />
+        <rdf:li rdf:resource="http://cdburnerxp.se/cssparse/css_optimiser.php" />
+        <rdf:li rdf:resource="http://tofuhut.blogspot.com/2005/05/even-when-you-dont-find-music-here-you.html" />
+        <rdf:li rdf:resource="http://www.tomsnetworking.com/Sections-article118.php" />
+        <rdf:li rdf:resource="http://www.brucemaudesign.com/manifesto.html" />
+        <rdf:li rdf:resource="http://livsey.org/experiments/textareatools/" />
+        <rdf:li rdf:resource="http://getoutfoxed.com/" />
+        <rdf:li rdf:resource="http://littleoslo.com/eng/blogpoly.htm" />
+        <rdf:li rdf:resource="http://www.gapingvoid.com/Moveable_Type/archives/000932.html" />
+        <rdf:li rdf:resource="http://www.imsdb.com/" />
+        <rdf:li rdf:resource="http://diveintogreasemonkey.org/" />
+        <rdf:li rdf:resource="http://www.tiddlywiki.com/" />
+        <rdf:li rdf:resource="http://www.bitty.com/" />
+        <rdf:li rdf:resource="http://www.extremetech.com/article2/0,1558,1814924,00.asp" />
+        <rdf:li rdf:resource="http://www.fundable.org/" />
+        <rdf:li rdf:resource="http://www.smacki.com/mp3%20search%20using%20google" />
+        <rdf:li rdf:resource="http://backstage.bbc.co.uk/" />
+        <rdf:li rdf:resource="http://www.onlinetools.org/html/tools_javascript.php" />
+        <rdf:li rdf:resource="http://www.beautifulfonts.com/" />
+        <rdf:li rdf:resource="http://hwebbjr.typepad.com/openloops/2005/05/ten_ways_to_imp.html" />
+        <rdf:li rdf:resource="http://www.joelonsoftware.com/articles/Wrong.html" />
+        <rdf:li rdf:resource="http://www.lowing.org/fonts/" />
+        <rdf:li rdf:resource="http://www.incompetech.com/beta/plainGraphPaper/" />
+        <rdf:li rdf:resource="http://www.startupventuretoolbox.com/index.htm" />
+        <rdf:li rdf:resource="http://blog.flickr.com/flickrblog/2005/05/from_flash_to_a.html" />
+        <rdf:li rdf:resource="http://www.pbs.org/cringely/pulpit/pulpit20050512.html" />
+        <rdf:li rdf:resource="http://www.guardian.co.uk/life/feature/story/0,13026,1481368,00.html" />
+        <rdf:li rdf:resource="http://dwalin.ru/books/" />
+      </rdf:Seq>
+    </items>
+  </channel>
+  <item rdf:about="http://www.foldedspace.org/archives/004245.html">
+
+    <title>foldedspace.org: Get Rich Slowly!</title>
+    <link>http://www.foldedspace.org/archives/004245.html</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/0181eb9af424a09789b35d427a01b4f2'&gt;[D]&lt;/a&gt;
+    (money, finance, tips, howto)... Advice from a lot of get rich
+    books... An excellent guide to making your money go further....
+    An interesting article on how to achieve financial freedom. At
+    also summarise methods from different books.... An aggregated
+    summary/review of all the popular personal finance self-help
+    books... Commentary &lt;/i&gt;&lt;br&gt;foldedspace.org: Get
+    Rich Slowly!</description>
+  </item>
+  <item rdf:about="http://shared.snapgrid.com/gtd_tiddlywiki.html">
+    <title>GTDTiddlyWiki - all your tasks are belong to you</title>
+    <link>http://shared.snapgrid.com/gtd_tiddlywiki.html</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/0b4ad9bc0a10271c97659359660e1f95'&gt;[D]&lt;/a&gt;
+    (gtd, wiki, productivity, tools)... GTD Tiddly Wiki is a
+    GettingThingsDone adaptation by NathanBowers of JeremyRuston's
+    Open Source TiddlyWiki. The purpose of GTD Tiddly Wiki is to
+    give users a single repository for their GTD lists and support
+    materials so they can create/edit lists, and th... a single
+    file wiki web that exists on
+    the&lt;/i&gt;&lt;br&gt;GTDTiddlyWiki - all your tasks are
+    belong to you</description>
+  </item>
+  <item rdf:about="http://www.thetoymaker.com/2Toys.html">
+    <title>T O Y S !</title>
+    <link>http://www.thetoymaker.com/2Toys.html</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/07d6c3bb2a8c91d9c40d4e9d986aeb89'&gt;[D]&lt;/a&gt;
+    (toys, paper, art, fun)... pdf victorian toys and cards to
+    print out, cut out and assemble.... Papertoys... Here are some
+    free paper toys that you can make yourself. Just print them
+    out, cut, glue and enjoy. I've tried to keep them easy to
+    figure out.I hope that they amuse you.... paper toys you print
+    out and make yourself...&lt;/i&gt;&lt;br&gt;T O Y S
+    !</description>
+  </item>
+  <item rdf:about="http://cdburnerxp.se/cssparse/css_optimiser.php">
+
+    <title>CSS Formatter and Optimiser/Optimizer (based on CSS
+    Parser CSSPP ver. 0.93)</title>
+    <link>http://cdburnerxp.se/cssparse/css_optimiser.php</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/891ad34abf7c1ea292826b9a87fbe643'&gt;[D]&lt;/a&gt;
+    (css, tools, tool, web)... very nice... CSS Optimiser... (mal
+    schauen)... cut and paste your css, have it reformatted for
+    readability or compactness... looks handy - could be useful for
+    learning optimization tricks - wish it had a compare code side
+    by side option... finally... handige tool... Lets you select
+    how readable or s&lt;/i&gt;&lt;br&gt;CSS Formatter and
+    Optimiser/Optimizer (based on CSS Parser CSSPP ver.
+    0.93)</description>
+  </item>
+  <item rdf:about="http://tofuhut.blogspot.com/2005/05/even-when-you-dont-find-music-here-you.html">
+
+    <title>THE TOFU HUT</title>
+    <link>
+    http://tofuhut.blogspot.com/2005/05/even-when-you-dont-find-music-here-you.html</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/a2643bb8f3b7c069f22d5a00f239a614'&gt;[D]&lt;/a&gt;
+    (music, mp3, blog, blogs)... Sensacional lista de mp3blogs...
+    "... what I think is the most comprehensive list of
+    musicbloggers yet available."... List of mp3 blogs,
+    aggregators, etc by genre... mp3 sites... links to lots of
+    mp3blogs out there... pretty hefty index of mp3 blogs, when i'm
+    looking for new music... An in&lt;/i&gt;&lt;br&gt;THE TOFU
+    HUT</description>
+  </item>
+  <item rdf:about="http://www.tomsnetworking.com/Sections-article118.php">
+
+    <title>How To Crack WEP &#226;?? Part 1: Setup</title>
+    <link>
+    http://www.tomsnetworking.com/Sections-article118.php</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/3ecb4f30b481826063aae114173d23f7'&gt;[D]&lt;/a&gt;
+    (security, wifi, wep, wireless)... could be useful.... How To
+    Crack WEP... How To Crack WEP - Part 1: Setup &amp; Network
+    Recon... Part 1: Setup &amp; Network Recon : TomsNetworking...
+    Well, Crack WEP!... Cracking WEP.... via TomsNetworking... You
+    don't need to be a networking expert to successfully follow
+    this How To, but you need b&lt;/i&gt;&lt;br&gt;How To Crack WEP
+    &#226;?? Part 1: Setup</description>
+  </item>
+  <item rdf:about="http://www.brucemaudesign.com/manifesto.html">
+    <title>Incomplete Manifesto</title>
+    <link>http://www.brucemaudesign.com/manifesto.html</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/ccc81e7aebe8b061cb1fac3046d57f5b'&gt;[D]&lt;/a&gt;
+    (design, manifesto, lifehacks, creativity)... manifesto for the
+    jilted generation... Written in 1998, the Incomplete Manifesto
+    is an articulation of statements that exemplify Bruce Mau's
+    beliefs, motivations and strategies. It also articulates how
+    the BMD studio works.... by Bruce Mau... Laugh. People visiting
+    the studio often comment on how
+    mu&lt;/i&gt;&lt;br&gt;Incomplete Manifesto</description>
+  </item>
+  <item rdf:about="http://livsey.org/experiments/textareatools/">
+    <title>Textarea tools</title>
+    <link>http://livsey.org/experiments/textareatools/</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/7dbb7399eea90d878ceab69775fae17f'&gt;[D]&lt;/a&gt;
+    (javascript, css, textarea, forms)... Resizable textareas and
+    word counters.... wordcount, resizable, maxlength... Cool
+    tools... word count, etc.... Small collection of tools for use
+    with textareas (or input fields).... Neat javascript textarea
+    tools.... javascript textarea... one of the tools here are
+    little controls to increase/decrea&lt;/i&gt;&lt;br&gt;Textarea
+    tools</description>
+  </item>
+  <item rdf:about="http://getoutfoxed.com/">
+    <title>Outfoxed | Personalize your internet.</title>
+    <link>http://getoutfoxed.com/</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/18222e9bca9aa098b8560e3c27acddea'&gt;[D]&lt;/a&gt;
+    (firefox, web, social, tools)... outfoxed uses ideas of
+    personal networks and trust to rank webpages. No functioning
+    linux or mac ports but source available... True personalized
+    searching, phishing &amp; spyware protection, discovery of good
+    stuff and socially aware surfing.... There are over 8 billion
+    web pages. Most of them suck.&lt;/i&gt;&lt;br&gt;Outfoxed |
+    Personalize your internet.</description>
+  </item>
+  <item rdf:about="http://littleoslo.com/eng/blogpoly.htm">
+    <title>..::littleoslo::..blogpoly</title>
+    <link>http://littleoslo.com/eng/blogpoly.htm</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/1a216187408b4b021c094311c74edd3c'&gt;[D]&lt;/a&gt;
+    (blogs, blog, games, monopoly)... From Monopoly to Blogpoly...
+    Il monopoli dei blogger.....
+    &#233;&#162;&#231;&#8482;&#189;&#227;&#8222;... A Monopoly game
+    board with Blog-related realestate... A monopoly board with
+    Internet stuff instead of streets. And they are clickable!...
+    Some surprisingly appropriate choices.... Monopoly with a
+    blogging theme... "It is
+    jus&lt;/i&gt;&lt;br&gt;..::littleoslo::..blogpoly</description>
+  </item>
+  <item rdf:about="http://www.gapingvoid.com/Moveable_Type/archives/000932.html">
+
+    <title>Online knizka "Jak se stat kreativnim" ...</title>
+    <link>
+    http://www.gapingvoid.com/Moveable_Type/archives/000932.html</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/4e6ab78ce7bfd69685bf7a85235097c5'&gt;[D]&lt;/a&gt;
+    (creativity, art, creative, productivity)... ... je to dlouhe,
+    ale urcite si na to musim najit cas, bude se mi to hodit ......
+    So you want to be more creative, in art, in business, whatever.
+    Here are some tips that have worked for me over the years....
+    dy has their own private Mount Everest they were put on this
+    ea... Excellent, lengthy treati&lt;/i&gt;&lt;br&gt;Online
+    knizka "Jak se stat kreativnim" ...</description>
+  </item>
+  <item rdf:about="http://www.imsdb.com/">
+    <title>The Internet Movie Script Database (IMSDb)</title>
+    <link>http://www.imsdb.com/</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/4da1261fc0e88f8ae0269b4b653c42a4'&gt;[D]&lt;/a&gt;
+    (movies, film, scripts, reference)... thanks, alex!!... The
+    biggest collection of movie scripts available anywhere on the
+    web.... collection of movie scripts in HTML format... free
+    transcripts of movies... The web's largest movie script
+    resource!... If you enjoy movies you've come to the right
+    place, we have the biggest collection of
+    m&lt;/i&gt;&lt;br&gt;The Internet Movie Script Database
+    (IMSDb)</description>
+  </item>
+  <item rdf:about="http://diveintogreasemonkey.org/">
+    <title>Dive Into Greasemonkey</title>
+    <link>http://diveintogreasemonkey.org/</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/6710663c5b49ce632b8dbf92bffd2496'&gt;[D]&lt;/a&gt;
+    (greasemonkey, firefox, javascript, programming)... "Dive Into
+    Greasemonkey is a book about programming with Greasemonkey, a
+    Firefox extension for customizing web pages. Read it online for
+    free."... Mark Pilgrim's free online book... firefox
+    extension... "Dive Into Greasemonkey is a book about
+    programming with Greasemonkey, a Firefox
+    e&lt;/i&gt;&lt;br&gt;Dive Into Greasemonkey</description>
+  </item>
+  <item rdf:about="http://www.tiddlywiki.com/">
+    <title>TiddlyWiki - a reusable non-linear personal web
+    notebook</title>
+    <link>http://www.tiddlywiki.com/</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/9030797ebd5e53e711531344b0297de9'&gt;[D]&lt;/a&gt;
+    (wiki, javascript, web, software)... an experimental
+    MicroContent WikiWikiWeb built by JeremyRuston... ThirdVersion
+    of TiddlyWiki, an experimental MicroContent WikiWikiWeb built
+    by JeremyRuston.... a reusable non-linear personal web
+    notebook... Full wiki in JavaScript; no server required... I
+    need to bring back a disk to save this
+    ups&lt;/i&gt;&lt;br&gt;TiddlyWiki - a reusable non-linear
+    personal web notebook</description>
+  </item>
+  <item rdf:about="http://www.bitty.com/">
+    <title>Bitty Browser: Introduction</title>
+    <link>http://www.bitty.com/</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/cab86438843e12a3329efdf5be00effe'&gt;[D]&lt;/a&gt;
+    (web, browser, tools, webdesign)... Embedded browser within a
+    page... how neat is that? a browser within a browser :-D...
+    Embed a browser in a web page... add a little browswer to any
+    web page... an embedded browser hack... "Bitty makes it easy to
+    add a little browser (just like this one) to any Web page."...
+    itty bitty brow&lt;/i&gt;&lt;br&gt;Bitty Browser:
+    Introduction</description>
+  </item>
+  <item rdf:about="http://www.extremetech.com/article2/0,1558,1814924,00.asp">
+
+    <title>Microsoft-Free Home Part 4: The Linux HTPC--ExtremeTech
+    Build It</title>
+    <link>
+    http://www.extremetech.com/article2/0,1558,1814924,00.asp</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/ab915a645b517c2432f50ee11fc0ec22'&gt;[D]&lt;/a&gt;
+    (linux, pvr, htpc, home)... Home Theater PC... Linux is one of
+    the most remarkable phenomena in the recent history of personal
+    computing. In some ways, it's similar to the original homebrew
+    PC movement of the late 1970s and early 80s. Equal parts cool
+    kids club and grass roots revolution, Linux in its... linux
+    based homebrew d&lt;/i&gt;&lt;br&gt;Microsoft-Free Home Part 4:
+    The Linux HTPC--ExtremeTech Build It</description>
+  </item>
+  <item rdf:about="http://www.fundable.org/">
+    <title>Welcome to Fundable &#226;?? Fundable</title>
+    <link>http://www.fundable.org/</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/04241917ed11b0d35e579d78440320b5'&gt;[D]&lt;/a&gt;
+    (money, fundraising, community, web)...
+    &#232;&#353;&#233;&#8250;&#8224;&#233;&#8250;&#8224;&#228;&#189;&#8220;&#231;&#353;&#8222;&#233;&#8217;&#177;&#229;&#381;&#187;&#229;&#352;&#382;&#229;&#338;&#228;&#184;&#8364;&#228;&#187;&#182;&#228;&#186;&#8249;&#239;&#188;&#338;&#232;&#8364;&#338;Fundable&#229;&#176;&#177;&#230;&#732;&#175;&#228;&#191;&#161;&#231;&#8221;&#168;&#228;&#184;&#173;&#228;&#187;&#8249;&#232;&#8364;&#8230;...
+    raises funds as a unit .. that is divided. online.... "Fundable
+    is a new service that lets groups of people pool money to raise
+    funds or make purchases."... organizing group purchases or
+    funding... Organize a group &lt;/i&gt;&lt;br&gt;Welcome to
+    Fundable &#226;?? Fundable</description>
+  </item>
+  <item rdf:about="http://www.smacki.com/mp3%20search%20using%20google">
+
+    <title>How to Search for MP3s using Google - Automated!</title>
+    <link>
+    http://www.smacki.com/mp3%20search%20using%20google</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/817133bce1ea001c9ee790189d67ddc2'&gt;[D]&lt;/a&gt;
+    (mp3, google, music, search)... adds google parameters for mp3
+    searches... Achei at&#195;&#169; o "Human After All" do Daft
+    Punk e mp3!!!
+    &gt;&gt;http://faivreduboz.free.fr/divers/Daft_Punk-Human_After_All-(Retail)-2005-ToF/...
+    Type in the name of an artist or song here, and then click
+    search. All of the various parameters will
+    be&lt;/i&gt;&lt;br&gt;How to Search for MP3s using Google -
+    Automated!</description>
+  </item>
+  <item rdf:about="http://backstage.bbc.co.uk/">
+    <title>BBC Backstage :: Front Page ::</title>
+    <link>http://backstage.bbc.co.uk/</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/4bb91c15e7410e364c54b52b08c74202'&gt;[D]&lt;/a&gt;
+    (bbc, rss, api, media)... Developers info for BBC content...
+    "use our stuff to build your stuff"... provides content feeds
+    for anyone to build with and share... backstage.bbc.co.uk is
+    the BBC's new developer network, providing content feeds for
+    anyone to build with. Alternatively, share your ideas on new
+    ways to us&lt;/i&gt;&lt;br&gt;BBC Backstage :: Front Page
+    ::</description>
+  </item>
+  <item rdf:about="http://www.onlinetools.org/html/tools_javascript.php">
+
+    <title>Javascripts, small helpers to add some interactivity to
+    your web site</title>
+    <link>
+    http://www.onlinetools.org/html/tools_javascript.php</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/13b38541c21b28d77e57d834d0c3d50b'&gt;[D]&lt;/a&gt;
+    (javascript, tools, web, dhtml)... cool little tools... Small
+    helpers to add some interactivity to your web site...
+    S&#195;&#169;rie de recursos CSS/javascript do mesmo pessoal do
+    DOM Colapse. Ali&#195;&#161;s, tem um recurso de
+    navega&#195;&#167;&#195;&#163;o via abas que se mais aprimorado
+    fica &#195;&#179;timo. Bom conceito para uma skin do zen
+    Garden.... small collection of
+    Jav&lt;/i&gt;&lt;br&gt;Javascripts, small helpers to add some
+    interactivity to your web site</description>
+  </item>
+  <item rdf:about="http://www.beautifulfonts.com/">
+    <title>Beautiful Fonts For Free</title>
+    <link>http://www.beautifulfonts.com/</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/d2dc3b6adcb0eb6b6c74d4b068595e11'&gt;[D]&lt;/a&gt;
+    (fonts, free, design, font)...
+    (&#229;&#164;&#167;&#233;&#8225;)&#230;&#181;&#183;&#229;&#164;&#8211;&#227;&#174;&#227;&#402;&#8226;&#227;&#402;&#170;&#227;&#402;&#188;&#227;&#402;&#8226;&#227;&#8218;&#169;&#227;&#402;&#179;&#227;&#402;&#710;&#233;&#8250;&#8224;...
+    large collection of true type fonts... Beautiful Fonts offers a
+    large collection of free true type fonts for Windows....
+    fonts... Beautiful Fonts offers a large collection of free true
+    type fonts for Windows.... A large collection of free true type
+    fonts &lt;/i&gt;&lt;br&gt;Beautiful Fonts For
+    Free</description>
+  </item>
+  <item rdf:about="http://hwebbjr.typepad.com/openloops/2005/05/ten_ways_to_imp.html">
+
+    <title>Open Loops:</title>
+    <link>
+    http://hwebbjr.typepad.com/openloops/2005/05/ten_ways_to_imp.html</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/7ca01bff660e91f4009269226a750655'&gt;[D]&lt;/a&gt;
+    (communication, speaking, lifehacks, articles)... Ten Ways to
+    Improve Your Communication Skills... Ten ways to improve your
+    communication skills.... We all have people with whom we have
+    to work to get things done. Our ability to communicate with
+    clients, customers, subordinates, peers, and superiors can
+    enhance our effectiveness or sabotage us.
+    M&lt;/i&gt;&lt;br&gt;Open Loops:</description>
+  </item>
+  <item rdf:about="http://www.joelonsoftware.com/articles/Wrong.html">
+
+    <title>Joel on Software - Making Wrong Code Look Wrong</title>
+    <link>http://www.joelonsoftware.com/articles/Wrong.html</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/54b6ad2b2aa3919c850f38961910d66f'&gt;[D]&lt;/a&gt;
+    (programming, code, software, development)... how hungarian
+    notation should really be applied and why it should be used...
+    more on "systems" vs. "apps" Hungarian notation... how
+    Hungarian notation should really work and why it should be
+    used... how Hungarian notation should really work and why it
+    should be used... This is th&lt;/i&gt;&lt;br&gt;Joel on
+    Software - Making Wrong Code Look Wrong</description>
+  </item>
+  <item rdf:about="http://www.lowing.org/fonts/">
+    <title>Monospace/Fixed Width Programmer's Fonts</title>
+    <link>http://www.lowing.org/fonts/</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/abff484b9079800e3ae6e0cef2a32b1c'&gt;[D]&lt;/a&gt;
+    (fonts, programming, font, typography)... Tipografias para
+    programadores... I personally like Fixedsys... Becoming
+    frustrated with source code not aligning in my favorite source
+    editor I decided to hunt for the best font. In particular, I
+    began to hunt down the available fixed-width or monospaced
+    fonts.... Becoming frustrated with source
+    co&lt;/i&gt;&lt;br&gt;Monospace/Fixed Width Programmer's
+    Fonts</description>
+  </item>
+  <item rdf:about="http://www.incompetech.com/beta/plainGraphPaper/">
+
+    <title>Free Online Graph Paper / Grid Paper PDFs</title>
+    <link>http://www.incompetech.com/beta/plainGraphPaper/</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/6088ce27b9177b5c37dcdcec686730da'&gt;[D]&lt;/a&gt;
+    (paper, pdf, graph, tools)... Downloadable and very printable
+    graph paper... Downloadable and very printable... Use .pdf and
+    printer to turn plain paper to graph paper.... Graph paper
+    generator... WTF? Graph Papers, lol. okay then... Graph paper
+    generator... Download graph paper... A valuable resource when
+    you're in a pinch...&lt;/i&gt;&lt;br&gt;Free Online Graph Paper
+    / Grid Paper PDFs</description>
+  </item>
+  <item rdf:about="http://www.startupventuretoolbox.com/index.htm">
+    <title>Startup Venture Toolbox</title>
+    <link>http://www.startupventuretoolbox.com/index.htm</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/d6ec443c7b128a1148e1f169e39bdcd3'&gt;[D]&lt;/a&gt;
+    (business, startup, entrepreneur, venture)... Welcome to the
+    Startup Venture Toolbox created by David Rex. The goal of the
+    Toolbox is to provide entrepreneurs with the tools and
+    assistance necessary to help achieve their desired goals as
+    well as to provide a forum for the exploration of
+    entrepreneuri... Welcome to the Startup Venture Toolbox
+    cr&lt;/i&gt;&lt;br&gt;Startup Venture Toolbox</description>
+  </item>
+  <item rdf:about="http://blog.flickr.com/flickrblog/2005/05/from_flash_to_a.html">
+
+    <title>Flickr: From Flash to DHTML(AJAX) (on some
+    pages!)</title>
+    <link>
+    http://blog.flickr.com/flickrblog/2005/05/from_flash_to_a.html</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/2e59635c8cd55110261ce58d5b6096f7'&gt;[D]&lt;/a&gt;
+    (flickr, ajax, flash, dhtml)... In answer to countless
+    requests, photo pages no longer use a Macromedia Flash wrapper
+    to display photos; instead we are using an old technology
+    called "DHTML."... Flickr moves from Flash to DHTML on photo
+    pages.... (via: javascript.weblogsinc.com)... "photo pages no
+    longer use a Macro&lt;/i&gt;&lt;br&gt;Flickr: From Flash to
+    DHTML(AJAX) (on some pages!)</description>
+  </item>
+  <item rdf:about="http://www.pbs.org/cringely/pulpit/pulpit20050512.html">
+
+    <title>PBS | I, Cringely . May 12, 2005 - Inflection
+    Point</title>
+    <link>
+    http://www.pbs.org/cringely/pulpit/pulpit20050512.html</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/1c775fbec646bb00a51cf89b6060d6b1'&gt;[D]&lt;/a&gt;
+    (google, apple, tech, yahoo)... han &#195;&#164;r smart, mr X.
+    eller smart, han &#195;&#164;r rolig iaf.... the future of some
+    important companies?... This Week Changed the World of High
+    Tech Forever, Though Most of Us Still Don't Know It...
+    Microsoft, Google, and Apple changed the world of high tech
+    forever this week, and most of us don't know it
+    ye&lt;/i&gt;&lt;br&gt;PBS | I, Cringely . May 12, 2005 -
+    Inflection Point</description>
+  </item>
+  <item rdf:about="http://www.guardian.co.uk/life/feature/story/0,13026,1481368,00.html">
+
+    <title>Guardian Unlimited | Life | 'This is how science is
+    done'</title>
+    <link>
+    http://www.guardian.co.uk/life/feature/story/0,13026,1481368,00.html</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/9117e9b95ae44e385ff1b67a2fcab6aa'&gt;[D]&lt;/a&gt;
+    (science, feynman, physics, letters)... Nobel physicist Richard
+    Feynman wrote hundreds of inspiring letters, often to
+    strangers.... An insightful look at the man via his writing....
+    Feynman... Nobel physicist Richard Feynman wrote hundreds of
+    inspiring letters, often to strangers. Below, his daughter
+    Michelle Feynman introduces an edited
+    &lt;/i&gt;&lt;br&gt;Guardian Unlimited | Life | 'This is how
+    science is done'</description>
+  </item>
+  <item rdf:about="http://dwalin.ru/books/">
+    <title>Index of /books</title>
+    <link>http://dwalin.ru/books/</link>
+    <description>&lt;i&gt;&lt;a
+    href='http://del.icio.us/url/fa15d22896ef9b99b7080df64c46987c'&gt;[D]&lt;/a&gt;
+    (books, free, literature, ebooks)... Bunch of books
+    (fiction)... Tom clancy, isaac asimov, etc... tons of books
+    online in text files... free scifi ebooks... many downloadable
+    books by many great authors... Free books!... Free Books...
+    text format books... Free Books... ebooks from a russian
+    server......&lt;/i&gt;&lt;br&gt;Index of /books</description>
+  </item>
+</rdf:RDF>

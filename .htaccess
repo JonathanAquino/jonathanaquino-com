@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# add .php file extension. From http://stackoverflow.com/questions/7516490/default-to-php-extension-on-web-server
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.+)$ $1.php [L]

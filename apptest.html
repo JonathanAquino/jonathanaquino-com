@@ -1,0 +1,15 @@
+<html>
+<body>
+<p id="message">Mode app is not installed.</p>
+<script>
+    var iframe = document.createElement("iframe");
+    iframe.onload = function() {
+        document.getElementById('message').innerHTML = 'MODE APP IS INSTALLED';
+    };
+
+    iframe.src = 'mode://';
+    iframe.setAttribute("style", "display:none;");
+    document.body.appendChild(iframe);
+</script>
+</body>
+</html>

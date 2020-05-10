@@ -1,0 +1,24 @@
+#userHeader {
+    margin: 10px 20px 0 20px;
+}
+
+#userContent div {
+    margin: 10px 20px 0 20px;
+    padding: 10px;
+    background: #cde6c0;
+}
+
+#userContent h3 {
+    margin: 0;
+    font: 28px Georgia, "Times New Roman", Times, serif;
+    color: #333;
+}
+
+#userContent p {
+    margin: 0;
+    font: 16px Georgia, "Times New Roman", Times, serif;
+}
+
+#userContent p img#editFile {
+    float: right;
+}

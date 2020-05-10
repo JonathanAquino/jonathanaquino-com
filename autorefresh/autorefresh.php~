@@ -1,0 +1,21 @@
+<HTML>
+<HEAD>
+</HEAD>
+
+<FRAMESET ROWS="50%,50%">
+  
+    <FRAMESET COLS="100%">
+      
+        <FRAME SRC="<? echo $_GET['url'] ?>">
+      
+    </FRAMESET>
+  
+    <FRAMESET COLS="100%">
+      
+        <FRAME SRC="autorefresh-timer.php">
+      
+    </FRAMESET>
+
+  
+</FRAMESET>
+</HTML> 

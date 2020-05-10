@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Bloglines Shuffler | Log In</title>
+    <link rel="stylesheet" type="text/css" href="/mystyle.css" />
+  </head>
+  <body>
+    <h1>Bloglines Shuffler</h1>
+    <span style="font-size:x-small"><a href="http://jonaquino.blogspot.com/2005/04/bloglines-shuffler-new-way-to-read.html">About Bloglines Shuffler</a> | <a href="/">Jon Aquino Labs</a></span><br><br>
+    Enter the information you use to log in to Bloglines.<br><br>
+    <form name="form" action="shuffle.rhtml" method="POST">
+      <table border=0>
+        <tr><td>Email Address:</td><td><input type="text" name="username"></td></tr>
+        <tr><td>Password:</td><td><input type="password" name="password"></td></tr>
+      </table><br>
+      <input type="submit" value="View My Shuffled Feed Items*">
+    </form><br>
+    <script language="JavaScript">document.form.username.focus();</script>
+    <span style="font-size:x-small">*Don't worry -- pressing this button won't change your Bloglines feeds in any way.</span><br><br><br>
+    <table width="500" bgcolor="#ffff99"><tbody><tr><td><span style="font-weight: bold; color: rgb(255, 0, 0);">Update:</span> I have made a better web application called <a href="http://jonaquino.blogspot.com/2005/04/bloglines-splicer-improvement-on.html">Bloglines Splicer</a> -- better because it does not favour feeds with more unread items; rather, it treats all feeds equally. Check it out!</td></tr></tbody></table>
+  </body>
+</html>

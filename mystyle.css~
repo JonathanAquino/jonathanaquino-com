@@ -1,0 +1,7 @@
+body {
+  font: small Verdana, Arial, Helvetica, sans-serif;
+}
+
+tr {
+  font-size: small;
+}

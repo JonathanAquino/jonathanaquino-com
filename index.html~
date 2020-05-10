@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Forwarding you to Jon Aquino Labs...</title>
+<script LANGUAGE="JavaScript">
+<!-- begin hiding JavaScript from old browsers
+function redirect(){
+  parent.location.href="http://jonaquinolabs.blogspot.com"
+}
+// End hiding JavaScript -->
+</SCRIPT>
+</head>
+<body>
+Forwarding you to <a href="http://jonaquinolabs.blogspot.com">Jon Aquino Labs</a>...
+<script LANGUAGE="JavaScript">
+<!-- Hide script from old browsers
+redirect()
+//-->
+</SCRIPT>
+</body>
+</html>
+
+

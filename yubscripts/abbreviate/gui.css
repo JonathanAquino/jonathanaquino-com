@@ -1,0 +1,80 @@
+#main{
+margin-top:20px;
+margin-left: auto;
+margin-right: auto;
+width:550px;
+background-color:#E7EFE7;
+font-family: arial, "lucida console", sans-serif;
+padding:0px;
+}
+
+h1 {
+text-align:right;
+background-color:#6DCC6D;
+color:white;
+padding:4px 10px;
+margin:0px;
+font-size:2.2em;
+}
+
+h2{
+background-color:#B8E0B8;
+margin:0px 0px 0px;
+padding:28px 0px 11px 10px;
+font-size:1.7em;
+}
+
+h2 a {text-decoration:none;color:black;}
+
+#preview_string{
+padding:20px 10px 20px 10px;
+font-size:.8em;
+}
+
+label{
+width: 5em;
+float: left;
+text-align: right;
+margin-right: 0.5em;
+display: block;
+font-size:1.2em;
+padding-top:4px;
+}
+
+#s_box {
+background-color:#B8E0B8;
+margin:0px;
+padding:12px 7px 10px;
+text-align:center;
+}
+
+#s_box input, #params input {border: #B1B1B1 1px solid;}
+
+#s_box input {
+font-size:1.2em;
+width:532px;
+}
+
+.param_box {
+background-color:#B8E0B8;
+margin:0px;
+padding:7px 0px 10px;
+
+}
+
+.param_box input {
+font-size:1.2em;
+width:434px;
+}
+
+#bottom {
+text-align:right;
+padding:10px;
+}
+
+#shadow {
+background: url('shadow.gif') repeat-x bottom right;
+padding:0px;
+margin:0px;
+height:15px;
+}

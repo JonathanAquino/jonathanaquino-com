@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns="http://purl.org/rss/1.0/">
+  <channel rdf:about="http://www.populicio.us/newlinks48.html">
+    <title>Descriptious: Populicious. New popular sites
+    (48h).</title>
+    <link>http://www.populicio.us/newlinks48.html</link>
+    <description>New popular sites (48h).</description>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>12</sy:updateFrequency>
+    <sy:updateBase>2005-05-14T17:00+01:00</sy:updateBase>
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://www.foldedspace.org/archives/004245.html" />
+        <rdf:li rdf:resource="http://littleoslo.com/eng/blogpoly.htm" />
+        <rdf:li rdf:resource="http://www.extremetech.com/article2/0,1558,1814924,00.asp" />
+        <rdf:li rdf:resource="http://blog.flickr.com/flickrblog/2005/05/from_flash_to_a.html" />
+        <rdf:li rdf:resource="http://www.pbs.org/cringely/pulpit/pulpit20050512.html" />
+        <rdf:li rdf:resource="http://radar.oreilly.com/archives/2005/05/web_services_es.html" />
+        <rdf:li rdf:resource="http://www.i-hacked.com/index.php?option=com_content&amp;task=view&amp;id=162&amp;Itemid=44" />
+        <rdf:li rdf:resource="http://unrealtorrents.com/index.php" />
+        <rdf:li rdf:resource="http://www.participatoryculture.org/bm/" />
+        <rdf:li rdf:resource="http://radar.oreilly.com/archives/2005/05/flash_is_ajax_o.html" />
+        <rdf:li rdf:resource="http://www.onlamp.com/pub/a/bsd/2005/05/12/FreeBSD_Basics.html" />
+        <rdf:li rdf:resource="http://www.mezzoblue.com/archives/2005/05/13/columns_grid/index.php" />
+        <rdf:li rdf:resource="http://www.sitepoint.com/article/successful-development" />
+        <rdf:li rdf:resource="http://www.macdevcenter.com/pub/a/mac/2005/05/13/tiger_tips.html" />
+        <rdf:li rdf:resource="http://content.salary.monster.com/articles/habits/" />
+        <rdf:li rdf:resource="http://www.benjaminadam.com/archives/2005/05/13/creating-graphs-in-php" />
+        <rdf:li rdf:resource="http://www.hackaday.com/entry/1234000690043237/" />
+        <rdf:li rdf:resource="http://www.43folders.com/2005/05/how_are_you_usi.html" />
+        <rdf:li rdf:resource="http://forums.egullet.org/index.php?s=8cf00bae8fd96d4fc4231d209f61734c&amp;showtopic=66997&amp;st=0" />
+        <rdf:li rdf:resource="http://www.base2john.com/fireflies/" />
+        <rdf:li rdf:resource="http://radar.oreilly.com/archives/2005/05/attracting_deve.html" />
+        <rdf:li rdf:resource="http://www.legrady.hu/sc.html" />
+        <rdf:li rdf:resource="http://geekfantasies.com/" />
+        <rdf:li rdf:resource="http://www.uninformed.org/" />
+        <rdf:li rdf:resource="http://www.daemonology.net/hyperthreading-considered-harmful/" />
+        <rdf:li rdf:resource="http://www.stunicholls.myby.co.uk/boxes/minwidth.html" />
+        <rdf:li rdf:resource="http://www.dashes.com/anil/2005/05/12/pay_by_the_hour" />
+        <rdf:li rdf:resource="http://webcoder.info/reference/BrowserFiltering.script.html" />
+        <rdf:li rdf:resource="http://www.ews.uiuc.edu/~nshin/PROJECTS/LASERSNOOPER/" />
+        <rdf:li rdf:resource="http://greg.vario.us/software/foxipod/" />
+      </rdf:Seq>
+    </items>
+  </channel>
+  <item rdf:about="http://www.foldedspace.org/archives/004245.html">
+
+    <title>foldedspace.org: Get Rich Slowly!</title>
+    <link>http://www.foldedspace.org/archives/004245.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/0181eb9af424a09789b35d427a01b4f2'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(money, finance, tips,
+    howto)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Advice from a
+    lot of get rich books... An excellent guide to making your
+    money go further.... An interesting article on how to achieve
+    financial freedom. At also summarise methods from different
+    books.... An aggregated summary/review of all the popular
+    personal finance self-help books... Commentary
+    &lt;/span&gt;&lt;/i&gt;&lt;br&gt;foldedspace.org: Get Rich
+    Slowly!</description>
+  </item>
+  <item rdf:about="http://littleoslo.com/eng/blogpoly.htm">
+    <title>..::littleoslo::..blogpoly</title>
+    <link>http://littleoslo.com/eng/blogpoly.htm</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/1a216187408b4b021c094311c74edd3c'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(games, blog, blogs,
+    monopoly)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; From Monopoly to
+    Blogpoly... Il monopoli dei blogger.....
+    &#233;&#162;&#231;&#8482;&#189;&#227;&#8222;... A Monopoly game
+    board with Blog-related realestate... A monopoly board with
+    Internet stuff instead of streets. And they are clickable!...
+    Some surprisingly appropriate choices.... Monopoly with a
+    blogging theme... "It is
+    jus&lt;/span&gt;&lt;/i&gt;&lt;br&gt;..::littleoslo::..blogpoly</description>
+  </item>
+  <item rdf:about="http://www.extremetech.com/article2/0,1558,1814924,00.asp">
+
+    <title>Microsoft-Free Home Part 4: The Linux HTPC--ExtremeTech
+    Build It</title>
+    <link>
+    http://www.extremetech.com/article2/0,1558,1814924,00.asp</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/ab915a645b517c2432f50ee11fc0ec22'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(linux, pvr, htpc,
+    howto)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; soon... Home
+    Theater PC... Linux is one of the most remarkable phenomena in
+    the recent history of personal computing. In some ways, it's
+    similar to the original homebrew PC movement of the late 1970s
+    and early 80s. Equal parts cool kids club and grass roots
+    revolution, Linux in its... linux based
+    ho&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Microsoft-Free Home Part 4:
+    The Linux HTPC--ExtremeTech Build It</description>
+  </item>
+  <item rdf:about="http://blog.flickr.com/flickrblog/2005/05/from_flash_to_a.html">
+
+    <title>Flickr Moves Toward DHTML Instead of Flash</title>
+    <link>
+    http://blog.flickr.com/flickrblog/2005/05/from_flash_to_a.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/2e59635c8cd55110261ce58d5b6096f7'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(flickr, ajax, flash,
+    dhtml)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Flickr, the
+    popular photo-sharing application, is trading in parts of its
+    slick Flash interface for DHTML.... Flickr dumps flash for
+    DHTML... In answer to countless requests, photo pages no longer
+    use a Macromedia Flash wrapper to display photos; instead we
+    are using an old technology called
+    "&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Flickr Moves Toward DHTML
+    Instead of Flash</description>
+  </item>
+  <item rdf:about="http://www.pbs.org/cringely/pulpit/pulpit20050512.html">
+
+    <title>PBS | I, Cringely . May 12, 2005 - Inflection
+    Point</title>
+    <link>
+    http://www.pbs.org/cringely/pulpit/pulpit20050512.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/1c775fbec646bb00a51cf89b6060d6b1'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(google, apple,
+    microsoft, tech)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; han
+    &#195;&#164;r smart, mr X. eller smart, han &#195;&#164;r rolig
+    iaf.... the future of some important companies?... This Week
+    Changed the World of High Tech Forever, Though Most of Us Still
+    Don't Know It... Microsoft, Google, and Apple changed the world
+    of high tech forever this week, and most of us don't know it
+    ye&lt;/span&gt;&lt;/i&gt;&lt;br&gt;PBS | I, Cringely . May 12,
+    2005 - Inflection Point</description>
+  </item>
+  <item rdf:about="http://radar.oreilly.com/archives/2005/05/web_services_es.html">
+
+    <title>O'Reilly Radar &gt; How To Roll Out An Open API</title>
+    <link>
+    http://radar.oreilly.com/archives/2005/05/web_services_es.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/149398d5e10063b6ef5af056463a326e'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(api, design,
+    webservices, oreilly)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Make signup
+    simple, offer toolkits for the languages that Internet
+    developers use, and think laterally about business models.
+    Ultimately, not every developer will have a business model and
+    exit strategy. Identify and help those that do, support those
+    that... I think i need to know this... toread...
+    &lt;/span&gt;&lt;/i&gt;&lt;br&gt;O'Reilly Radar &gt; How To
+    Roll Out An Open API</description>
+  </item>
+  <item rdf:about="http://www.i-hacked.com/index.php?option=com_content&amp;task=view&amp;id=162&amp;Itemid=44">
+
+    <title>I-Hacked.com Taking Advantage Of Technology - Transmit
+    Audio with a Laser Pen</title>
+    <link>
+    http://www.i-hacked.com/index.php?option=com_content&amp;task=view&amp;id=162&amp;Itemid=44</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/6bcccfb01de584eeb914695b83e395b3'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;()&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;I-Hacked.com
+    Taking Advantage Of Technology - Transmit Audio with a Laser
+    Pen</description>
+  </item>
+  <item rdf:about="http://unrealtorrents.com/index.php">
+    <title>UnrealTorrents</title>
+    <link>http://unrealtorrents.com/index.php</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/6d7fb96edd43df91f3a48cfd2fbcff43'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(torrent, bittorrent,
+    torrents, p2p)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;UnrealTorrents</description>
+  </item>
+  <item rdf:about="http://www.participatoryculture.org/bm/">
+    <title>Broadcast Machine: Publish RSS / Torrent Video
+    Channels</title>
+    <link>http://www.participatoryculture.org/bm/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/78c1f7694b4d65ab825e56c341fffb1c'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(video, rss, p2p,
+    bittorrent)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Broadcast
+    Machine is software for your website that can publish
+    fullscreen video files to thousands, using torrent technology
+    to reduce or eliminate bandwidth costs.... web-based app for
+    easy video "channels" - RSS feeds using torrents to distrubute
+    bandwidth... An Open Source, Site Based
+    &lt;/span&gt;&lt;/i&gt;&lt;br&gt;Broadcast Machine: Publish RSS
+    / Torrent Video Channels</description>
+  </item>
+  <item rdf:about="http://radar.oreilly.com/archives/2005/05/flash_is_ajax_o.html">
+
+    <title>O'Reilly Radar &gt; Flash is Ajax, or Flash versus Ajax,
+    at the Ajax Summit</title>
+    <link>
+    http://radar.oreilly.com/archives/2005/05/flash_is_ajax_o.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/5c27092927bd9f9d0e74d485eda206a5'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(ajax, flash, javascript,
+    programming)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; In a "worse is
+    better" way Ajax makes Flash (and Java, ActiveX) unnecessary
+    for some kinds of interface models. Faster load time,
+    consistent interface with the rest of the browser, a
+    standard/free HTTP server backend, and broader development tool
+    support.... Another summary of the AJAX
+    con&lt;/span&gt;&lt;/i&gt;&lt;br&gt;O'Reilly Radar &gt; Flash
+    is Ajax, or Flash versus Ajax, at the Ajax Summit</description>
+  </item>
+  <item rdf:about="http://www.onlamp.com/pub/a/bsd/2005/05/12/FreeBSD_Basics.html">
+
+    <title>ONLamp.com: Setting up a Secure Subversion
+    Server</title>
+    <link>
+    http://www.onlamp.com/pub/a/bsd/2005/05/12/FreeBSD_Basics.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/4c6f7387ef612e5f65a6df41876979c2'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(subversion, freebsd,
+    svn, security)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Recently a
+    client hired a team of web developers to assist his overworked
+    web administrator. They asked me to set up a revision-control
+    system to ensure that no one on the team inadvertently
+    overwrote another member's work and to give the administrator
+    th... FreeBSD... Article from ONLamp.com...
+    Set&lt;/span&gt;&lt;/i&gt;&lt;br&gt;ONLamp.com: Setting up a
+    Secure Subversion Server</description>
+  </item>
+  <item rdf:about="http://www.mezzoblue.com/archives/2005/05/13/columns_grid/index.php">
+
+    <title>mezzoblue &#194;&#167; Columns &amp; Grids</title>
+    <link>
+    http://www.mezzoblue.com/archives/2005/05/13/columns_grid/index.php</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/c8f43054b79f23ede992012869063b63'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(design, layout, css,
+    web)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; An Article about
+    the layour of websites... The difficulty of grid systems in web
+    pages, the compromise of columns... Nice analysis and some
+    great examples.... The difficulty of grid systems in web pages,
+    the compromise of columns.... The difficulty of grid systems in
+    web pages, the compromise of
+    col&lt;/span&gt;&lt;/i&gt;&lt;br&gt;mezzoblue &#194;&#167;
+    Columns &amp; Grids</description>
+  </item>
+  <item rdf:about="http://www.sitepoint.com/article/successful-development">
+
+    <title>Successful Web Development Methodolgies [Site
+    Planning]</title>
+    <link>
+    http://www.sitepoint.com/article/successful-development</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/8479b862db8d8ad073c44281f4b4315b'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(web, development,
+    webdesign, webdevelop)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Successful web
+    development methodolgies... Commercial Web development has been
+    around for more than 10 years. As an industry, this one's still
+    fairly young when you consider others that have been around for
+    centuries. But relative youth as an industry is no excuse for
+    not doing better.... good
+    artic&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Successful Web
+    Development Methodolgies [Site Planning]</description>
+  </item>
+  <item rdf:about="http://www.macdevcenter.com/pub/a/mac/2005/05/13/tiger_tips.html">
+
+    <title>20 Cool Tiger Features You Might Not Have Heard
+    About</title>
+    <link>
+    http://www.macdevcenter.com/pub/a/mac/2005/05/13/tiger_tips.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/b739845ae6abd1218b4b98b7c8e5d5a1'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(tiger, mac, apple,
+    osx)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Could Tiger have
+    any MORE cool features? I guess so...... great hints from Scott
+    Knaster... Lots of great Tiger Tips... at O'Reilly's
+    MacDevCenter.com... another 20 tiger features... read... some
+    Tiger features, including ones I forgot to
+    mention...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;20 Cool Tiger
+    Features You Might Not Have Heard About</description>
+  </item>
+  <item rdf:about="http://content.salary.monster.com/articles/habits/">
+
+    <title>Five Habits of Millionaires</title>
+    <link>http://content.salary.monster.com/articles/habits/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/eb4f8df6afd0e0fbe358b0c2f33d6088'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(finance, money,
+    business, wealth)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Does it do any
+    good to act like a millionaire before you actually are one?
+    Probably so.... And how much money does the professor say it
+    takes to be happy? "About $1 million, give or take a
+    little."... Long-term strategies - more like a
+    philosophy....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Five Habits of
+    Millionaires</description>
+  </item>
+  <item rdf:about="http://www.benjaminadam.com/archives/2005/05/13/creating-graphs-in-php">
+
+    <title>Creating Graphs in PHP</title>
+    <link>
+    http://www.benjaminadam.com/archives/2005/05/13/creating-graphs-in-php</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/9050225272add7256222e6fff0e96c06'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(php, web, programming,
+    graphing)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Brilliant....
+    Amazingly useful tutorial on drawing graphs with PHP... B. Adam
+    (Howell)... A blogger describes how he makes a dynamic graph
+    for his Web site using
+    PHP....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Creating Graphs in
+    PHP</description>
+  </item>
+  <item rdf:about="http://www.hackaday.com/entry/1234000690043237/">
+
+    <title>HOW-TO: WRT Client Mode - hack a day - www.hackaday.com
+    _</title>
+    <link>http://www.hackaday.com/entry/1234000690043237/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/ca41817f6f23e47898b4202bcf9d3570'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(linksys, wrt54g, hacks,
+    linux)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Client mode lets
+    you connect the computers on the wired side of the router to
+    another router
+    wirelessly,...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;HOW-TO: WRT
+    Client Mode - hack a day - www.hackaday.com _</description>
+  </item>
+  <item rdf:about="http://www.43folders.com/2005/05/how_are_you_usi.html">
+
+    <title>43 Folders: How are you using GTDTiddlyWiki?</title>
+    <link>
+    http://www.43folders.com/2005/05/how_are_you_usi.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/3560dd528472dde914284c460c5cfc78'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(gtd, wiki, productivity,
+    geek)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; GTDTiddlyWiki
+    tips and tricks... Mer om GTD Tiddly Wiki, din egen privata
+    Getting Things Done-webbplats.... 43 folders blog entry about a
+    cool browser based, single HTML file (lots of javascript)
+    application... An HTML wiki with all kinds of cool uses,
+    including GTD...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;43 Folders:
+    How are you using GTDTiddlyWiki?</description>
+  </item>
+  <item rdf:about="http://forums.egullet.org/index.php?s=8cf00bae8fd96d4fc4231d209f61734c&amp;showtopic=66997&amp;st=0">
+
+    <title>Review of new Chicago restaurant, Alinea</title>
+    <link>
+    http://forums.egullet.org/index.php?s=8cf00bae8fd96d4fc4231d209f61734c&amp;showtopic=66997&amp;st=0</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/101c7e603d6bb8fe560243857d69c7f9'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;()&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Review
+    of new Chicago restaurant, Alinea</description>
+  </item>
+  <item rdf:about="http://www.base2john.com/fireflies/">
+    <title>Fireflies - a networked nightlights</title>
+    <link>http://www.base2john.com/fireflies/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/9919ecb6321fe8c14bbbb586cb63a9c1'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(electronics, howto, diy,
+    art)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; via the Make
+    blog: neat little PIC-based hardware project, kinda like those
+    orb things, only cooler.... Fireflies are networked nightlights
+    for a local environment, the jars can be placed in different
+    bedrooms or other spots around a home so people can communicate
+    with one another through simply
+    tap&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Fireflies - a networked
+    nightlights</description>
+  </item>
+  <item rdf:about="http://radar.oreilly.com/archives/2005/05/attracting_deve.html">
+
+    <title>O'Reilly Radar &gt; Attracting Developers to Your
+    Platform</title>
+    <link>
+    http://radar.oreilly.com/archives/2005/05/attracting_deve.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/58cdaea83d30a8708e806994763e867f'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(api, openapi, biz,
+    marketing)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Love the best
+    developers. A great coder who's terrible at self-promotion
+    should get a leg up from your marketing group. A developer's
+    work that is catching on should have a big bucket of gasoline
+    dumped on top of it. This is just like management in a
+    team...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;O'Reilly Radar &gt;
+    Attracting Developers to Your Platform</description>
+  </item>
+  <item rdf:about="http://www.legrady.hu/sc.html">
+    <title>Screen Clean</title>
+    <link>http://www.legrady.hu/sc.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/da1aa75b19ce3f12a89e1585af715c91'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(humor, flash, cat,
+    funny)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; I need one of
+    these...... Let a cat lick your monitor clean... A screen
+    cleaner that works... Does your screen need cleaning? try
+    this... One of the cheesiest links you'll ever see on
+    plasticbag.org and thanks to Rebekah Ford for the
+    pointer......&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Screen
+    Clean</description>
+  </item>
+  <item rdf:about="http://geekfantasies.com/">
+    <title>Geek Fantasies</title>
+    <link>http://geekfantasies.com/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/1fea114b5301a55b7df59afb1b2fdcb5'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(geek, fun, funny,
+    humor)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Kinda lame, but
+    still pretty funny.... bwahaha.... We know what you want and we
+    know how you like it....&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Geek
+    Fantasies</description>
+  </item>
+  <item rdf:about="http://www.uninformed.org/">
+    <title>Uninformed</title>
+    <link>http://www.uninformed.org/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/d237b8a505fbaa06a160d6ae41f8f772'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(programming, hacking,
+    computing, journal)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Hacking/Security
+    Journal. Seems like good information to know.... This really
+    needs an RSS feed.... Informative Information for the
+    Uninformed... programming
+    information...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Uninformed</description>
+  </item>
+  <item rdf:about="http://www.daemonology.net/hyperthreading-considered-harmful/">
+
+    <title>Hyper-Threading considered harmful</title>
+    <link>
+    http://www.daemonology.net/hyperthreading-considered-harmful/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/e4873db3399ab67f0df22f6d6c988e74'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(security,
+    hyperthreading, cpu)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Send to CM...
+    what is this? 'make microsoft look good by comparison
+    week'?...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Hyper-Threading
+    considered harmful</description>
+  </item>
+  <item rdf:about="http://www.stunicholls.myby.co.uk/boxes/minwidth.html">
+
+    <title>Stu Nicholls | Cutting Edge CSS | Min-width For
+    IE</title>
+    <link>
+    http://www.stunicholls.myby.co.uk/boxes/minwidth.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/0a74863adaddc2a06092375f7fa2cd0c'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(css, ie, design,
+    min-width)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Simpeler dan
+    IE7... at Stu Nicholls' Cutting Edge
+    CSS...&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Stu Nicholls | Cutting
+    Edge CSS | Min-width For IE</description>
+  </item>
+  <item rdf:about="http://www.dashes.com/anil/2005/05/12/pay_by_the_hour">
+
+    <title>Anil Dash: Pay By The Hour</title>
+    <link>
+    http://www.dashes.com/anil/2005/05/12/pay_by_the_hour</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/2f7275b5c7cfd939b8e21cf2ff4f6180'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(freelance, work,
+    consulting, funny)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Note to self:
+    slap potential client in the face, then tell them your hourly
+    rate. "If the person looked more shocked, horrified, offended,
+    hurt, saddened, or wounded by the slap in the face, then you
+    are still pricing yourself too low."... This is sound
+    advice.... quick &amp; easy
+    billing&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Anil Dash: Pay By The
+    Hour</description>
+  </item>
+  <item rdf:about="http://webcoder.info/reference/BrowserFiltering.script.html">
+
+    <title>Scripting Methods</title>
+    <link>
+    http://webcoder.info/reference/BrowserFiltering.script.html</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/3363efe5858b8f31a5c309e483d1aa4d'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(javascript, dom,
+    reference, web)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; Browser
+    detection via available dom functions... Checking for the
+    existence of each function prior to using it is the best
+    approach to DOM programming. However, there are times when you
+    may need to provide a simple high-pass (or low-pass) filter to
+    determine the general level of support. This is
+    fr&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Scripting
+    Methods</description>
+  </item>
+  <item rdf:about="http://www.ews.uiuc.edu/~nshin/PROJECTS/LASERSNOOPER/">
+
+    <title>Laser Snooper</title>
+    <link>
+    http://www.ews.uiuc.edu/~nshin/PROJECTS/LASERSNOOPER/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/45405718c98e44a85a8dc6ad0a32637c'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(projects, tech, laser,
+    hacks)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt;&lt;/span&gt;&lt;/i&gt;&lt;br&gt;Laser
+    Snooper</description>
+  </item>
+  <item rdf:about="http://greg.vario.us/software/foxipod/">
+    <title>FoxiPod</title>
+    <link>http://greg.vario.us/software/foxipod/</link>
+    <description>&lt;i&gt;&lt;a class='descriptious-delicious-url'
+    href='http://del.icio.us/url/81773491732585c2e610a2d819bf57e6'&gt;[D]&lt;/a&gt;
+    &lt;span class='descriptious-tags'&gt;(firefox, ipod,
+    greasemonkey, podcasting)&lt;/span&gt; &lt;span
+    class='descriptious-extended-descriptions'&gt; FoxiPod uses
+    Greasemonkey with Firefox to make downloading MP3s and music
+    files and adding them to iTunes a single-click process....
+    One-click download/install of mp3s into iTunes... Greasemonkey
+    script to make downloading mp3s and music files and adding them
+    to iTunes a single-click process...
+    iPod&lt;/span&gt;&lt;/i&gt;&lt;br&gt;FoxiPod</description>
+  </item>
+</rdf:RDF>

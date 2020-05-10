@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>Line Shuffler</title>
+  <link rel="stylesheet" type="text/css" href="/mystyle.css" />
+  <script language="javascript">
+    // fisherYates code is from "Randomize arrays in JavaScript" by
+    // Ashley, http://sedition.com/perl/javascript-fy.html , accessed
+    // 2005-04-14 [Jon Aquino 2005-04-14]
+    function fisherYates ( myArray ) {
+      i = myArray.length;
+      if ( i == 0 ) return false;
+      while ( --i ) {
+         j = Math.floor( Math.random() * ( i + 1 ) );
+         tempi = myArray[i];
+         tempj = myArray[j];
+         myArray[i] = tempj;
+         myArray[j] = tempi;
+       }
+    }
+    function shuffle() {
+      lines = document.form.textarea.value.split("\n");
+      fisherYates(lines);
+      document.form.textarea.value = lines.join("\n");
+    }
+  </script>
+</head>
+<body>
+  <h1>Line Shuffler</h1>
+  <span style="font-size:x-small"><a href="http://jonaquino.blogspot.com/2005/04/online-line-shuffler.html">About Line Shuffler</a> | <a href="http://jonaquinolabs.blogspot.com">Jon Aquino Labs</a></span><br><br>
+  Enter some text containing several lines, then press the button to shuffle them.
+  <form name="form">
+    <textarea name="textarea" cols="60" rows="8"></textarea><br>
+    <input type="button" value="Shuffle Lines" onClick="shuffle()"><br>
+  </form>
+</body>
+</html>

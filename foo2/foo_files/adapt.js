@@ -1,0 +1,1 @@
+define("views/adapt",[],function(){"use strict";var e={};return e.showAll=function(){y$.noop()},e.show=function(e){y$.noop()},e});

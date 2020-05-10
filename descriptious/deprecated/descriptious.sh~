@@ -1,0 +1,4 @@
+#!/usr/local/bin/bash
+/usr/local/bin/ruby /home/jonathanaquino/public_html/descriptious/descriptious.rb http://populicio.us/newlinks.rss | /usr/local/bin/tidy -indent -xml > /home/jonathanaquino/public_html/descriptious/descriptious-populicious.xml
+/usr/local/bin/ruby /home/jonathanaquino/public_html/descriptious/descriptious.rb http://del.icio.us/rss/popular/ | /usr/local/bin/tidy -indent -xml > /home/jonathanaquino/public_html/descriptious/descriptious-delicious-popular.xml
+/usr/local/bin/ruby /home/jonathanaquino/public_html/descriptious/descriptious.rb 'http://www.wotzwot.com/rssxl.php?pageurl=http%3A%2F%2Ffresh.homeunix.net%2Fdelicious.html&sf=%3Ctable%3E&si=%3Ctr%3E%3Ctd%3E&ei=%3C%2Ftd%3E%3C%2Ftr%3E&sd=&ed=' | /usr/local/bin/tidy -indent -xml > /home/jonathanaquino/public_html/descriptious/descriptious-trendalicious.xml

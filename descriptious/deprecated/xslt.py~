@@ -1,0 +1,11 @@
+import libxml2
+import libxslt
+
+styledoc = libxml2.parseFile("/home/jonathanaquino/public_html/descriptious/rss1.xsl")
+style = libxslt.parseStylesheetDoc(styledoc)
+doc = libxml2.parseFile("/home/jonathanaquino/public_html/descriptious/descriptious-trendalicious.xml")
+result = style.applyStylesheet(doc, None)
+style.saveResultToFilename("/home/jonathanaquino/public_html/descriptious/descriptious-trendalicious.html", result, 0)
+style.freeStylesheet()
+doc.freeDoc()
+result.freeDoc()

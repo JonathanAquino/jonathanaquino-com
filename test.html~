@@ -1,0 +1,33 @@
+<html>
+<head>
+</head>
+<body onload="">
+            <script src="http://maps.google.com/maps?file=api&v=1&key=ABQIAAAANFYJyitS5RtvrTlhw3O3hhQttF-4yzzgSr5vnxFdSx6rABlpURRqy2NyR8J0ebUit7YNdmESNM5rYg" type="text/javascript"></script>
+
+             <div id="map" style="width: 300px; height: 300px"></div>
+  
+             <script type="text/javascript">
+             //<![CDATA[
+
+                if (GBrowserIsCompatible()) {
+                    var baseIcon = new GIcon();
+                    baseIcon.image = "http://www.google.com/mapfiles/marker.png";
+                    baseIcon.shadow = "http://www.google.com/mapfiles/shadow50.png";
+                    baseIcon.iconSize = new GSize(20, 34);
+                    baseIcon.shadowSize = new GSize(37, 34);
+                    baseIcon.iconAnchor = new GPoint(9, 34);
+                    baseIcon.infoWindowAnchor = new GPoint(9, 2);
+                    baseIcon.infoShadowAnchor = new GPoint(18, 25);
+                    var point = new GPoint(-77.037684, 38.898748);
+                    var map = new GMap(document.getElementById("map"));
+                    map.centerAndZoom(point, 3);
+		    
+                    map.addControl(new GControl());
+		        
+            }       
+	        
+            //]]>
+    
+            </script>
+</body>
+</html>
