@@ -3,12 +3,7 @@
 function yubnubcmd($cmd) {
    if($cmd{0} == '"')
       return substr($cmd,1,strlen($cmd)-2);
-   $curl = curl_init('http://yubnub.org/parser/parse?command='.urlencode($cmd));
-   curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-   curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true);
-   $rtrn = curl_exec($curl);
-   curl_close($curl);
-   return $rtrn;
+   return file_get_contents('http://yubnub.org/parser/parse?command='.urlencode($cmd));
 }//end function yubnubcmd
 
 require('yubnub2phparray.php');
