@@ -1,11 +1,11 @@
 <?php
 // ifMatch. Check for a match using regular expressions.
 
-$pattern = $_GET[pattern];
-$string = $_GET[string];
-$then = $_GET[then];
-$else = $_GET[els];
-$redirect = $_GET[redirect];
+$pattern = $_GET['pattern'];
+$string = $_GET['string'];
+$then = $_GET['then'];
+$else = $_GET['els'];
+$redirect = $_GET['redirect'];
 
 if (preg_match ($pattern,$string)) {
 	$result = $then;

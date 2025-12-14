@@ -2,14 +2,14 @@
 
 // IF...THEN...ELSE...
 
-$value1 = $_GET[value1];
-$value2 = $_GET[value2];
-$test = $_GET[test];
-$then = $_GET[then];
-$else = $_GET[els];
-$redirect = $_GET[redirect];
-$input = $_GET[input];
-$delimit = $_GET[delimit];
+$value1 = $_GET['value1'];
+$value2 = $_GET['value2'];
+$test = $_GET['test'];
+$then = $_GET['then'];
+$else = $_GET['els'];
+$redirect = $_GET['redirect'];
+$input = $_GET['input'];
+$delimit = $_GET['delimit'];
 
 if ($input==""){ //Use original syntax: -value1, -value2, -test, etc
 	// Greater Than

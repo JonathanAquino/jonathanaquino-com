@@ -32,7 +32,7 @@ function xanga_fetch_login_key() {
 	$ch = curl_init($xanga_login_page);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 	$page = curl_exec($ch);
-	if (ereg('__VIEWSTATE" value="([^"]*)"', $page, $out)) {
+	if (preg_match('/__VIEWSTATE" value="([^"]*)"/', $page, $out)) {
 		return $out[1];
 	}
 }
@@ -62,15 +62,15 @@ function xanga_fetch_login_cookie($key) {
 
 	$cookie  = "";
 	
-	if (ereg('Set-Cookie: (u=[^;]*)', $page, $out)) {
+	if (preg_match('/Set-Cookie: (u=[^;]*)/', $page, $out)) {
 		$cookie .= $out[1] . "; ";
 	}
 
-	if (ereg('Set-Cookie: (x=[^;]*)', $page, $out)) {
+	if (preg_match('/Set-Cookie: (x=[^;]*)/', $page, $out)) {
 		$cookie .= $out[1] . "; ";
 	}
 
-	if (ereg('Set-Cookie: (y=[^;]*)', $page, $out)) {
+	if (preg_match('/Set-Cookie: (y=[^;]*)/', $page, $out)) {
 		$cookie .= $out[1] . "; ";
 	}
 
@@ -93,7 +93,7 @@ function xanga_fetch_posting_key($cookie) {
 
 	$page = curl_exec($ch);
 	$key  = "";
-	if (ereg('__VIEWSTATE" value="([^"]*)"', $page, $out)) {
+	if (preg_match('/__VIEWSTATE" value="([^"]*)"/', $page, $out)) {
 		$key .= $out[1];
 	}
 
@@ -130,7 +130,7 @@ function xanga_post_action($action,$title,$content,$link='',$author='',$obloglin
 	$key    = xanga_fetch_posting_key($cookie); // already urlencoded
 	$uid    = "";
 
-	if (ereg('(u=[0-9]*)', $cookie, $out)) {
+	if (preg_match('/(u=[0-9]*)/', $cookie, $out)) {
 		$uid = $out[1];
 	}
 

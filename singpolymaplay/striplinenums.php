@@ -6,7 +6,7 @@
 
 if($_REQUEST['duh']) header('Content-type: text/plain');
 
-$blah = split("\n",$_REQUEST['duh']);
+$blah = explode("\n",$_REQUEST['duh']);
 
 foreach($blah as $it) {
    echo trim(preg_replace('/^[\d]+(.*)$/','$1',$it))."\n";

@@ -2,7 +2,7 @@
 // PARAM - Constructs a parameter string for a yubnub command.
 // Input should be in the form param1;param2;param3 value1;value2;value3
 
-$input = $_GET[input];
+$input = $_GET['input'];
 
 $p = left($input, strpos($input," "));
 $v = right($input, strlen($input)-strpos($input," ")-1);
