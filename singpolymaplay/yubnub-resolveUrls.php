@@ -18,7 +18,7 @@ function doresolve(&$results,$attribute,$domain,$dir) {
       $href = $node->getAttribute($attribute);
       if(preg_match('/^[^:]*:.*$/',$href)) continue;
       if(!$href) {$node->setAttribute($attribute,$_REQUEST['url']);continue;}
-      if($href{0} == '/')
+      if($href[0] == '/')
          $node->setAttribute($attribute,$domain.$href);
       else
          $node->setAttribute($attribute,$dir.$href);

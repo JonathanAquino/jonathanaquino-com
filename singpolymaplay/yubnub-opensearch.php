@@ -3,7 +3,7 @@
 require_once 'OutlineClasses/JSON.php';
 
 function yubnubcmd($cmd) {
-   if($cmd{0} == '"')
+   if($cmd[0] == '"')
       return substr($cmd,1,strlen($cmd)-2);
    $curl = curl_init('http://yubnub.org/parser/parse?command='.urlencode($cmd));
    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
