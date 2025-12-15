@@ -4,7 +4,7 @@
 //$commandname = $_GET['commandname'];
 //$inputs = $_GET['input'];
 
-$stuff = $_GET['input'];
+$stuff = isset($_GET['input']) ? $_GET['input'] : '';
 $commandname = left($stuff, strpos($stuff,' '));
 $inputs = right($stuff, strlen($stuff)-strpos($stuff,' '));
 

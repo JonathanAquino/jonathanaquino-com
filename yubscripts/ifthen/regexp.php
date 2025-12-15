@@ -5,7 +5,7 @@ $pattern = $_GET['pattern'];
 $string = $_GET['string'];
 $then = $_GET['then'];
 $else = $_GET['els'];
-$redirect = $_GET['redirect'];
+$redirect = isset($_GET['redirect']) ? $_GET['redirect'] : '';
 
 if (preg_match ($pattern,$string)) {
 	$result = $then;

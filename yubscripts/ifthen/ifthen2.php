@@ -1,7 +1,7 @@
 <?php  //IFT command. Parses using traditional "if" structure.
-$input = $_GET['input'];
-$delimit = $_GET['delimit'];
-$redirect = $_GET['redirect'];
+$input = isset($_GET['input']) ? $_GET['input'] : '';
+$delimit = isset($_GET['delimit']) ? $_GET['delimit'] : ',';
+$redirect = isset($_GET['redirect']) ? $_GET['redirect'] : '';
 
 if (strpos($input, "(")==0 and strpos($input, ")")<>False){
 	$input = right($input,strlen($input)-1); //Remove the leading "(".
