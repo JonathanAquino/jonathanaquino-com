@@ -1,7 +1,7 @@
 <html>
 <head>
         <meta property="og:site_name" content="YouTube">
-    <meta property="og:url" content="<?php echo "http://$_SERVER['HTTP_HOST']$_SERVER['REQUEST_URI']" ?>" />
+    <meta property="og:url" content="<?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] ?>" />
     <meta property="og:title" content="30 minutes of beginner Dance workout">
     <meta property="og:image" content="https://i1.ytimg.com/vi/c7qQAKi2cKc/hqdefault.jpg">
 
