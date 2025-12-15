@@ -9,28 +9,30 @@ function yubnubcmd($cmd) {
 require('yubnub2phparray.php');
 require('php2yubnubarray.php');
 
-$items = yubnub2phparray($_REQUEST['data']);
+$items = yubnub2phparray(isset($_REQUEST['data']) ? $_REQUEST['data'] : '');
 
 $_REQUEST['cmd'] = str_replace('%25s','%s',$_REQUEST['cmd']);
-$cmdsep = $_REQUEST['as'] == '<space>' ? ' ' : "\n";
-if($_REQUEST['as'] == 'null') $cmdsep = '';
+$as = isset($_REQUEST['as']) ? $_REQUEST['as'] : '';
+$cmdsep = $as == '<space>' ? ' ' : "\n";
+if($as == 'null') $cmdsep = '';
+$data = '';
 
 foreach($items as $item) {
    $cmd = stristr($_REQUEST['cmd'],'%s') ? str_replace('%s',$item,$_REQUEST['cmd']) : $_REQUEST['cmd'].' '.$item;
    $cmd = str_replace('[|','{',$cmd);
    $cmd = str_replace('|]','}',$cmd);
-   if($_REQUEST['as'] != 'array')
+   if($as != 'array')
       $data .= yubnubcmd($cmd).$cmdsep;
    else
       $data[] = yubnubcmd($cmd);
 }//end foreach items
 
-$_REQUEST['type'] ? $_REQUEST['type'] : $_REQUEST['type'] = 'xml';
+$type = isset($_REQUEST['type']) && $_REQUEST['type'] ? $_REQUEST['type'] : 'xml';
 
-if($_REQUEST['as'] != 'array') {
+if($as != 'array') {
    header('Content-Type: text/plain;charset=utf-8');
    echo $data;
 } else
-   echo php2yubnubarray($data,$_REQUEST['type'],$_REQUEST['callback']);
+   echo php2yubnubarray($data,$type,isset($_REQUEST['callback']) ? $_REQUEST['callback'] : '');
 
 ?>

@@ -1,7 +1,7 @@
 <?php
 
-$_REQUEST['titledesc'] = $_REQUEST['titledesc'] ? urldecode($_REQUEST['titledesc']) : ' - ';
-$_REQUEST['as'] = $_REQUEST['as'] ? $_REQUEST['as'] : 'text';
+$_REQUEST['titledesc'] = isset($_REQUEST['titledesc']) && $_REQUEST['titledesc'] ? urldecode($_REQUEST['titledesc']) : ' - ';
+$_REQUEST['as'] = isset($_REQUEST['as']) && $_REQUEST['as'] ? $_REQUEST['as'] : 'text';
 
 $query = XN_Query::create('Content')
          ->filter('owner','=')

@@ -1,6 +1,6 @@
 <?php
 
-if(!$_REQUEST['content-type'])
+if(!isset($_REQUEST['content-type']) || !$_REQUEST['content-type'])
    $_REQUEST['content-type'] = 'text/html';
 header('Content-Type: '.$_REQUEST['content-type'].';charset=utf-8');
 

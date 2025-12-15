@@ -1,9 +1,9 @@
 <?php
 
-if($_REQUEST['get'])
+if(isset($_REQUEST['get']) && $_REQUEST['get'])
    $_REQUEST['data'] = file_get_contents($_REQUEST['get']);
 
-if(!$_REQUEST['data']) {
+if(!isset($_REQUEST['data']) || !$_REQUEST['data']) {
    header('Content-Type: text/plain');
    header('Location: http://yubnub.org/kernel/man?args=mkrss',TRUE,303);
    exit;
