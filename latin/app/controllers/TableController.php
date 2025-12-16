@@ -4,6 +4,8 @@
  */
 class TableController {
 
+    public $page;
+
     /**
      * Lists the available tables.
      */
