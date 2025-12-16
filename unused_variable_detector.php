@@ -1,6 +1,6 @@
 <?php
-ini_set('magic_quotes_gpc', '0');
-$code = $_POST['code'] ? $_POST['code'] : 'a = 100;
+// magic_quotes_gpc removed - no longer needed in PHP 8.3
+$code = isset($_POST['code']) && $_POST['code'] ? $_POST['code'] : 'a = 100;
 b = 200;
 b = b + 1;';
 ?>
@@ -13,7 +13,7 @@ b = b + 1;';
 <p><input type="submit" value="Submit"></p>
 </form>
 <?php
-if ($_POST) {
+if ($_POST && isset($_POST['code'])) {
     $pattern = '@([a-z0-9_]+)\s+=\s@ui';
     preg_match_all($pattern, $_POST['code'], $matches);
     $variables = array_unique($matches[1]);

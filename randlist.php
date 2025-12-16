@@ -1,4 +1,8 @@
 <?php
+if (!isset($_GET['items'])) {
+    echo "Error: Missing required parameter 'items'";
+    exit;
+}
 $items = explode(',', $_GET['items']);
 shuffle($items);
 $item = $items[0];

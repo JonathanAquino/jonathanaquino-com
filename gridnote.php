@@ -1,9 +1,9 @@
 <?php
-if ($_GET['view-source']) {
+if (isset($_GET['view-source']) && $_GET['view-source']) {
     highlight_file(__FILE__);
     exit;
 }
-if (! $_GET['count']) {
+if (!isset($_GET['count']) || !$_GET['count']) {
     header('Location: http://jonathanaquino.com/gridnote.php?count=35&width=200&height=200');
     exit;
 } ?>

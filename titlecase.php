@@ -31,13 +31,13 @@ function nv_title_case($str) {
         $words[$i] = preg_replace_callback('/\b([[:alpha:]][[:lower:].\'’(&\#8217;)]*)\b/x', 'nv_title_skip_dotted', $words[$i]);
 
         // Lowercase our list of small words
-        $words[$i] = preg_replace("/\b($small_re)\b/ei", "strtolower(\"$1\")", $words[$i]);
+        $words[$i] = preg_replace_callback("/\b($small_re)\b/i", function($m) { return strtolower($m[1]); }, $words[$i]);
 
         // If the first word in the title is a small word, capitalize it
-        $words[$i] = preg_replace("/\A([[:punct:]]*)($small_re)\b/e", "\"$1\" . ucfirst(\"$2\")", $words[$i]);
+        $words[$i] = preg_replace_callback("/\A([[:punct:]]*)($small_re)\b/", function($m) { return $m[1] . ucfirst($m[2]); }, $words[$i]);
 
         // If the last word in the title is a small word, capitalize it
-        $words[$i] = preg_replace("/\b($small_re)([[:punct:]]*)\Z/e", "ucfirst(\"$1\") . \"$2\"", $words[$i]);
+        $words[$i] = preg_replace_callback("/\b($small_re)([[:punct:]]*)\Z/", function($m) { return ucfirst($m[1]) . $m[2]; }, $words[$i]);
     }
 
     $words = join($words);
@@ -45,9 +45,9 @@ function nv_title_case($str) {
     // Oddities
     $words = preg_replace("/ V(s?)\. /i", " v$1. ", $words);                    // v, vs, v., and vs.
     $words = preg_replace("/(['’]|&#8217;)S\b/i", "$1s", $words);               // 's
-    $words = preg_replace("/\b(AT&T|Q&A)\b/ie", "strtoupper(\"$1\")", $words);  // AT&T and Q&A
+    $words = preg_replace_callback("/\b(AT&T|Q&A)\b/i", function($m) { return strtoupper($m[1]); }, $words);  // AT&T and Q&A
     $words = preg_replace("/-ing\b/i", "-ing", $words);                         // -ing
-    $words = preg_replace("/(&[[:alpha:]]+;)/Ue", "strtolower(\"$1\")", $words);          // html entities
+    $words = preg_replace_callback("/(&[[:alpha:]]+;)/U", function($m) { return strtolower($m[1]); }, $words);          // html entities
 
     // Put HTML space entities back
     $offset = 0;
@@ -67,4 +67,4 @@ if (function_exists('add_filter')) {
     add_filter('the_title', 'nv_title_case');
 }
 
-echo nv_title_case($_GET['q']);
+echo nv_title_case(isset($_GET['q']) ? $_GET['q'] : '');

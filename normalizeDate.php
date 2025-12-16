@@ -6,4 +6,8 @@
 // Example: http://jonathanaquino.com/normalizeDate.php?date=4/5/2007&format=Y-m-d
 // 2007-04-05
 header('Content-Type: text/plain');
+if (!isset($_GET['format']) || !isset($_GET['date'])) {
+    echo "Error: Missing required parameters 'format' and/or 'date'";
+    exit;
+}
 echo date($_GET['format'], strtotime($_GET['date']));
