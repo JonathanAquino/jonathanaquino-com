@@ -5,6 +5,10 @@
 class TableController {
 
     public $page;
+    public $demoing;
+    public $table;
+    public $text;
+    public $answers;
 
     /**
      * Lists the available tables.
@@ -28,7 +32,7 @@ class TableController {
             $this->table = $this->loadTable(TableLoader::NOUNS);
             $this->text = file_get_contents('./db/demo.txt');
         } else {
-            $this->table = $this->loadTable($_GET['table']);
+            $this->table = $this->loadTable(isset($_GET['table']) ? $_GET['table'] : '');
             $this->text = $this->table->getTextWithoutValues();
             $this->answers = $this->table->getText();
         }

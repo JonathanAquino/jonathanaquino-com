@@ -4,6 +4,8 @@
  */
 class HelpController {
 
+    public $page;
+
     /**
      * Displays the specified help document
      *
@@ -11,7 +13,7 @@ class HelpController {
      *     - id - the ID of the document to display
      */
     public function action_show() {
-        switch ($_GET['id']) {
+        switch (isset($_GET['id']) ? $_GET['id'] : '') {
             case 'goodies':
                 $this->page = 'goodies';
                 require_once './app/views/help/goodies.php';
