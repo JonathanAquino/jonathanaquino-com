@@ -43,11 +43,11 @@ p.instructions {
 <p class="instructions">Paste HTML or XML into the top box, then press the button.</p>
 <textarea id="inputTextarea"><html><head></head><body><div>Hello, world!<div>--Goethe</div></div>
 </body></html></textarea>
-<?php $spaces = is_numeric($_GET['spaces']) ? $_GET['spaces'] : 4 ?>
+<?php $spaces = isset($_GET['spaces']) && is_numeric($_GET['spaces']) ? $_GET['spaces'] : 4 ?>
 <p>
     <input id="spaces" type="text" value="<?php echo $spaces ?>"/> &nbsp; spaces
     <?php
-    if (! $_GET['spaces']) { ?>
+    if (!isset($_GET['spaces']) || !$_GET['spaces']) { ?>
         (you can also add ?spaces=<?php echo $spaces ?> to this page's URL)
     <?php
     } ?>

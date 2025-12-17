@@ -7,7 +7,11 @@ if (!isset($_GET['inputs'])) {
 }
 list($encoding, $url) = explode(' ', $_GET['inputs'], 2);
 $urlParts = parse_url($url);
-header('Location: ' . str_replace($urlParts['query'], convert($urlParts['query'], $encoding), $url));
+if (isset($urlParts['query'])) {
+    header('Location: ' . str_replace($urlParts['query'], convert($urlParts['query'], $encoding), $url));
+} else {
+    header('Location: ' . $url);
+}
 exit;
 
 function convert($query, $encoding) {

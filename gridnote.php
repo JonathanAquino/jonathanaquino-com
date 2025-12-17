@@ -40,7 +40,7 @@ textarea {
 <?php
 $colors = array('4AFF5A', '7F3CFF', '41FFD8', 'E8DB47', 'E85997');
 for ($i = 0; $i < intval($_GET['count']); $i++) { ?>
-    <textarea style="background: #<?php echo $colors[$i % 5] ?> url(/gridnote_image/<?php echo $colors[$i % 5] ?>.jpg) repeat-x scroll top left" id="textarea_<?php echo $i ?>" onBlur="textareaChanged(<?php echo $i ?>)"><?php echo htmlentities($_COOKIE['text_' . $i]); ?></textarea>
+    <textarea style="background: #<?php echo $colors[$i % 5] ?> url(/gridnote_image/<?php echo $colors[$i % 5] ?>.jpg) repeat-x scroll top left" id="textarea_<?php echo $i ?>" onBlur="textareaChanged(<?php echo $i ?>)"><?php echo htmlentities(isset($_COOKIE['text_' . $i]) ? $_COOKIE['text_' . $i] : ''); ?></textarea>
 <?php
 } ?>
 <script>
