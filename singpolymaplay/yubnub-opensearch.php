@@ -2,6 +2,12 @@
 
 require_once 'OutlineClasses/JSON.php';
 
+if (!isset($_REQUEST['cmd']) || !$_REQUEST['cmd']) {
+    header('Content-type: text/plain');
+    echo "Error: Missing required parameter 'cmd'";
+    exit;
+}
+
 function yubnubcmd($cmd) {
    if($cmd[0] == '"')
       return substr($cmd,1,strlen($cmd)-2);
@@ -14,11 +20,12 @@ function yubnubcmd($cmd) {
 }//end function yubnubcmd
 
 $json = new Services_JSON();
-$value = $json->decode(file_get_contents('http://yubscripts.ning.com/yn-commandscrape.php?xn_auth=no&cmd='.urlencode($_REQUEST['cmd'])));
+$jsonContent = @file_get_contents('http://yubscripts.ning.com/yn-commandscrape.php?xn_auth=no&cmd='.urlencode($_REQUEST['cmd']));
+$value = $jsonContent ? $json->decode($jsonContent) : null;
 
 header('Content-type: application/xml;charset=utf-8');
 
-$url = html_entity_decode($value->url);
+$url = html_entity_decode($value->url ?? '');
 
 if(substr($url,0,5) != 'http:' || strstr($url,'{')) {
    $url = 'http://yubnub.org/parser/parse?command='.urlencode($_REQUEST['cmd']).'+{searchTerms}';
@@ -35,8 +42,8 @@ if(strstr($url,'[post]')) {
 
 ?><?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-   <ShortName><?php echo htmlspecialchars($value->name); ?></ShortName>
-   <Description><?php echo htmlspecialchars($value->description); ?></Description>
+   <ShortName><?php echo htmlspecialchars($value->name ?? ''); ?></ShortName>
+   <Description><?php echo htmlspecialchars($value->description ?? ''); ?></Description>
 
    <Url xmlns:parameters="http://a9.com/-/spec/opensearch/extensions/parameters/1.0/"
       type="text/html"

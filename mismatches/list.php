@@ -2,6 +2,10 @@
 ini_set('display_errors',1);
 ini_set('display_startup_errors',1);
 error_reporting(-1);
+if (!isset($_GET['status']) || !$_GET['status']) {
+    echo "Error: Missing required parameter 'status'";
+    exit;
+}
 $status = $_GET['status'];
 $json = file_get_contents(__DIR__ . '/mismatches.json');
 $data = json_decode($json, true);

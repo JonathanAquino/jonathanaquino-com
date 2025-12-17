@@ -1,4 +1,9 @@
 <?php
+// This script requires the Ning platform classes (XN_Profile, XN_Application)
+if (!class_exists('XN_Profile')) {
+    echo "Error: This script requires the Ning platform and is not available in standalone mode";
+    exit;
+}
 $viewer = XN_Profile::current();
 $name = ($viewer->isLoggedIn() ? $viewer->screenName : 'Stranger');
 $app = XN_Application::load();

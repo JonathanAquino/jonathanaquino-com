@@ -12,6 +12,7 @@
 
 	function is_end($string) {
 		global $range2;
+		if (!strlen($string)) return false;
 		$size=$last=strlen($string)-1;
 		$range2=substr($string,0,$size);
 		if ($string[$last] == '-' && is_value($range2)) return true;
@@ -24,16 +25,17 @@
 		return false;
 	}
 
-	$phrase = trim($phrase);
+	$phrase = isset($_GET['phrase']) ? trim($_GET['phrase']) : '';
+	$silentmode = isset($_GET['silentmode']) ? $_GET['silentmode'] : false;
 	$words = explode(' ', $phrase);
-	$range = $words[0];
-	$range2;
+	$range = isset($words[0]) ? $words[0] : '';
+	$range2 = '';
 
 
 
 	// 4
 	if ( is_value($range) ){
-		for($i=1;$i<=count($words));$i++){
+		for($i=1;$i<=count($words);$i++){
 			if ($i!=$range)
 				echo $words[$i].' ';
 		}

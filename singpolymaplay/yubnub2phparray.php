@@ -17,6 +17,7 @@ require_once 'OutlineClasses/OutlineFromJSON.php';
 require_once 'OutlineClasses/OutlineFromXML.php';
 
 function yubnub2phparray($data) {
+   $data = $data ?? '';
    if(stristr($data,'<ul') || stristr($data,'<ol'))
       $items = new OutlineFromXOXO($data,array('classes' => array()));
    else if(!checkXML($data))

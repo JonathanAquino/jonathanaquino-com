@@ -1,11 +1,19 @@
 <?php
 
-$_REQUEST['as'] = $_REQUEST['as'] ? $_REQUEST['as'] : 'xml';
+if (!isset($_REQUEST['token']) || !$_REQUEST['token']) {
+    echo "Error: Missing required parameter 'token'";
+    exit;
+}
+if (!isset($_REQUEST['data'])) {
+    echo "Error: Missing required parameter 'data'";
+    exit;
+}
+$_REQUEST['as'] = isset($_REQUEST['as']) && $_REQUEST['as'] ? $_REQUEST['as'] : 'xml';
 $_REQUEST['token'] = str_replace('<space>',' ',$_REQUEST['token']);
 $array = explode($_REQUEST['token'],$_REQUEST['data']);
 
 require('php2yubnubarray.php');
 
-echo php2yubnubarray($array,$_REQUEST['as'],$_REQUEST['callback']);
+echo php2yubnubarray($array,$_REQUEST['as'],isset($_REQUEST['callback']) ? $_REQUEST['callback'] : null);
 
 ?>

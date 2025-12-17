@@ -11,6 +11,10 @@ require('php2yubnubarray.php');
 
 $items = yubnub2phparray(isset($_REQUEST['data']) ? $_REQUEST['data'] : '');
 
+if (!isset($_REQUEST['cmd']) || !$_REQUEST['cmd']) {
+    echo "Error: Missing required parameter 'cmd'";
+    exit;
+}
 $_REQUEST['cmd'] = str_replace('%25s','%s',$_REQUEST['cmd']);
 $as = isset($_REQUEST['as']) ? $_REQUEST['as'] : '';
 $cmdsep = $as == '<space>' ? ' ' : "\n";

@@ -1,5 +1,9 @@
 <?php
 
+if (!isset($_REQUEST['url']) || !$_REQUEST['url']) {
+    echo "Error: Missing required parameter 'url'";
+    exit;
+}
 header('Content-Type: application/xml');
 $data = file_get_contents($_REQUEST['url']);
 
@@ -17,7 +21,7 @@ $data = file_get_contents($_REQUEST['url']);
 $struct = explode('<p>',$data);
 foreach($struct as $id => $item) {
    if($id == count($struct)-1) continue;
-   if($item{0} == '>') $item = substr($item,1,strlen($item));
+   if($item[0] == '>') $item = substr($item,1,strlen($item));
    $link = array();
    preg_match('/<a .*?href="(.*?)"/',$item,$link['url']);
    $link['url'] = $link['url'][1];

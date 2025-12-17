@@ -1,33 +1,39 @@
 <?php
 // Math commands.
 header('Content-Type: text/javascript;charset=utf-8');
+if (!isset($_GET['command']) || !$_GET['command']) {
+    echo "Error: Missing required parameter 'command'";
+    exit;
+}
+$command = strtoupper($_GET['command']);
+$input = isset($_GET['input']) ? $_GET['input'] : '';
 // SUM
-if (strtoupper($_GET['command']) == "SUM") {
-	$numbers = explode(" ",$_GET['input']);
+if ($command == "SUM") {
+	$numbers = explode(" ",$input);
 	echo array_sum($numbers);
 }
 
 // SUBTRACT
-if (strtoupper($_GET['command']) == "SUBTRACT") {
-	$numbers = explode(" ",$_GET['input']);
+if ($command == "SUBTRACT") {
+	$numbers = explode(" ",$input);
 	echo $numbers[0] - $numbers[1];
 }
 
 // MULTIPLY
-if (strtoupper($_GET['command']) == "MULTIPLY") {
-	$numbers = explode(" ",$_GET['input']);
+if ($command == "MULTIPLY") {
+	$numbers = explode(" ",$input);
 	echo $numbers[0] * $numbers[1];
 }
 
 // ROUND
-if (strtoupper($_GET['command']) == "ROUND") {
-	$number = $_GET['input'];
-	echo round($number, $_GET['precision']);
+if ($command == "ROUND") {
+	$precision = isset($_GET['precision']) ? $_GET['precision'] : 0;
+	echo round($input, $precision);
 }
 
 // DIVIDE
-if (strtoupper($_GET['command']) == "DIVIDE") {
-	$numbers = explode(" ",$_GET['input']);
+if ($command == "DIVIDE") {
+	$numbers = explode(" ",$input);
 	echo $numbers[0] / $numbers[1];
 }
 

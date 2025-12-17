@@ -1,6 +1,10 @@
 <?php
 
 header('Content-type: text/plain;charset=utf-8');
+if (!isset($_REQUEST['format']) || !$_REQUEST['format']) {
+    echo "Error: Missing required parameter 'format'";
+    exit;
+}
 
 if(isset($_REQUEST['timestamp']) && $_REQUEST['timestamp'])
    echo date($_REQUEST['format'],$_REQUEST['timestamp']);

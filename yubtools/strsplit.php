@@ -13,6 +13,7 @@ header("Content-type: text/plain");
 
 	function is_end($string) {
 		global $range2;
+		if (!strlen($string)) return false;
 		$size=$last=strlen($string)-1;
 		$range2=substr($string,0,$size);
 		if ($string[$last] == '-' && is_value($range2)) return true;
@@ -25,8 +26,8 @@ header("Content-type: text/plain");
 		return false;
 	}
 
-$silentmode = $_GET["silentmode"];
-$phrase = $_GET["phrase"];
+$silentmode = isset($_GET["silentmode"]) ? $_GET["silentmode"] : false;
+$phrase = isset($_GET["phrase"]) ? $_GET["phrase"] : '';
 
 	$phrase = trim($phrase);
 	$words = explode(' ', $phrase);

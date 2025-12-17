@@ -1,6 +1,7 @@
+<?php $q = isset($_GET['q']) ? $_GET['q'] : ''; ?>
 <html>
 <head>
-<title><?php echo strip_tags($_GET['q']) ?></title>
+<title><?php echo strip_tags($q) ?></title>
 <style>
 body {
     background: #3C394B url(gradient.png) repeat-x fixed top left;
@@ -20,7 +21,7 @@ body {
 <table width="100%" height="95%">
   <tr>
      <td id="content" valign="middle" align="center">
-        <?php echo $_GET['q'] ?>
+        <?php echo $q ?>
     </td>
   </tr>
 </table>

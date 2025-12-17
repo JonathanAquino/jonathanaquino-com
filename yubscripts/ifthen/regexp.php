@@ -1,13 +1,17 @@
 <?php
 // ifMatch. Check for a match using regular expressions.
 
+if (!isset($_GET['pattern']) || !$_GET['pattern']) {
+    echo "Error: Missing required parameter 'pattern'";
+    exit;
+}
 $pattern = $_GET['pattern'];
-$string = $_GET['string'];
-$then = $_GET['then'];
-$else = $_GET['els'];
+$string = isset($_GET['string']) ? $_GET['string'] : '';
+$then = isset($_GET['then']) ? $_GET['then'] : '';
+$else = isset($_GET['els']) ? $_GET['els'] : '';
 $redirect = isset($_GET['redirect']) ? $_GET['redirect'] : '';
 
-if (preg_match ($pattern,$string)) {
+if (preg_match($pattern, $string)) {
 	$result = $then;
 } 
 else {

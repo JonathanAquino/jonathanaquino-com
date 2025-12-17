@@ -15,7 +15,7 @@
 	</div><!-- /header -->
 
 	<div data-role="content">
-	    <p><?php echo $_GET['x'] ?></p>
+	    <p><?php echo isset($_GET['x']) ? $_GET['x'] : '' ?></p>
 	    <?php $id = mt_rand(); ?>
 		<p id="<?php echo $id ?>">POSTing...</p>
 		<script>

@@ -2,8 +2,9 @@
 $input = isset($_GET['input']) ? $_GET['input'] : '';
 $delimit = isset($_GET['delimit']) ? $_GET['delimit'] : ',';
 $redirect = isset($_GET['redirect']) ? $_GET['redirect'] : '';
+$result = '';
 
-if (strpos($input, "(")==0 and strpos($input, ")")<>False){
+if (strpos($input, "(")==0 and strpos($input, ")")!==False){
 	$input = right($input,strlen($input)-1); //Remove the leading "(".
 	$exploded = explode(")",$input); //Split string around ")".
 	$thenelse = explode($delimit,$exploded[1]); //Split up then,else.

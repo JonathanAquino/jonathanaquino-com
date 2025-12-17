@@ -13,7 +13,7 @@ function php2yubnubarray($array,$as='xml',$callback='') {
       $rtrn .= '<?xml version="1.0" ?>'."\n";
       $rtrn .= '<items>'."\n";
       foreach($array as $item)
-         $rtrn .= '   <item>'.htmlspecialchars(iconv('', 'UTF-8', $item)).'</item>'."\n";
+         $rtrn .= '   <item>'.htmlspecialchars(iconv('', 'UTF-8', $item ?? '')).'</item>'."\n";
       $rtrn .= '</items>';
    }//end if as == xml
 
@@ -23,7 +23,7 @@ function php2yubnubarray($array,$as='xml',$callback='') {
       $rtrn .= '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">'."\n";
       $rtrn .= '<ul class="xoxo">'."\n";
       foreach($array as $item)
-         $rtrn .= '   <li>'.htmlspecialchars(iconv('', 'UTF-8', $item)).'</li>'."\n";
+         $rtrn .= '   <li>'.htmlspecialchars(iconv('', 'UTF-8', $item ?? '')).'</li>'."\n";
       $rtrn .= '</ul>';
    }//end if as == xoxo
 
@@ -35,7 +35,7 @@ function php2yubnubarray($array,$as='xml',$callback='') {
       foreach($array as $idx => $item) {
          if($idx > 0)
             $rtrn .= ',';
-         $rtrn .= '"'.str_replace("\n",'\n',str_replace("\r\n",'\n',addslashes(iconv('', 'UTF-8', $item)))).'"';
+         $rtrn .= '"'.str_replace("\n",'\n',str_replace("\r\n",'\n',addslashes(iconv('', 'UTF-8', $item ?? '')))).'"';
       }//end foreach
       $rtrn .= ']';
       if($callback)

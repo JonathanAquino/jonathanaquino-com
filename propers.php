@@ -2,7 +2,7 @@
 /**
  * This script extracts the propers from the HTML of http://divinumofficium.com/cgi-bin/missa/missa.pl
  */
-if (!$_GET['date']) {
+if (!isset($_GET['date']) || !$_GET['date']) {
     header('Location: http://jonathanaquino.com/propers.php?date=' . date('Y-m-d', time()));
     exit;
 }

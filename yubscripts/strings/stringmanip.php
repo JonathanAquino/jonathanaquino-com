@@ -1,89 +1,95 @@
 <?php
 // String manipulation commands.
 header('Content-Type: text/javascript;charset=utf-8');
+if (!isset($_GET['command']) || !$_GET['command']) {
+    echo "Error: Missing required parameter 'command'";
+    exit;
+}
+$command = strtoupper($_GET['command']);
+$input = isset($_GET['input']) ? $_GET['input'] : '';
 // wordcount
-if (strtoupper($_GET['command']) == "WORDCOUNT") {
-        $delimit = $_GET['delimit'];
-	$string = $_GET['string'];
+if ($command == "WORDCOUNT") {
+        $delimit = isset($_GET['delimit']) ? $_GET['delimit'] : ' ';
+	$string = isset($_GET['string']) ? $_GET['string'] : '';
 
 	echo count(explode($delimit, $string));
 }
 
 // strleft - returns a certain amount of characters from the beginning of a string.
-if (strtoupper($_GET['command']) == "STRLEFT") {
-        $length = substr($_GET['input'], strrpos($_GET['input'], " ") + 1);
-	$string = substr($_GET['input'], 0, strrpos($_GET['input'], " "));
+if ($command == "STRLEFT") {
+        $length = substr($input, strrpos($input, " ") + 1);
+	$string = substr($input, 0, strrpos($input, " "));
 
 	// Check if $length is an integer.
 	if (preg_match("/^[0-9]+$/", $length)) {
 		echo substr($string, 0, $length);
-	} 
+	}
 	else {
-		echo $_GET['input'];
+		echo $input;
 	}
 }
 
 // strright - returns a certain amount of characters from the end of a string.
-if (strtoupper($_GET['command']) == "STRRIGHT") {
-        $length = substr($_GET['input'], strrpos($_GET['input'], " ") + 1);
-	$string = substr($_GET['input'], 0, strrpos($_GET['input'], " "));
+if ($command == "STRRIGHT") {
+        $length = substr($input, strrpos($input, " ") + 1);
+	$string = substr($input, 0, strrpos($input, " "));
 
 	// Check if $length is an integer.
-	if (preg_match("/^[0-9]+$/", $length)) { 
+	if (preg_match("/^[0-9]+$/", $length)) {
 		echo substr($string, -$length);
-	} 
+	}
 	else {
-		echo $_GET['input'];
+		echo $input;
 	}
 }
 
 // strleftrev - returns a certain amount of characters from the beginning of a string. Counts from the end.
-if (strtoupper($_GET['command']) == "STRLEFTREV") {
-	$length = substr($_GET['input'], strrpos($_GET['input'], " ") + 1);
-	$string = substr($_GET['input'], 0, strrpos($_GET['input'], " "));
+if ($command == "STRLEFTREV") {
+	$length = substr($input, strrpos($input, " ") + 1);
+	$string = substr($input, 0, strrpos($input, " "));
 
 	// Check if $length is an integer.
-	if (preg_match("/^[0-9]+$/", $length)) { 
+	if (preg_match("/^[0-9]+$/", $length)) {
 		echo substr($string, 0, 0-$length);
-	} 
+	}
 	else {
-		echo $_GET['input'];
+		echo $input;
 	}
 }
 
 // strrightrev - returns a certain amount of characters from the end of a string. Counts from the beginning.
-if (strtoupper($_GET['command']) == "STRRIGHTREV") {
-	$length = substr($_GET['input'], strrpos($_GET['input'], " ") + 1);
-	$string = substr($_GET['input'], 0, strrpos($_GET['input'], " "));
+if ($command == "STRRIGHTREV") {
+	$length = substr($input, strrpos($input, " ") + 1);
+	$string = substr($input, 0, strrpos($input, " "));
 
 	// Check if $length is an integer.
-	if (preg_match("/^[0-9]+$/", $length)) { 
+	if (preg_match("/^[0-9]+$/", $length)) {
 		echo substr($string, $length);
-	} 
+	}
 	else {
-		echo $_GET['input'];
+		echo $input;
 	}
 }
 
 // strlength - returns the length of a string.
-if (strtoupper($_GET['command']) == "STRLENGTH") {
-	echo strlen($_GET['input']);
+if ($command == "STRLENGTH") {
+	echo strlen($input);
 }
 
 // strJoin - joins strings together.
 // This command has not been added to YubNub because it seems mostly useless.
-if (strtoupper($_GET['command']) == "STRJOIN") {
+if ($command == "STRJOIN") {
         $delimiter = "|";
-	$string = $_GET['input'];
+	$string = $input;
 
 	echo str_replace($delimiter, "", $string);
 }
 
 // strReplace - Replace all instances of a string within another string.
-if (strtoupper($_GET['command']) == "STRREPLACE") {
-        $find = $_GET['find'];
-	$replace = $_GET['replace'];
-	$string = $_GET['string'];
+if ($command == "STRREPLACE") {
+        $find = isset($_GET['find']) ? $_GET['find'] : '';
+	$replace = isset($_GET['replace']) ? $_GET['replace'] : '';
+	$string = isset($_GET['string']) ? $_GET['string'] : '';
 	if ($replace == "%20" || $replace == "\" \""){
 		$replace = " ";
 	}
@@ -95,11 +101,11 @@ if (strtoupper($_GET['command']) == "STRREPLACE") {
 }
 
 // strFind - Find the first occurrence of a string within another.
-if (strtoupper($_GET['command']) == "STRFIND") {
-        $find = $_GET['find'];
-	$reverse = $_GET['reverse'];
-	$string = $_GET['string'];
-	
+if ($command == "STRFIND") {
+        $find = isset($_GET['find']) ? $_GET['find'] : '';
+	$reverse = isset($_GET['reverse']) ? $_GET['reverse'] : '';
+	$string = isset($_GET['string']) ? $_GET['string'] : '';
+
 	if ($find == "%20" || $find == "\" \""){
 		$find = " ";
 	}

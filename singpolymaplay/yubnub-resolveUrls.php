@@ -1,5 +1,9 @@
 <?php
 
+// This script requires the Ning platform xn-app:// wrapper which is not available
+echo "Error: This script requires the Ning platform and is not available in standalone mode";
+exit;
+
 require_once 'getTidy.php';
 require_once 'xn-app://xoxotools/proxy/normalize_url.php';
 

@@ -6,13 +6,13 @@ class Outline {
    var $_constructed = false;
    
    function Outline($data='',$options=array()) {
-      if($_constructed) return;
+      if($this->_constructed) return;
       $this->__construct($data,$options);
       $this->_constructed = true;
    }//end PHP4 constructor
-   
+
    function __construct($data='',$options=array()) {
-      if($_constructed) return;
+      if($this->_constructed) return;
       if(is_array($data)) {
          foreach($data as $id => $el) {
             if(is_array($el))

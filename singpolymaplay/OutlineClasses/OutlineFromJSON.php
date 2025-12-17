@@ -9,8 +9,8 @@ class OutlineFromJSON extends Outline {
       $json = new Services_JSON(SERVICES_JSON_LOOSE_TYPE);
       $phpobj2 = $json->decode($data);
       parent::__construct($phpobj2);
-      $options['itemel'] = $options['itemel'] ? strtolower($options['itemel']) : '';
-      $this->nodesFromField($options['itemel'],true);
+      $itemel = isset($options['itemel']) && $options['itemel'] ? strtolower($options['itemel']) : '';
+      $this->nodesFromField($itemel,true);
    }//end constructor
    
 }//end class OutlineFromJSON

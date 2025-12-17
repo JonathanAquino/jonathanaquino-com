@@ -1,3 +1,4 @@
+<?php $text = isset($_GET['text']) ? $_GET['text'] : ''; ?>
 <html>
   <body>
     <script language="javascript">

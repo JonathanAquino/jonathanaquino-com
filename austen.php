@@ -1,5 +1,5 @@
 <?php
-if (!$_GET['sentences']) {
+if (!isset($_GET['sentences']) || !$_GET['sentences']) {
     header('Location: http://jonathanaquino.com/austen.php?sentences=3');
     exit;
 }

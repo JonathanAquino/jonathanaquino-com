@@ -10,9 +10,13 @@ function yubnubcmd($cmd) {
 }//end function yubnubcmd
 
 header('Content-Type: text/plain;charset=utf-8');
+if (!isset($_REQUEST['var']) || !$_REQUEST['var']) {
+    echo "Error: Missing required parameter 'var'";
+    exit;
+}
 require('yubnub2phparray.php');
 $items = yubnub2phparray(yubnubcmd('var '.$_REQUEST['var']));
-$items[] = $_REQUEST['append'];
+$items[] = isset($_REQUEST['append']) ? $_REQUEST['append'] : '';
 
 require('php2yubnubarray.php');
 echo yubnubcmd('var '.$_REQUEST['var'].' -set '.php2yubnubarray($items));

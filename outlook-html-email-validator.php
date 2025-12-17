@@ -1,6 +1,6 @@
 <?php
 $title = 'Outlook HTML Email Online Validator';
-if ($_GET['source']) {
+if (isset($_GET['source']) && $_GET['source']) {
     echo '<pre>';
     echo htmlentities(file_get_contents(__FILE__));
     echo '</pre>';
@@ -17,11 +17,11 @@ Use it as a basic check to see if your HTML email contains unsupported elements.
 See <a href="http://msdn.microsoft.com/en-us/library/aa338201.aspx">Word 2007 HTML and CSS Rendering Capabilities in Outlook 2007</a>.</p>
 <p>Paste your email HTML below:</p>
 <form method="post">
-<textarea style="width:500px; height: 150px;" name="message"><?php echo htmlentities($_POST['message']) ?></textarea><br/>
+<textarea style="width:500px; height: 150px;" name="message"><?php echo htmlentities(isset($_POST['message']) ? $_POST['message'] : '') ?></textarea><br/>
 <input type="submit" value="Submit" />
 </form>
 <?php
-if ($_POST['message']) {
+if (isset($_POST['message']) && $_POST['message']) {
     $lowerCaseMessage = strtolower($_POST['message']);
     $unsupportedHtmlElements = array('applet', 'bdo', 'button', 'form', 'iframe', 'input', 'isindex', 'menu', 'noframes', 'noscript', 'object', 'optgroup', 'option', 'param', 'q', 'script', 'select');
     $unsupportedHtmlAttributes = array('accept', 'accept-charset', 'accesskey', 'archive', 'background', 'checked', 'classid', 'code', 'codecore', 'codetype', 'compact', 'data', 'declare', 'defer', 'disabled', 'enctype', 'longdesc', 'marginheight', 'marginwidth', 'media', 'method', 'multiple', 'noresize', 'object', 'onblur', 'onchange', 'onclick', 'ondblclick', 'onfocus', 'onkeydown', 'onkeypress', 'onkeyup', 'onload', 'onmousedown', 'onmousemove', 'onmouseout', 'onmouseover', 'onmouseup', 'onreset', 'onselect', 'onsubmit', 'onunload', 'readonly', 'scrolling', 'selected', 'standby', 'tabindex', 'title', 'valuetype');
