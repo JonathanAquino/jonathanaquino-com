@@ -1,4 +1,9 @@
 <?php
+// The Ning platform is no longer available
+echo "Error: This feature requires the Ning platform which is no longer available.";
+exit;
+// Original code follows:
+
 
 XN_Application::includeFile('xoxotools','/OutlineClasses/Outline.php');
 XN_Application::includeFile('xoxotools','/OutlineClasses/OutlineFromXOXO.php');

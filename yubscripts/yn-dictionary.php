@@ -1,4 +1,8 @@
 <?php
+if (!isset($_REQUEST['input']) || !$_REQUEST['input']) {
+    echo "Error: Missing required parameter 'input'";
+    exit;
+}
 //Scrape the man page and store the scrape in $data.
 $curl_handle=curl_init();
 curl_setopt($curl_handle,CURLOPT_URL,'http://www.thefreedictionary.com/'.$_REQUEST['input'].'?p');
@@ -30,7 +34,7 @@ else{
 function preg_match_between($a_sStart, $a_sEnd, $a_sSubject){
 	$pattern = '/'. $a_sStart .'([^`]*?)'. $a_sEnd .'/';
 	preg_match($pattern, $a_sSubject, $result);
-	return $result[1];
+	return isset($result[1]) ? $result[1] : '';
 }
 //returns $length characters from the left of $string
 function left($string, $length) {

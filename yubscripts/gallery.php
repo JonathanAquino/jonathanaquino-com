@@ -1,4 +1,8 @@
-<?php 
+<?php
+if (!isset($_REQUEST['url']) || !$_REQUEST['url']) {
+    echo "Error: Missing required parameter 'url'";
+    exit;
+}
 //Scrape the page and store the scrape in $data.
 $curl_handle=curl_init();
 curl_setopt($curl_handle,CURLOPT_URL,$_REQUEST['url']);

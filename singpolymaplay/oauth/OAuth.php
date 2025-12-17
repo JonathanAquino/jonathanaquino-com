@@ -24,6 +24,7 @@ class OAuthException extends Exception {/*{{{*/
 class OAuthConsumer {/*{{{*/
   public $key;
   public $secret;
+  public $callback_url;
 
   function __construct($key, $secret, $callback_url=NULL) {/*{{{*/
     $this->key = $key;
@@ -554,7 +555,7 @@ class SimpleOAuthDataStore extends OAuthDataStore {/*{{{*/
   }/*}}}*/
 
   function lookup_token($consumer, $token_type, $token) {/*{{{*/
-    $rv = dba_fetch("${token_type}_${token}", $this->dbh);
+    $rv = dba_fetch("{$token_type}_{$token}", $this->dbh);
     if ($rv === FALSE) {
       return NULL;
     }
@@ -573,7 +574,7 @@ class SimpleOAuthDataStore extends OAuthDataStore {/*{{{*/
     $key = md5(time());
     $secret = time() + time();
     $token = new OAuthToken($key, md5(md5($secret)));
-    if (!dba_insert("${type}_$key", serialize($token), $this->dbh)) {
+    if (!dba_insert("{$type}_{$key}", serialize($token), $this->dbh)) {
       throw new OAuthException("doooom!");
     }
     return $token;

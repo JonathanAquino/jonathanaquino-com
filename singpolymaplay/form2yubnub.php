@@ -1,5 +1,9 @@
 <?php
 
+if (!isset($_REQUEST['cmdstr'])) {
+    echo "Error: Missing required parameter 'cmdstr'";
+    exit;
+}
 $cmdstr = urldecode($_REQUEST['cmdstr']);
 unset($_REQUEST['cmdstr']);
 

@@ -1,7 +1,7 @@
 <div style="padding:2em;">
 <?php
 
-if(!$_REQUEST['widget']) {
+if(!isset($_REQUEST['widget']) || !$_REQUEST['widget']) {
    ?>
    <h2>Peek-a-boo Widget Wizard for Blogger</h2>
    <form method="get"><div>

@@ -1,7 +1,11 @@
 <?php
-header("Content-type: text/plain"); 
+header("Content-type: text/plain");
 // echo "cow";
 
+if (!isset($_GET["string"]) || !isset($_GET["length"])) {
+    echo "Error: Missing required parameters 'string' and 'length'";
+    exit;
+}
 $string = $_GET["string"];
 $length = $_GET["length"];
 

@@ -1,5 +1,11 @@
 <?php
 header('Content-Type: text/javascript;charset=utf-8');
+
+if (!isset($_REQUEST['input']) || !$_REQUEST['input']) {
+    echo "Error: Missing required parameter 'input'";
+    exit;
+}
+
 require_once('JSON.php');
 $json = new Services_JSON();
 

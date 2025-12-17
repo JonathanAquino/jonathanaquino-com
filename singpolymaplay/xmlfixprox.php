@@ -1,5 +1,10 @@
 <?php
 
+if (!isset($_REQUEST['url']) || !$_REQUEST['url']) {
+    echo "Error: Missing required parameter 'url'";
+    exit;
+}
+
 header('Content-Type: application/xml');
 
 $bloggerdata = file_get_contents($_REQUEST['url']);

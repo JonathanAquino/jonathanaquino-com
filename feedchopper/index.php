@@ -1,6 +1,11 @@
 <?php
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
+if (!isset($_GET['feed']) || !$_GET['feed']) {
+    header("HTTP/1.0 400 Bad Request");
+    echo "Error: Missing required parameter 'feed'";
+    exit;
+}
 $feed = $_GET['feed'];
 $validFeeds = array(
     'dave-aquino-portfolio',

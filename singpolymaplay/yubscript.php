@@ -41,7 +41,7 @@ function process_script($shebang, $code) {
    return $rtrn;
 }//end process_script
 
-if($_REQUEST['code']) {
+if(isset($_REQUEST['code']) && $_REQUEST['code']) {
 
    $_REQUEST['code'] = str_replace('${%s}',$_REQUEST['%s'],$_REQUEST['code']);//sub in argument
 

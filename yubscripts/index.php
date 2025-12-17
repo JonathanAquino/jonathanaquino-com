@@ -1,4 +1,8 @@
 <?php
+if (!class_exists('XN_Profile')) {
+    echo "Error: This feature requires the Ning platform which is no longer available.";
+    exit;
+}
 $viewer = XN_Profile::current();
 $name = ($viewer->isLoggedIn() ? $viewer->screenName : 'Stranger');
 $app = XN_Application::load();

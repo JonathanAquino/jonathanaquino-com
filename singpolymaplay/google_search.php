@@ -1,9 +1,14 @@
 <?php
 
+// The xn-app:// wrapper is no longer available (Ning platform retired)
+echo "Error: This feature requires the Ning platform which is no longer available.";
+exit;
+// Original code follows:
+
 require_once 'xn-app://xoxotools/std_feed_parse.php';
 
 function yubnubcmd($cmd) {
-   if($cmd{0} == '"')
+   if($cmd[0] == '"')
       return substr($cmd,1,strlen($cmd)-2);
    $curl = curl_init('http://yubnub.org/parser/parse?command='.urlencode($cmd));
    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);

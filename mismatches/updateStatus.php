@@ -1,6 +1,6 @@
 <?php
-$key = $_POST['key'];
-$status = $_POST['status'];
+$key = isset($_POST['key']) ? $_POST['key'] : '';
+$status = isset($_POST['status']) ? $_POST['status'] : '';
 if (!$key) {
     header('HTTP/1.0 400 Bad request');
     exit;

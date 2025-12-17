@@ -1,9 +1,15 @@
 <?php
 header('Content-Type: text/javascript;charset=utf-8');
+
+if (!isset($_REQUEST['url']) || !$_REQUEST['url']) {
+    echo "Error: Missing required parameter 'url'";
+    exit;
+}
+
 require_once('JSON.php');
 $json = new Services_JSON();
 
-$inputarray = explode(".",$_REQUEST['input']); //Split up the input.
+$inputarray = isset($_REQUEST['input']) ? explode(".",$_REQUEST['input']) : array(); //Split up the input.
 
 $theobject = file_get_contents('http://armknecht.com/xoxotools/outlineconvert.php?output=json&classes=items&url='.$_REQUEST['url'],10000);
 

@@ -50,7 +50,7 @@ class OutlineFromHATOM extends Outline {
 
          if($el['attributes']['HREF']) {
             $el['attributes']['HREF'] = trim($el['attributes']['HREF']);
-            if($el['attributes']['HREF']{0} == '/') $el['attributes']['HREF'] = substr($el['attributes']['HREF'],1,strlen($el['attributes']['HREF'])-1);
+            if($el['attributes']['HREF'][0] == '/') $el['attributes']['HREF'] = substr($el['attributes']['HREF'],1,strlen($el['attributes']['HREF'])-1);
             if(substr($el['attributes']['HREF'],0,4) != 'http' && $resolve) $el['attributes']['HREF'] = $resolve.$el['attributes']['HREF'];
          }//end if href
 
@@ -181,7 +181,7 @@ class OutlineFromHATOM extends Outline {
                      }//end if ! isclose
                   }//end if-else ABBR
                }//end if entry-title isopen
-               if(!$entry['text'] && strlen($el['tag']) == 2 && $el['tag']{0} == 'h' && is_numeric($el['tag']{1}) && $isopen) {//if starting h# tag
+               if(!$entry['text'] && strlen($el['tag']) == 2 && $el['tag'][0] == 'h' && is_numeric($el['tag'][1]) && $isopen) {//if starting h# tag
                   $tmptitle .= trim($el['value']);
                }//end if h#
                //get content

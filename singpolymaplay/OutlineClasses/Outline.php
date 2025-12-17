@@ -48,7 +48,7 @@ class Outline {
    function addField($name,$data='') { $this->_fields[$name] = $data; }
    function setField($name,$data) { $this->_fields[$name] = $data; }
    function unsetField($name) { unset($this->_fields[$name]); }
-   function getField($name) { return $this->_fields[$name]; }
+   function getField($name) { return isset($this->_fields[$name]) ? $this->_fields[$name] : null; }
    
    function getFields() { return $this->_fields; }
    

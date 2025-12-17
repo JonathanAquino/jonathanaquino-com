@@ -1,4 +1,9 @@
 <?php
+// The Ning platform is no longer available
+echo "Error: This feature requires the Ning platform which is no longer available.";
+exit;
+// Original code follows:
+
 
 function errhandle() {}
 set_error_handler(errhandle);

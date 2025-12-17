@@ -21,9 +21,9 @@ class OutlineFromXML extends Outline {
       $flattentag = '';
       $flattenattr = array();
       $subflatten = 0;
-      $options['rootel'] = $options['rootel'] ? strtoupper($options['rootel']) : '';
-      $options['itemel'] = $options['itemel'] ? strtolower($options['itemel']) : '';
-      $options['collapsels'] = $options['collapsels'] ? $options['collapsels'] : array();
+      $options['rootel'] = isset($options['rootel']) && $options['rootel'] ? strtoupper($options['rootel']) : '';
+      $options['itemel'] = isset($options['itemel']) && $options['itemel'] ? strtolower($options['itemel']) : '';
+      $options['collapsels'] = isset($options['collapsels']) && $options['collapsels'] ? $options['collapsels'] : array();
       foreach($vals as $el) {
          if(!$options['rootel'])
             $options['rootel'] = $el['tag'];
@@ -71,14 +71,14 @@ class OutlineFromXML extends Outline {
             $emptytag = false;//assume not an empty tag
             if($isopen) {//if opening tag
                $flattendat .= '<'.strtolower($el['tag']);//add open tag
-               if($el['attributes']) {//if attributes
+               if(isset($el['attributes']) && $el['attributes']) {//if attributes
                   foreach($el['attributes'] as $id => $val) {//loop through and add
                      $flattendat .= ' '.strtolower($id).'="'.htmlspecialchars($val).'"';
                    }//end foreach
                }//end if attributes
-               $emptytag = ($el['type'] == 'complete' && !$el['value']);//is emptytag?
+               $emptytag = ($el['type'] == 'complete' && !isset($el['value']));//is emptytag?
                $flattendat .= $emptytag?' />':'>';//end tag
-               if($el['value']) {$flattendat .= htmlspecialchars($el['value']);}//add contents, if any
+               if(isset($el['value']) && $el['value']) {$flattendat .= htmlspecialchars($el['value']);}//add contents, if any
             }//end if isopen
             if($el['type'] == 'cdata') {//if cdata
                $flattendat .= htmlspecialchars($el['value']);//add data
@@ -90,8 +90,8 @@ class OutlineFromXML extends Outline {
          }//end if flattento
          if($el['type'] == 'complete') {
             if(!in_array(strtolower($el['tag']),$options['collapsels'])) {
-               if($el['attributes']) {
-                  if($el['value'])
+               if(isset($el['attributes']) && $el['attributes']) {
+                  if(isset($el['value']) && $el['value'])
                      $el['value'] = new Outline(array('text' => $el['value']));
                   else
                      $el['value'] = new Outline();
@@ -101,16 +101,17 @@ class OutlineFromXML extends Outline {
                }//end if attributes
             }//end if ! collapsels
             if(!$this->getField(strtolower($el['tag']))) {
-               $this->addField(strtolower($el['tag']),$el['value']);
+               $this->addField(strtolower($el['tag']),isset($el['value']) ? $el['value'] : '');
             } else {
                $oldfield = $this->getField(strtolower($el['tag']));
                if(!is_a($oldfield,'Outline'))
                   $oldfield = new Outline(array(array('text' => $oldfield)));
                if(count($oldfield->getFields()))
                   $oldfield = new Outline(array($oldfield));
-               if(!is_a($el['value'],'Outline'))
-                  $el['value'] = new Outline(array('text' => $el['value']));
-               $oldfield->addNode($el['value']);
+               $elValue = isset($el['value']) ? $el['value'] : '';
+               if(!is_a($elValue,'Outline'))
+                  $elValue = new Outline(array('text' => $elValue));
+               $oldfield->addNode($elValue);
                $this->setField(strtolower($el['tag']),$oldfield);
             }//end if-else getField
             continue;
@@ -129,21 +130,21 @@ class OutlineFromXML extends Outline {
             if($options['rootel'] == $el['tag']) {
                if($options['rootel'] == 'OUTLINEFROMXML')
                   $el['tag'] = 'TEXT';
-               if($el['attributes']) {
+               if(isset($el['attributes']) && $el['attributes']) {
                   foreach($el['attributes'] as $id => $val)
                      $this->addField(strtolower($id),$val);
                }//end if attributes
-               if(trim($el['value']))
+               if(isset($el['value']) && trim($el['value'] ?? ''))
                   $this->addField(strtolower($el['tag']),$el['value']);
                continue;
             }//end if rootel
-            if($el['attributes']) {
+            if(isset($el['attributes']) && $el['attributes']) {
                foreach($el['attributes'] as $id => $val)
                   $flattenattr[strtolower($id)] = $val;
             }//end if attributes
             $flattento = strtolower($el['tag']);
             $flattentag = $el['tag'];
-            $flattendat = $el['value'];
+            $flattendat = isset($el['value']) ? $el['value'] : '';
             continue;
          }//end if open
       }//end foreach vals

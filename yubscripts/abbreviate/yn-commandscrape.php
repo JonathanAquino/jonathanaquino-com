@@ -1,6 +1,11 @@
 <?php
 //This script scrapes a YubNub man page and returns a JSON object with all the info.
 
+if (!isset($_REQUEST['cmd']) || !$_REQUEST['cmd']) {
+    echo "Error: Missing required parameter 'cmd'";
+    exit;
+}
+
 //Scrape the man page and store the scrape in $data.
 $curl_handle=curl_init();
 curl_setopt($curl_handle,CURLOPT_URL,'http://yubnub.org/kernel/man?args='.$_REQUEST['cmd']);

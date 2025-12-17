@@ -2,7 +2,7 @@
 <h1>Blogger Calendar Widget Creator</h1>
 <?php
 
-if(!$_REQUEST['url']) {
+if(!isset($_REQUEST['url']) || !$_REQUEST['url']) {
    ?>
 <p>Paste your feed URL and blog title into the boxes below.</p>
 <form method="get" action="<?php echo $_SERVER['PHP_SELF']; ?>"><div>

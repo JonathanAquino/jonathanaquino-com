@@ -1,4 +1,8 @@
 <?php
+if (!isset($_REQUEST['input']) || !$_REQUEST['input']) {
+    echo "Error: Missing required parameter 'input'";
+    exit;
+}
 //Scrape the man page and store the scrape in $data.
 $curl_handle=curl_init();
 curl_setopt($curl_handle,CURLOPT_URL,'http://thesaurus.reference.com/search?q='.$_REQUEST['input']);

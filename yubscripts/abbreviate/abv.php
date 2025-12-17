@@ -1,10 +1,15 @@
 <?php
 // Abbreviate
 
+if (!isset($_GET['input']) || !$_GET['input']) {
+    echo "Error: Missing required parameter 'input'";
+    exit;
+}
+
 //$commandname = $_GET['commandname'];
 //$inputs = $_GET['input'];
 
-$stuff = isset($_GET['input']) ? $_GET['input'] : '';
+$stuff = $_GET['input'];
 $commandname = left($stuff, strpos($stuff,' '));
 $inputs = right($stuff, strlen($stuff)-strpos($stuff,' '));
 
@@ -40,7 +45,8 @@ else {
 	$output = $commandname;
 	$i = 0;
 	while ($i < count($input)){
-		$output = $output." -".$params[$i+1]." ".$input[$i];
+		$paramKey = isset($params[$i+1]) ? $params[$i+1] : '';
+		$output = $output." -".$paramKey." ".$input[$i];
 		$i++;
 	}
 	//echo $output;

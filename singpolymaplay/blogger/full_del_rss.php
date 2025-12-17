@@ -1,4 +1,9 @@
 <?php
+// The Ning platform is no longer available
+echo "Error: This feature requires the Ning platform which is no longer available.";
+exit;
+// Original code follows:
+
 //returns a full RSS feed of a user's del.icio.us account
 
 if(!$_REQUEST['usr']) {

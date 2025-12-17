@@ -1,4 +1,8 @@
-<?php 
+<?php
+if (!isset($_REQUEST['input']) || !$_REQUEST['input']) {
+    echo "Error: Missing required parameter 'input'";
+    exit;
+}
 //Scrape the man page and store the scrape in $data.
 $curl_handle=curl_init();
 curl_setopt($curl_handle,CURLOPT_URL,'http://en.wikipedia.org/wiki/'.$_REQUEST['input']);
@@ -14,7 +18,7 @@ if (empty($data)){echo 'Error retrieving data';}
 else{
 	//$stuff = preg_match_between('<!-- start content -->','<!-- Saved in',$data);
 	$stuff = preg_match_between('<p>','<!-- Saved in',$data);//Get article text.
-	$stuff = strip_tags($stuff); //Strip tags.
+	$stuff = strip_tags($stuff ?? ''); //Strip tags.
 	$stuff = trim($stuff); //Trim outer whitespace.
 	$stuff = preg_replace("/(^[\r\n]*|[\r\n]+)[\s\t]*[\r\n]+/", "\n", $stuff);//Remove blank lines.
 	if ($_REQUEST['length']){
@@ -27,7 +31,7 @@ else{
 function preg_match_between($a_sStart, $a_sEnd, $a_sSubject){
 	$pattern = '/'. $a_sStart .'([^`]*?)'. $a_sEnd .'/';
 	preg_match($pattern, $a_sSubject, $result);
-	return $result[1];
+	return isset($result[1]) ? $result[1] : '';
 }
 //returns $length characters from the left of $string
 function left($string, $length) {

@@ -2,7 +2,12 @@
 
 header('Content-type: text/javascript;');
 
-if($_REQUEST['callback'])
+if (!isset($_REQUEST['url']) || !$_REQUEST['url']) {
+    echo '{"error":"Missing required parameter url"}';
+    exit;
+}
+
+if(isset($_REQUEST['callback']) && $_REQUEST['callback'])
    echo $_REQUEST['callback'].'(';
 
    $curl = curl_init($_REQUEST['url']);

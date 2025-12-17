@@ -2,6 +2,10 @@
 
 header('Content-Type: text/plain');
 
+// Services/Technorati.php library is not available
+echo "Error: The Technorati service library is not available.";
+exit;
+
 include 'Services/Technorati.php';
 
 $obj = Services_Technorati::factory('125395fa74934d82fc247a25fde65184');

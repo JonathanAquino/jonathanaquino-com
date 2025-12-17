@@ -1,7 +1,7 @@
 <div style="padding:2em;">
 <?php
 
-if(!$_REQUEST['submit']) {
+if(!isset($_REQUEST['submit']) || !$_REQUEST['submit']) {
    ?>
    <h2><a href="http://microformats.org/wiki/hcard">hCard</a> Profile Wizard for Blogger</h2>
    <p>Select what data should be visible in your profile on your blog.  (Some fields may not display on team blogs due to limitations in the code.)</p>

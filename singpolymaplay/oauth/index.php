@@ -3,20 +3,20 @@ require_once("common.inc.php");
 
 session_start();
 
-$key = $_REQUEST['key'] ? $_REQUEST['key'] : $_SESSION['key'];
-$secret = $_REQUEST['secret'] ? $_REQUEST['secret'] : $_SESSION['secret'];
+$key = (isset($_REQUEST['key']) && $_REQUEST['key']) ? $_REQUEST['key'] : (isset($_SESSION['key']) ? $_SESSION['key'] : '');
+$secret = (isset($_REQUEST['secret']) && $_REQUEST['secret']) ? $_REQUEST['secret'] : (isset($_SESSION['secret']) ? $_SESSION['secret'] : '');
 $sha1_method = new OAuthSignatureMethod_HMAC_SHA1();
 $plaintext_method = new OAuthSignatureMethod_PLAINTEXT();
 $consumer = new OAuthConsumer($key, $secret, NULL);
 
-if($_REQUEST['access_endpoint']) $_SESSION['access_endpoint'] = $_REQUEST['access_endpoint'];
-if($_REQUEST['api_endpoint']) $_SESSION['api_endpoint'] = $_REQUEST['api_endpoint'];
-if($_REQUEST['post_id']) $_SESSION['post_id'] = $_REQUEST['post_id'];
-if($_REQUEST['comment']) $_SESSION['comment'] = $_REQUEST['comment'];
+if(isset($_REQUEST['access_endpoint']) && $_REQUEST['access_endpoint']) $_SESSION['access_endpoint'] = $_REQUEST['access_endpoint'];
+if(isset($_REQUEST['api_endpoint']) && $_REQUEST['api_endpoint']) $_SESSION['api_endpoint'] = $_REQUEST['api_endpoint'];
+if(isset($_REQUEST['post_id']) && $_REQUEST['post_id']) $_SESSION['post_id'] = $_REQUEST['post_id'];
+if(isset($_REQUEST['comment']) && $_REQUEST['comment']) $_SESSION['comment'] = $_REQUEST['comment'];
 $_SESSION['key'] = $key;
 $_SESSION['secret'] = $secret;
 
-if($_REQUEST['action'] == 'start') {
+if(isset($_REQUEST['action']) && $_REQUEST['action'] == 'start') {
 	$rtoken = OAuthRequest::from_consumer_and_token($consumer, NULL, 'GET', $_REQUEST['request_endpoint'], array());
 	$rtoken->sign_request($sha1_method, $consumer, NULL);
 	$curl = curl_init($rtoken);
@@ -35,7 +35,7 @@ if($_REQUEST['action'] == 'start') {
 	exit;
 }//end if start
 
-if($_REQUEST['action'] == 'access') {
+if(isset($_REQUEST['action']) && $_REQUEST['action'] == 'access') {
 	$rtoken = new OAuthConsumer($_SESSION['rtoken'], $_SESSION['rtoken_secret']);
 	$atoken = OAuthRequest::from_consumer_and_token($consumer, $rtoken, 'GET', $_SESSION['access_endpoint'], array());
 	$atoken->sign_request($sha1_method, $consumer, $rtoken);
@@ -75,11 +75,11 @@ html,body {background-color: white;}
 
 <form method="post" action="">
 <h3>Enter The Endpoints</h3>
-Request token endpoint: <input type="text" name="request_endpoint" value="<?php echo $_REQUEST['request_endpoint']; ?>" /><br />
-Authorize token endpoint: <input type="text" name="authorize_endpoint" value="<?php echo $_REQUEST['authorize_endpoint']; ?>" /><br />
-Access token endpoint: <input type="text" name="access_endpoint" value="<?php echo $_REQUEST['access_endpoint']; ?>" /><br />
-API endpoint: <input type="text" name="api_endpoint" value="<?php echo $_REQUEST['api_endpoint']; ?>" /><br />
-Post ID: <input type="text" name="post_id" value="<?php echo $_REQUEST['post_id']; ?>" /><br />
+Request token endpoint: <input type="text" name="request_endpoint" value="<?php echo isset($_REQUEST['request_endpoint']) ? $_REQUEST['request_endpoint'] : ''; ?>" /><br />
+Authorize token endpoint: <input type="text" name="authorize_endpoint" value="<?php echo isset($_REQUEST['authorize_endpoint']) ? $_REQUEST['authorize_endpoint'] : ''; ?>" /><br />
+Access token endpoint: <input type="text" name="access_endpoint" value="<?php echo isset($_REQUEST['access_endpoint']) ? $_REQUEST['access_endpoint'] : ''; ?>" /><br />
+API endpoint: <input type="text" name="api_endpoint" value="<?php echo isset($_REQUEST['api_endpoint']) ? $_REQUEST['api_endpoint'] : ''; ?>" /><br />
+Post ID: <input type="text" name="post_id" value="<?php echo isset($_REQUEST['post_id']) ? $_REQUEST['post_id'] : ''; ?>" /><br />
 Comment:<br />
 	<textarea name="comment"></textarea>
 <h3>Enter Your Consumer Key / Secret</h3>

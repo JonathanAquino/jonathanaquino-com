@@ -1,4 +1,9 @@
 <?php
+// The Ning platform is no longer available
+echo "Error: This feature requires the Ning platform which is no longer available.";
+exit;
+// Original code follows:
+
 
 if(!$_REQUEST['url'])
    die('<h2>No URL Specified!</h2>');
