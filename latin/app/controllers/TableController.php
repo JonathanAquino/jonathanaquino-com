@@ -54,7 +54,8 @@ class TableController {
             $this->action_new();
             return;
         }
-        $this->table = $this->loadTable($_GET['table']);
+        $tableName = isset($_GET['table']) ? $_GET['table'] : '';
+        $this->table = $this->loadTable($tableName);
         $differ = new Differ();
         $this->diff = $differ->diff($this->table->getText(), $_POST['text']);
         require_once './app/views/table/create.php';
@@ -67,7 +68,8 @@ class TableController {
      *     - table - name of the table to load
      */
     public function action_show() {
-        $this->table = $this->loadTable($_GET['table']);
+        $tableName = isset($_GET['table']) ? $_GET['table'] : '';
+        $this->table = $this->loadTable($tableName);
         require_once './app/views/table/show.php';
     }
 
@@ -79,7 +81,7 @@ class TableController {
      */
     private function loadTable($name) {
         $tableLoader = new TableLoader();
-        if ($_GET['table'] === 'Altar Server') {
+        if ($name === 'Altar Server') {
             $tables = $tableLoader->load('./db/altarserver.txt');
         } else {
             $tables = $tableLoader->load('./db/data.txt');
