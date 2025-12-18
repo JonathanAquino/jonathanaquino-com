@@ -1,2 +1,0 @@
-<a href="javascript:(function()%7Bvar%20script%20%3D%20window.document.createElement('script')%3Bscript.onerror%20%3D%20function%20(error)%20%7B%20alert('on%20error!%20'%20%2B%20error)%3B%20console.log(error)%3B%20%7D%3Bscript.onload%20%3D%20function%20()%20%7B%20alert('good%3A%20'%20%2B%20window._gfbmk)%3B%20console.log(error)%3B%20%7D%3Bscript.src%20%3D%20'https%3A%2F%2Fwww.mode.com%2Fcollection%2Fadd.js%3Ft%3D1456956609163%26xu%3Dhttps%253A%252F%252Fwww.pinterest.com%252F%2527'%3Bdocument.body.appendChild(script)%7D)()">Test onError</a>
-

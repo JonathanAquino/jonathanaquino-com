@@ -1,1 +1,0 @@
-<a href="http://www.mode.com">http://www.mode.com</a>
