@@ -9,6 +9,7 @@ class TableController {
     public $table;
     public $text;
     public $answers;
+    public $diff;
 
     /**
      * Lists the available tables.

@@ -14,9 +14,10 @@ function yubnubcmd($cmd,$geturl=false) {
 
 function process_script($shebang, $code) {
    $code = str_replace("\r\n","\n",$code);
+   $byline = false;
    if(substr($shebang,-1,1) == '#') $byline = true;
    $shebang = explode('#',$shebang);
-   $postvar = $shebang[1];
+   $postvar = isset($shebang[1]) ? $shebang[1] : '';
    $shebang = $shebang[0];
    if(substr($shebang,0,7) == 'yubnub:') {
       $shebang = str_replace('yubnub:','',str_replace('yubnub://','',$shebang));
@@ -43,13 +44,15 @@ function process_script($shebang, $code) {
 
 if(isset($_REQUEST['code']) && $_REQUEST['code']) {
 
-   $_REQUEST['code'] = str_replace('${%s}',$_REQUEST['%s'],$_REQUEST['code']);//sub in argument
+   $arg = isset($_REQUEST['%s']) ? $_REQUEST['%s'] : '';
+   $_REQUEST['code'] = str_replace('${%s}',$arg,$_REQUEST['code']);//sub in argument
 
    $_REQUEST['code'] = str_replace("\r\n","\n",$_REQUEST['code']);//get shebang line
    $_REQUEST['code'] = explode("\n",$_REQUEST['code']);
    $shebang = substr($_REQUEST['code'][0],2,strlen($_REQUEST['code'][0])-2);
    unset($_REQUEST['code'][0]);
-   if(substr($_REQUEST['code'][1],0,2) == '#!') {
+   $mime = '';
+   if(isset($_REQUEST['code'][1]) && substr($_REQUEST['code'][1],0,2) == '#!') {
       $mime = substr($_REQUEST['code'][1],2,strlen($_REQUEST['code'][1])-2);
       unset($_REQUEST['code'][1]);
    }//end if mime-type line
