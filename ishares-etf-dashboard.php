@@ -35,6 +35,7 @@ $etfConfig = [
     'XGRO.TO' => ['symbol' => 'XGRO', 'name' => 'TFSA · 80% Eq', 'color' => '#3b82f6'],
     'XBAL.TO' => ['symbol' => 'XBAL', 'name' => 'RESP · 60% Eq', 'color' => '#f59e0b'],
     'XCNS.TO' => ['symbol' => 'XCNS', 'name' => 'Non-Reg · 40% Eq', 'color' => '#8b5cf6'],
+    '0P0000MOFR.TO' => ['symbol' => 'MAW120', 'name' => 'Mawer Global Eq', 'color' => '#ffffff'],
     '^GSPC' => ['symbol' => 'S&P', 'name' => 'S&P 500', 'color' => '#ef4444'],
 ];
 
@@ -210,6 +211,7 @@ function pctClass($val) {
         .etf-symbol.xgro { color: #3b82f6; }
         .etf-symbol.xbal { color: #f59e0b; }
         .etf-symbol.xcns { color: #8b5cf6; }
+        .etf-symbol.maw120 { color: #ffffff; }
         .etf-symbol.sp { color: #ef4444; }
         .etf-meta { font-size: 0.55rem; color: var(--text-muted); font-family: 'Inter', sans-serif; }
         .price { font-weight: 600; font-size: 0.75rem; }
@@ -274,6 +276,7 @@ function pctClass($val) {
                     <div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div>XGRO</div>
                     <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div>XBAL</div>
                     <div class="legend-item"><div class="legend-dot" style="background:#8b5cf6"></div>XCNS</div>
+                    <div class="legend-item"><div class="legend-dot" style="background:#ffffff"></div>MAW120</div>
                     <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div>S&P</div>
                 </div>
             </div>
