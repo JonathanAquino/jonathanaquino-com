@@ -336,7 +336,7 @@ function pctClass($val) {
                             type: 'time',
                             time: { unit: 'month', displayFormats: { month: 'MMM' } },
                             grid: { color: '#2d3748', drawBorder: false },
-                            ticks: { color: '#6b7280', font: { size: 8 }, maxTicksLimit: 6 }
+                            ticks: { color: '#6b7280', font: { size: 8 }, maxTicksLimit: 12 }
                         },
                         y: {
                             grid: { color: '#2d3748', drawBorder: false },
