@@ -31,10 +31,11 @@ function calcChange($prices, $days) {
 
 // ETF Configuration
 $etfConfig = [
-    'XEQT.TO' => ['symbol' => 'XEQT', 'name' => '100% Eq', 'color' => '#10b981'],
-    'XGRO.TO' => ['symbol' => 'XGRO', 'name' => '80% Eq', 'color' => '#3b82f6'],
-    'XBAL.TO' => ['symbol' => 'XBAL', 'name' => '60% Eq', 'color' => '#f59e0b'],
-    'XCNS.TO' => ['symbol' => 'XCNS', 'name' => '40% Eq', 'color' => '#8b5cf6'],
+    'XEQT.TO' => ['symbol' => 'XEQT', 'name' => 'RRSP', 'color' => '#10b981'],
+    'XGRO.TO' => ['symbol' => 'XGRO', 'name' => 'TFSA', 'color' => '#3b82f6'],
+    'XBAL.TO' => ['symbol' => 'XBAL', 'name' => 'RESP', 'color' => '#f59e0b'],
+    'XCNS.TO' => ['symbol' => 'XCNS', 'name' => 'Non-Reg', 'color' => '#8b5cf6'],
+    '^GSPC' => ['symbol' => 'S&P', 'name' => 'S&P 500', 'color' => '#ef4444'],
 ];
 
 // Fetch data for all ETFs
@@ -209,6 +210,7 @@ function pctClass($val) {
         .etf-symbol.xgro { color: #3b82f6; }
         .etf-symbol.xbal { color: #f59e0b; }
         .etf-symbol.xcns { color: #8b5cf6; }
+        .etf-symbol.sp { color: #ef4444; }
         .etf-meta { font-size: 0.55rem; color: var(--text-muted); font-family: 'Inter', sans-serif; }
         .price { font-weight: 600; font-size: 0.75rem; }
         .positive { color: var(--accent-green); }
@@ -251,7 +253,7 @@ function pctClass($val) {
                 <?php foreach ($etfData as $etf): ?>
                 <tr>
                     <td>
-                        <div class="etf-symbol <?= strtolower($etf['symbol']) ?>"><?= $etf['symbol'] ?></div>
+                        <div class="etf-symbol <?= preg_replace('/[^a-z0-9]/', '', strtolower($etf['symbol'])) ?>"><?= $etf['symbol'] ?></div>
                         <div class="etf-meta"><?= $etf['name'] ?></div>
                     </td>
                     <td class="price">$<?= number_format($etf['price'], 2) ?></td>
@@ -272,6 +274,7 @@ function pctClass($val) {
                     <div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div>XGRO</div>
                     <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div>XBAL</div>
                     <div class="legend-item"><div class="legend-dot" style="background:#8b5cf6"></div>XCNS</div>
+                    <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div>S&P</div>
                 </div>
             </div>
             <div class="chart-container">
