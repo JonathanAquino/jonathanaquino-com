@@ -62,14 +62,13 @@ foreach ($etfConfig as $yahooSymbol => $config) {
         
         if (count($prices) > 0) {
             $currentPrice = end($prices);
-            $prevClose = $chart['meta']['chartPreviousClose'] ?? $prices[count($prices) - 2] ?? $currentPrice;
-            
+
             $etfData[] = [
                 'symbol' => $config['symbol'],
                 'name' => $config['name'],
                 'color' => $config['color'],
                 'price' => $currentPrice,
-                'day' => $prevClose ? (($currentPrice - $prevClose) / $prevClose) * 100 : 0,
+                'day' => calcChange($prices, 1),
                 'week' => calcChange($prices, 5),
                 'month' => calcChange($prices, 21),
                 'year' => calcChange($prices, min(252, count($prices) - 1)),
