@@ -20,13 +20,29 @@ function fetchChartData($symbol) {
     return null;
 }
 
-// Calculate percent change
-function calcChange($prices, $days) {
-    if (count($prices) < $days + 1) return null;
-    $current = $prices[count($prices) - 1];
-    $past = $prices[max(0, count($prices) - 1 - $days)];
-    if (!$past) return null;
-    return (($current - $past) / $past) * 100;
+// Calculate percent change based on calendar time
+function calcChangeByTime($prices, $timestamps, $secondsAgo) {
+    if (count($prices) < 2) return null;
+    $currentPrice = $prices[count($prices) - 1];
+    $currentTime = $timestamps[count($timestamps) - 1];
+    $targetTime = $currentTime - $secondsAgo;
+
+    // Find the price closest to the target time
+    $pastPrice = null;
+    for ($i = count($timestamps) - 1; $i >= 0; $i--) {
+        if ($timestamps[$i] <= $targetTime) {
+            $pastPrice = $prices[$i];
+            break;
+        }
+    }
+
+    // If no price found before target, use the earliest available
+    if ($pastPrice === null) {
+        $pastPrice = $prices[0];
+    }
+
+    if (!$pastPrice) return null;
+    return (($currentPrice - $pastPrice) / $pastPrice) * 100;
 }
 
 // ETF Configuration
@@ -65,15 +81,21 @@ foreach ($etfConfig as $yahooSymbol => $config) {
         if (count($prices) > 0) {
             $currentPrice = end($prices);
 
+            // Time periods in seconds
+            $daySeconds = 86400;
+            $weekSeconds = 7 * $daySeconds;
+            $monthSeconds = 30 * $daySeconds;
+            $yearSeconds = 365 * $daySeconds;
+
             $etfData[] = [
                 'symbol' => $config['symbol'],
                 'name' => $config['name'],
                 'color' => $config['color'],
                 'price' => $currentPrice,
-                'day' => calcChange($prices, 1),
-                'week' => calcChange($prices, 5),
-                'month' => calcChange($prices, 21),
-                'year' => calcChange($prices, min(252, count($prices) - 1)),
+                'day' => calcChangeByTime($prices, $validTimestamps, $daySeconds),
+                'week' => calcChangeByTime($prices, $validTimestamps, $weekSeconds),
+                'month' => calcChangeByTime($prices, $validTimestamps, $monthSeconds),
+                'year' => calcChangeByTime($prices, $validTimestamps, $yearSeconds),
             ];
             
             // Normalize prices for chart (start at 100)
@@ -95,10 +117,10 @@ if (empty($etfData)) {
 }
 
 // Format percentage
-function formatPct($val) {
+function formatPct($val, $decimals = 1) {
     if ($val === null) return 'N/A';
     $sign = $val >= 0 ? '+' : '';
-    return $sign . number_format($val, 1) . '%';
+    return $sign . number_format($val, $decimals) . '%';
 }
 
 function pctClass($val) {
@@ -259,10 +281,10 @@ function pctClass($val) {
                         <div class="etf-meta"><?= $etf['name'] ?></div>
                     </td>
                     <td class="price">$<?= number_format($etf['price'], 2) ?></td>
-                    <td class="perf-cell <?= pctClass($etf['day']) ?>"><?= formatPct($etf['day']) ?></td>
-                    <td class="perf-cell <?= pctClass($etf['week']) ?>"><?= formatPct($etf['week']) ?></td>
-                    <td class="perf-cell <?= pctClass($etf['month']) ?>"><?= formatPct($etf['month']) ?></td>
-                    <td class="perf-cell <?= pctClass($etf['year']) ?>"><?= formatPct($etf['year']) ?></td>
+                    <td class="perf-cell <?= pctClass($etf['day']) ?>"><?= formatPct($etf['day'], 2) ?></td>
+                    <td class="perf-cell <?= pctClass($etf['week']) ?>"><?= formatPct($etf['week'], 2) ?></td>
+                    <td class="perf-cell <?= pctClass($etf['month']) ?>"><?= formatPct($etf['month'], 2) ?></td>
+                    <td class="perf-cell <?= pctClass($etf['year']) ?>"><?= formatPct($etf['year'], 2) ?></td>
                 </tr>
                 <?php endforeach; ?>
             </tbody>
