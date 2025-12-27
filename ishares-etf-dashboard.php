@@ -47,10 +47,10 @@ function calcChangeByTime($prices, $timestamps, $secondsAgo) {
 
 // ETF Configuration
 $etfConfig = [
-    'XEQT.TO' => ['symbol' => 'XEQT', 'name' => 'RRSP · 100% Eq', 'color' => '#10b981'],
-    'XGRO.TO' => ['symbol' => 'XGRO', 'name' => 'TFSA · 80% Eq', 'color' => '#3b82f6'],
-    'XBAL.TO' => ['symbol' => 'XBAL', 'name' => 'RESP · 60% Eq', 'color' => '#f59e0b'],
-    'XCNS.TO' => ['symbol' => 'XCNS', 'name' => 'Non-Reg · 40% Eq', 'color' => '#8b5cf6'],
+    'XEQT.TO' => ['symbol' => 'XEQT', 'name' => '100% Equity', 'color' => '#10b981'],
+    'XGRO.TO' => ['symbol' => 'XGRO', 'name' => '80% Equity', 'color' => '#3b82f6'],
+    'XBAL.TO' => ['symbol' => 'XBAL', 'name' => '60% Equity', 'color' => '#f59e0b'],
+    'XCNS.TO' => ['symbol' => 'XCNS', 'name' => '40% Equity', 'color' => '#8b5cf6'],
     '0P0000MOFR.TO' => ['symbol' => 'MAW120', 'name' => 'Mawer Global Eq', 'color' => '#ffffff'],
     '^GSPC' => ['symbol' => 'S&P', 'name' => 'S&P 500', 'color' => '#ef4444'],
 ];
