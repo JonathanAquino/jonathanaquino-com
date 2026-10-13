@@ -1,0 +1,8 @@
+! Title: Jonathan Aquino's AdGuard filters
+! Description: Block images on selected sites and media on Facebook
+! Expires: 1 hours
+*$image,domain=news.google.com
+*$image,domain=reddit.com
+*$image,domain=facebook.com
+*$image,domain=x.com
+*$media,domain=facebook.com
