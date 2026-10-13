@@ -1,6 +1,6 @@
 <Files "adguard.txt">
     ForceType text/plain
-    AddDefaultCharset UTF-8
+    AddDefaultCharset utf-8
     Header onsuccess unset Cache-Control
     Header always set Cache-Control "no-store"
 </Files>
